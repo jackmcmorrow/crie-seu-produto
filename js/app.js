@@ -2,10 +2,7 @@
   var produtos;
 
   produtos = $.getJSON('json/produtos.json', function() {
-    var lista;
-
-    lista = $.parseJSON(produtos);
-    return console.log(lista);
+    return console.log($.parseJSON(produtos.responseText));
   });
 
 }).call(this);
