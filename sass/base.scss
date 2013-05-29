@@ -14,7 +14,7 @@ body {
 	.manequim {
 		position: absolute;
 		background: blue;
-		border-radius: 20px;
+		border-radius: 40px;
 		width: 50px;
 		height: 50px;
 		
@@ -25,44 +25,44 @@ body {
 	.malha {
 		position: absolute;
 		background: green;
-		border-radius: 20px;
-		width: 50px;
-		height: 50px;
+		border-radius: 0;
+		width: 200px;
+		height: 200px;
 		
-		top: 35px;
-		left: 5px;
+		top: 50px;
+		left: 50px;
 	}
 	
 	.cor {
 		position: absolute;
-		background: red;
+		background: yellow;
 		border-radius: 20px;
 		width: 50px;
 		height: 50px;
 		
-		top: 55px;
-		left: 5px;
+		top: 5px;
+		right: 5px;
 	}
 	
 	.gola {
 		position: absolute;
-		background: blue;
-		border-radius: 20px;
+		background: red;
+		border-radius: 0;
 		width: 50px;
 		height: 30px;
 		
 		top: 35px;
-		left: 50%;
+		left: 120px;
 	}
 	
 	.punho {
 		position: absolute;
 		background: blue;
 		border-radius: 20px;
-		width: 50px;
-		height: 50px;
+		width: 290px;
+		height: 30px;
 		
-		top: 5px;
+		top: 135px;
 		left: 5px;
 	}
 }
