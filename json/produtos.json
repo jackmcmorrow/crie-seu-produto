@@ -2,25 +2,25 @@
 		{
 			"nome" : "Infantil",
 			"selecionado" : "false",
-			"select" : "manequim"
+			"tipo" : "manequim"
 		},
 		
 		{
 			"nome" : "Feminino",
 			"selecionado" : "false",
-			"select" : "manequim"
+			"tipo" : "manequim"
 		},
 		
 		{
 			"nome" : "Masculino",
 			"selecionado" : "false",
-			"select" : "manequim"
+			"tipo" : "manequim"
 		},
 		
 		{
 			"nome" : "Piquet 100% algodão",
 			"selecionado" : "false",
-			"select" : "malha",
+			"tipo" : "malha",
 			"cores" : [
 				{"cor" : "cor1"},
 				{"cor" : "cor2"}
@@ -30,114 +30,138 @@
 		{
 			"nome" : "Piquet Mista",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Piquet Mista PET",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Piquet Mista Stonada",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Piquet Mescla",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Piquet Milano",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Piquet Soft",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Piquet Premium",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Piquet Listrada",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Meia Malha Penteada",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 
 		{
 			"nome" : "Meia Malha Open-End",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Meia Malha Econômica",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Meia Malha Mista PET",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Meia Malha Mescla",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Meia Malha Ribana",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		{
 			"nome" : "Meia Malha Listrada 100% algodão",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Meia Malha Listrada com elastano",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Meia Malha Flamê PET",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Meia Malha Mista Stonada",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
 		},
 		
 		{
 			"nome" : "Suedine",
 			"selecionado" : "false",
-			"select" : "malha"
+			"tipo" : "malha"
+		},
+
+		{
+			"nome" : "Gola V",
+			"selecionado" : "false",
+			"tipo" : "gola"
+		},
+
+		{
+			"nome" : "Gola para camisa polo",
+			"selecionado" : "false",
+			"tipo" : "gola"
+		},
+
+		{
+			"nome" : "100% Algodão",
+			"selecionado" : "false",
+			"tipo" : "punho"
+		},
+
+		{
+			"nome" : "100% Poliéster",
+			"selecionado" : "false",
+			"tipo" : "punho"
 		}
 		
 ]
