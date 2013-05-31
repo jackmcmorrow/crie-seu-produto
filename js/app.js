@@ -72,15 +72,14 @@
           criarCor(i.cores);
         }
       }
-      listenEvent('cor');
-      return console.log(listaCores);
+      return listenEvent('cor');
     };
     listenEvent = function(tipo) {
       return $('#' + tipo + ' select').on('change', function() {
         var i, j, nome, oid, _i, _j, _len, _len1;
 
         nome = $(this).val();
-        if (tipo !== cor) {
+        if (tipo !== 'cor') {
           for (_i = 0, _len = lista.length; _i < _len; _i++) {
             i = lista[_i];
             if (i.nome === nome) {

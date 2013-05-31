@@ -43,13 +43,12 @@ criarProdutos = ->
 
 			criarCor i.cores for i in lista when i.tipo + i.cdp is oid
 			listenEvent 'cor'
-			console.log listaCores
 
 
 		listenEvent = (tipo) ->
 			$('#' + tipo + ' select').on('change', ->
 				nome = $(@).val();
-				if tipo isnt cor
+				if tipo isnt 'cor'
 					oid = i.oid for i in lista when i.nome is nome
 				else
 					oid = j.oid for j in listaCores when j.nome is nome
