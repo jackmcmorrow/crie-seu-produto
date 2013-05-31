@@ -32,9 +32,9 @@
       this.nome = nome;
       this.tipo = tipo;
       this.cores = cores;
-      this.select = $('#' + this.tipo);
+      this.select = $('#' + this.tipo + ' select');
       this.oid = this.tipo + this.cdp;
-      this.el = '<option value="' + this.oid + '" nome="' + this.nome + '">' + this.nome + '</option>';
+      this.el = '<option value="' + this.nome + '" oid="' + this.oid + '">' + this.nome + '</option>';
       $(this.select).append(this.el);
     }
 
@@ -43,14 +43,14 @@
   })();
 
   criarProdutos = function() {
-    var corCdp, criarCores, lista, listenEvent, tipo, tipos, _i, _len, _results;
+    var criarCores, lista, listenEvent, tipo, tipos, _i, _len, _results;
 
     lista = fetch('produtos.json');
     tipos = ['manequim', 'malha', 'cor', 'gola', 'punho'];
-    corCdp = 0;
     criarCores = function(oid) {
-      var criarCor, i, _i, _len;
+      var corCdp, criarCor, i, _i, _len;
 
+      corCdp = 0;
       $('#cor option').remove();
       criarCor = function(cores) {
         var c, j, _i, _len, _results;
@@ -71,10 +71,16 @@
       return listenEvent('cor');
     };
     listenEvent = function(tipo) {
-      return $('select#' + tipo).on('change', function() {
-        var oid;
+      return $('#' + tipo + ' select').on('change', function() {
+        var i, nome, oid, _i, _len;
 
-        oid = $(this).val();
+        nome = $(this).val();
+        for (_i = 0, _len = lista.length; _i < _len; _i++) {
+          i = lista[_i];
+          if (i.nome === nome) {
+            oid = i.oid;
+          }
+        }
         $('#canvas .' + tipo + ' img').attr('src', function() {
           var dir;
 
@@ -94,7 +100,5 @@
   };
 
   criarProdutos();
-
-  console.log($('#malha').prop('selectedIndex'));
 
 }).call(this);

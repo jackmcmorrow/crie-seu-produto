@@ -18,20 +18,19 @@ fetch = (arquivo) ->
 
 class produto
 	constructor : (@cdp, @nome, @tipo, @cores) ->
-		@select = $('#' + @tipo)
+		@select = $('#' + @tipo + ' select')
 		@oid = @tipo + @cdp
-		@el = '<option value="' + @oid + '" nome="' + @nome + '">' + @nome + '</option>'
+		@el = '<option value="' + @nome + '" oid="' + @oid + '">' + @nome + '</option>'
 		
 		$(@select).append(@el)
-
-		
 
 criarProdutos = ->
 		lista = fetch 'produtos.json'
 		tipos = ['manequim', 'malha', 'cor', 'gola', 'punho'];
 
-		corCdp = 0
+		
 		criarCores = (oid)->
+			corCdp = 0
 			$('#cor option').remove()
 			
 			criarCor = (cores)->
@@ -42,8 +41,9 @@ criarProdutos = ->
 
 
 		listenEvent = (tipo) ->
-			$('select#' + tipo).on('change', ->
-				oid = $(@).val();
+			$('#' + tipo + ' select').on('change', ->
+				nome = $(@).val();
+				oid = i.oid for i in lista when i.nome is nome
 				$('#canvas .' + tipo + ' img').attr('src', -> 
 					dir = 'img/' + tipo + '/' + oid + '.png'
 				)
@@ -56,5 +56,3 @@ criarProdutos = ->
 
 
 criarProdutos()
-
-console.log $('#malha').prop('selectedIndex');

@@ -2,22 +2,19 @@
 		{
 			"nome" : "Infantil",
 			"selecionado" : "false",
-			"tipo" : "manequim",
-			"select" : "input_1"
+			"tipo" : "manequim"
 		},
 		
 		{
 			"nome" : "Feminino",
 			"selecionado" : "false",
-			"tipo" : "manequim",
-			"select" : "input_1"
+			"tipo" : "manequim"
 		},
 		
 		{
 			"nome" : "Masculino",
 			"selecionado" : "false",
-			"tipo" : "manequim",
-			"select" : "input_1"
+			"tipo" : "manequim"
 		},
 		
 		{
