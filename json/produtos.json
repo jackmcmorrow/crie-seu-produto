@@ -22,8 +22,8 @@
 			"selecionado" : "false",
 			"tipo" : "malha",
 			"cores" : [
-				{"cor" : "cor1"},
-				{"cor" : "cor2"}
+				{"cor" : "vermelho"},
+				{"cor" : "verde"}
 			]
 		},
 		

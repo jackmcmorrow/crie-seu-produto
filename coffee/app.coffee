@@ -27,23 +27,33 @@ class produto
 criarProdutos = ->
 		lista = fetch 'produtos.json'
 		tipos = ['manequim', 'malha', 'cor', 'gola', 'punho'];
-
+		listaCores = []
 		
 		criarCores = (oid)->
 			corCdp = 0
 			$('#cor option').remove()
+			$('#cor select').append('<option></option>')
+			listaCores.splice 0, listaCores.length
 			
 			criarCor = (cores)->
-				c = new produto corCdp += 1, j.cor, 'cor' for j in cores
+				for j in cores
+					c = new produto corCdp += 1, j.cor, 'cor'
+					listaCores.push(c)
+				
 
 			criarCor i.cores for i in lista when i.tipo + i.cdp is oid
 			listenEvent 'cor'
+			console.log listaCores
 
 
 		listenEvent = (tipo) ->
 			$('#' + tipo + ' select').on('change', ->
 				nome = $(@).val();
-				oid = i.oid for i in lista when i.nome is nome
+				if tipo isnt cor
+					oid = i.oid for i in lista when i.nome is nome
+				else
+					oid = j.oid for j in listaCores when j.nome is nome
+
 				$('#canvas .' + tipo + ' img').attr('src', -> 
 					dir = 'img/' + tipo + '/' + oid + '.png'
 				)

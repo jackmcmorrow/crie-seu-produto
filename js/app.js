@@ -43,22 +43,26 @@
   })();
 
   criarProdutos = function() {
-    var criarCores, lista, listenEvent, tipo, tipos, _i, _len, _results;
+    var criarCores, lista, listaCores, listenEvent, tipo, tipos, _i, _len, _results;
 
     lista = fetch('produtos.json');
     tipos = ['manequim', 'malha', 'cor', 'gola', 'punho'];
+    listaCores = [];
     criarCores = function(oid) {
       var corCdp, criarCor, i, _i, _len;
 
       corCdp = 0;
       $('#cor option').remove();
+      $('#cor select').append('<option></option>');
+      listaCores.splice(0, listaCores.length);
       criarCor = function(cores) {
         var c, j, _i, _len, _results;
 
         _results = [];
         for (_i = 0, _len = cores.length; _i < _len; _i++) {
           j = cores[_i];
-          _results.push(c = new produto(corCdp += 1, j.cor, 'cor'));
+          c = new produto(corCdp += 1, j.cor, 'cor');
+          _results.push(listaCores.push(c));
         }
         return _results;
       };
@@ -68,17 +72,27 @@
           criarCor(i.cores);
         }
       }
-      return listenEvent('cor');
+      listenEvent('cor');
+      return console.log(listaCores);
     };
     listenEvent = function(tipo) {
       return $('#' + tipo + ' select').on('change', function() {
-        var i, nome, oid, _i, _len;
+        var i, j, nome, oid, _i, _j, _len, _len1;
 
         nome = $(this).val();
-        for (_i = 0, _len = lista.length; _i < _len; _i++) {
-          i = lista[_i];
-          if (i.nome === nome) {
-            oid = i.oid;
+        if (tipo !== cor) {
+          for (_i = 0, _len = lista.length; _i < _len; _i++) {
+            i = lista[_i];
+            if (i.nome === nome) {
+              oid = i.oid;
+            }
+          }
+        } else {
+          for (_j = 0, _len1 = listaCores.length; _j < _len1; _j++) {
+            j = listaCores[_j];
+            if (j.nome === nome) {
+              oid = j.oid;
+            }
           }
         }
         $('#canvas .' + tipo + ' img').attr('src', function() {
