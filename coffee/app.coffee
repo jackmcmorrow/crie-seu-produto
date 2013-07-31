@@ -28,7 +28,7 @@ class produto
 
 criarProdutos = ->
 		lista = fetch 'produtos.json'
-		tipos = ['manequim', 'malha', 'cor', 'gola', 'punho'];
+		tipos = ['manequim', 'malha', 'cor', 'gola', 'modeloGola', 'punho'];
 
 		corCdp = 0
 		criarCores = (oid)->
