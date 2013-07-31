@@ -26,9 +26,15 @@ class produto
 
 criarProdutos = ->
 		lista = fetch 'produtos.json'
+<<<<<<< HEAD
 		tipos = ['manequim', 'malha', 'cor', 'gola', 'punho'];
 		listaCores = []
 		
+=======
+		tipos = ['manequim', 'malha', 'cor', 'gola', 'modeloGola', 'punho'];
+
+		corCdp = 0
+>>>>>>> 0dd2e4d2852592deed10bacf0cd1cb0228a41144
 		criarCores = (oid)->
 			corCdp = 0
 			$('#cor option').remove()
