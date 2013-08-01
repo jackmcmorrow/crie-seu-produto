@@ -1,1 +1,68 @@
-body p{color:#efefef}#canvas{position:relative;width:300px;height:300px;background-color:#efefef}#canvas .manequim{position:absolute;background:blue;border-radius:40px;width:50px;height:50px;top:5px;left:5px}#canvas .malha{position:absolute;background:green;border-radius:0;width:200px;height:200px;top:50px;left:50px}#canvas .cor{position:absolute;background:yellow;border-radius:20px;width:50px;height:50px;top:5px;right:5px}#canvas .gola{position:absolute;background:red;border-radius:0;width:50px;height:30px;top:35px;left:120px}#canvas .punho{position:absolute;background:blue;border-radius:20px;width:290px;height:30px;top:135px;left:5px}
+/* line 5, ../sass/base.scss */
+body p {
+  color: #efefef;
+}
+
+/* line 8, ../sass/base.scss */
+.row-fluid {
+  width: 100%;
+}
+/* line 10, ../sass/base.scss */
+.row-fluid .span6 {
+  float: left;
+  width: 45%;
+  margin-right: 2%;
+}
+/* line 16, ../sass/base.scss */
+.row-fluid .overflow {
+  height: 511px;
+  overflow-x: scroll;
+}
+
+/* line 22, ../sass/base.scss */
+#canvas {
+  position: relative;
+  width: 500px;
+  height: 511px;
+  background-color: #efefef;
+}
+/* line 28, ../sass/base.scss */
+#canvas .malhas {
+  position: absolute;
+  background: green;
+  border-radius: 0;
+  width: 200px;
+  height: 200px;
+  top: 50px;
+  left: 50px;
+}
+/* line 39, ../sass/base.scss */
+#canvas .cor {
+  position: absolute;
+  background: yellow;
+  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  top: 5px;
+  right: 5px;
+}
+/* line 50, ../sass/base.scss */
+#canvas .golas {
+  position: absolute;
+  background: red;
+  border-radius: 0;
+  width: 50px;
+  height: 30px;
+  top: 35px;
+  left: 120px;
+}
+/* line 61, ../sass/base.scss */
+#canvas .punhos {
+  position: absolute;
+  background: blue;
+  border-radius: 20px;
+  width: 290px;
+  height: 30px;
+  top: 135px;
+  left: 5px;
+}

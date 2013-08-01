@@ -1,167 +1,110 @@
 [
 		{
-			"nome" : "Infantil",
-			"selecionado" : "false",
-			"tipo" : "manequim"
-		},
-		
-		{
-			"nome" : "Feminino",
-			"selecionado" : "false",
-			"tipo" : "manequim"
-		},
-		
-		{
-			"nome" : "Masculino",
-			"selecionado" : "false",
-			"tipo" : "manequim"
-		},
-		
-		{
 			"nome" : "Piquet 100% algodão",
 			"selecionado" : "false",
-			"tipo" : "malha",
-			"cores" : [
-				{"cor" : "vermelho"},
-				{"cor" : "verde"}
+			"tipo" : "malhas",
+			"ref" : "piquet/100_algodao",
+			"sub" : [
+				{
+					"nome" : "Vermelho coisa",
+					"tipo" : "cor",
+					"ref" : "1"
+				}, 
+				
+				{
+					"nome" : "Chumbo branco",
+					"tipo" : "cor", 
+					"ref" : "2"
+				}
 			]
 		},
 		
 		{
 			"nome" : "Piquet Mista",
 			"selecionado" : "false",
-			"tipo" : "malha"
+			"tipo" : "malhas",
+			"ref" : "piquet/mista"
 		},
 		
 		{
 			"nome" : "Piquet Mista PET",
 			"selecionado" : "false",
-			"tipo" : "malha"
+			"tipo" : "malhas",
+			"ref" : "piquet/mista_pet"
 		},
 		
 		{
-			"nome" : "Piquet Mista Stonada",
+			"nome" : "Ribana",
 			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Piquet Mescla",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Piquet Milano",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Piquet Soft",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Piquet Premium",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Piquet Listrada",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Meia Malha Penteada",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-
-		{
-			"nome" : "Meia Malha Open-End",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Meia Malha Econômica",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Meia Malha Mista PET",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Meia Malha Mescla",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Meia Malha Ribana",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		{
-			"nome" : "Meia Malha Listrada 100% algodão",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Meia Malha Listrada com elastano",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Meia Malha Flamê PET",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Meia Malha Mista Stonada",
-			"selecionado" : "false",
-			"tipo" : "malha"
-		},
-		
-		{
-			"nome" : "Suedine",
-			"selecionado" : "false",
-			"tipo" : "malha"
+			"tipo" : "malhas",
+			"ref" : "ribana"
 		},
 
 		{
 			"nome" : "Gola V",
 			"selecionado" : "false",
-			"tipo" : "gola"
+			"tipo" : "golas",
+			"ref" : "golas_v",
+			"sub" : [
+				{
+					"nome" : "100% Algodão",
+					"tipo" : "modeloGola", 
+					"ref" : "100_algodao"
+				}, 
+				
+				{
+					"nome" : "100% Poliéster Mista",
+					"tipo" : "modeloGola", 
+					"ref" : "100_poliester_mista"
+				}
+			]
 		},
 
 		{
 			"nome" : "Gola para camisa polo",
 			"selecionado" : "false",
-			"tipo" : "gola"
+			"tipo" : "golas",
+			"ref" : "polo",
+			"sub" : [
+							{
+								"nome" : "100% Algodão",
+								"tipo" : "modeloGola", 
+								"ref" : "100_algodao"
+							}, 
+							
+							{
+								"nome" : "100% Poliéster Mista",
+								"tipo" : "modeloGola", 
+								"ref" : "100_poliester_mista"
+							}
+						]
 		},
 
 		{
 			"nome" : "100% Algodão",
 			"selecionado" : "false",
-			"tipo" : "punho"
+			"tipo" : "punhos",
+			"ref" : "100_algodao"
 		},
 
 		{
 			"nome" : "100% Poliéster",
 			"selecionado" : "false",
-			"tipo" : "punho"
+			"tipo" : "punhos",
+			"ref" : "100_poliester",
+			"sub" : [
+							{
+								"nome" : "100% Algodão",
+								"tipo" : "modeloPunhos", 
+								"ref" : "100_algodao"
+							}, 
+							
+							{
+								"nome" : "100% Poliéster Mista",
+								"tipo" : "modeloPunhos", 
+								"ref" : "100_poliester_mista"
+							}
+					]
 		}
 		
 ]

@@ -1,117 +1,140 @@
-(function() {
-  var criarProdutos, fetch, produto;
+var criarProdutos, fetch, produto;
 
-  fetch = function(arquivo) {
-    var listaDeObj;
-
-    listaDeObj = new Array;
-    $.getJSON('json/' + arquivo, function(arq) {
-      var cdp, tipoAnterior;
-
-      tipoAnterior = new String;
-      cdp = 1;
-      return $.each(arq, function(k, v) {
-        var p;
-
-        if (v.select === tipoAnterior) {
-          cdp += 1;
-        } else {
-          cdp = 1;
-        }
-        tipoAnterior = v.select;
-        p = new produto(parseInt(cdp), v.nome, v.tipo, v.cores);
-        return listaDeObj.push(p);
-      });
-    });
-    return listaDeObj;
-  };
-
-  produto = (function() {
-    function produto(cdp, nome, tipo, cores) {
-      this.cdp = cdp;
-      this.nome = nome;
-      this.tipo = tipo;
-      this.cores = cores;
-      this.select = $('#' + this.tipo + ' select');
-      this.oid = this.tipo + this.cdp;
-      this.el = '<option value="' + this.nome + '" oid="' + this.oid + '">' + this.nome + '</option>';
-      $(this.select).append(this.el);
-    }
-
-    return produto;
-
-  })();
-
-  criarProdutos = function() {
-    var criarCores, lista, listaCores, listenEvent, tipo, tipos, _i, _len, _results;
-
-    lista = fetch('produtos.json');
-    tipos = ['manequim', 'malha', 'cor', 'gola', 'punho'];
-    listaCores = [];
-    criarCores = function(oid) {
-      var corCdp, criarCor, i, _i, _len;
-
-      corCdp = 0;
-      $('#cor option').remove();
-      $('#cor select').append('<option></option>');
-      listaCores.splice(0, listaCores.length);
-      criarCor = function(cores) {
-        var c, j, _i, _len, _results;
-
-        _results = [];
-        for (_i = 0, _len = cores.length; _i < _len; _i++) {
-          j = cores[_i];
-          c = new produto(corCdp += 1, j.cor, 'cor');
-          _results.push(listaCores.push(c));
-        }
-        return _results;
-      };
-      for (_i = 0, _len = lista.length; _i < _len; _i++) {
-        i = lista[_i];
-        if (i.tipo + i.cdp === oid) {
-          criarCor(i.cores);
-        }
+fetch = function(arquivo) {
+  var listaDeObj;
+  listaDeObj = new Array;
+  $.getJSON('json/' + arquivo, function(arq) {
+    var cdp, tipoAnterior;
+    tipoAnterior = new String;
+    cdp = 1;
+    return $.each(arq, function(k, v) {
+      var p;
+      if (v.select === tipoAnterior) {
+        cdp += 1;
+      } else {
+        cdp = 1;
       }
-      return listenEvent('cor');
-    };
-    listenEvent = function(tipo) {
-      return $('#' + tipo + ' select').on('change', function() {
-        var i, j, nome, oid, _i, _j, _len, _len1;
+      tipoAnterior = v.select;
+      p = new produto(parseInt(cdp), v.nome, v.tipo, v.ref, v.sub);
+      return listaDeObj.push(p);
+    });
+  }).fail(function() {
+    return console.log('deu ruim, verifique o JSON');
+  });
+  return listaDeObj;
+};
 
-        nome = $(this).val();
-        if (tipo !== 'cor') {
-          for (_i = 0, _len = lista.length; _i < _len; _i++) {
-            i = lista[_i];
-            if (i.nome === nome) {
-              oid = i.oid;
-            }
-          }
-        } else {
-          for (_j = 0, _len1 = listaCores.length; _j < _len1; _j++) {
-            j = listaCores[_j];
-            if (j.nome === nome) {
-              oid = j.oid;
-            }
-          }
-        }
-        $('#canvas .' + tipo + ' img').attr('src', function() {
-          var dir;
+produto = (function() {
+  function produto(cdp, nome, tipo, ref, sub) {
+    this.cdp = cdp;
+    this.nome = nome;
+    this.tipo = tipo;
+    this.ref = ref;
+    this.sub = sub;
+    this.select = $('#' + this.tipo + ' select');
+    this.oid = this.tipo + this.cdp;
+    this.el = '<option value="' + this.nome + '" oid="' + this.oid + '" data-ref="' + this.ref + '" >' + this.nome + '</option>';
+    $(this.select).append(this.el);
+  }
 
-          return dir = 'img/' + tipo + '/' + oid + '.png';
-        });
-        if (tipo === 'malha') {
-          return criarCores(oid);
-        }
-      });
+  return produto;
+
+})();
+
+criarProdutos = function() {
+  var corCdp, criarSubs, lista, prepararImagem, subTipos, tipo, tipos, _i, _len, _results;
+  lista = fetch('produtos.json');
+  tipos = ['malhas', 'golas', 'punhos'];
+  subTipos = ['cor', 'modeloGola', 'modeloPunhos'];
+  corCdp = 0;
+  criarSubs = function(oid) {
+    var criarSub, i, listaSubs, o, sid, subCdp, subNome, subRef, subTipo, _i, _j, _k, _len, _len1, _len2, _ref, _results;
+    listaSubs = [];
+    subCdp = 0;
+    for (_i = 0, _len = lista.length; _i < _len; _i++) {
+      i = lista[_i];
+      if (!(i.tipo + i.cdp === oid)) {
+        continue;
+      }
+      _ref = i.sub;
+      for (sid in _ref) {
+        o = _ref[sid];
+        subNome = o.nome;
+        subTipo = o.tipo;
+        subRef = o.ref;
+        $('#' + subTipo + ' option').remove();
+        $('#' + subTipo + ' select').append('<option></option>');
+      }
+      listaSubs.splice(0, listaSubs.length);
+    }
+    criarSub = function(sub) {
+      var c, _results;
+      _results = [];
+      for (sid in sub) {
+        o = sub[sid];
+        subNome = o.nome;
+        subTipo = o.tipo;
+        subRef = o.ref;
+        c = new produto(subCdp += 1, subNome, subTipo, subRef);
+        _results.push(listaSubs.push(c));
+      }
+      return _results;
     };
+    for (_j = 0, _len1 = lista.length; _j < _len1; _j++) {
+      i = lista[_j];
+      if (i.tipo + i.cdp === oid) {
+        criarSub(i.sub);
+      }
+    }
     _results = [];
-    for (_i = 0, _len = tipos.length; _i < _len; _i++) {
-      tipo = tipos[_i];
-      _results.push(listenEvent(tipo));
+    for (_k = 0, _len2 = subTipos.length; _k < _len2; _k++) {
+      subTipo = subTipos[_k];
+      _results.push(prepararImagem(subTipo));
     }
     return _results;
   };
+  prepararImagem = function(tipo) {
+    return $('#' + tipo + ' select').on('change', function() {
+      var i, j, oid, val, _i, _j, _len, _len1;
+      val = $(this).val();
+      if (tipo !== 'sub') {
+        for (_i = 0, _len = lista.length; _i < _len; _i++) {
+          i = lista[_i];
+          if (i.nome === val) {
+            oid = i.oid;
+          }
+        }
+        if (tipo === 'ribana') {
+          $('.ribana').show();
+          $('.not-ribana').hide();
+        } else {
+          $('.ribana').hide();
+          $('.not-ribana').show();
+        }
+      } else {
+        console.log(listaSubs);
+        for (_j = 0, _len1 = listaSubs.length; _j < _len1; _j++) {
+          j = listaSubs[_j];
+          if (j.nome === val) {
+            oid = j.oid;
+          }
+        }
+      }
+      if (tipo === 'malhas' || 'golas' || 'punhos') {
+        criarSubs(oid);
+      }
+      return $('#canvas .' + tipo + ' img').attr('src', function() {
+        var dir;
+        return dir = 'img/' + tipo + '/' + oid + '.png';
+      });
+    });
+  };
+  _results = [];
+  for (_i = 0, _len = tipos.length; _i < _len; _i++) {
+    tipo = tipos[_i];
+    _results.push(prepararImagem(tipo));
+  }
+  return _results;
+};
 
-  criarProdutos();
-
-}).call(this);
+criarProdutos();

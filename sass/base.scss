@@ -5,24 +5,27 @@ body {
 	p {color: #efefef;}
 }
 
+.row-fluid {
+	width: 100%;
+	.span6 {
+		float: left;
+		width: 45%;
+		margin-right: 2%;
+	}
+
+	.overflow {
+		height: 511px;
+		overflow-x: scroll;
+	}
+}
+
 #canvas {
 	position: relative;
-	width: 300px;
-	height: 300px;
+	width: 500px;
+	height: 511px;
 	background-color: #efefef;
-
-	.manequim {
-		position: absolute;
-		background: blue;
-		border-radius: 40px;
-		width: 50px;
-		height: 50px;
-		
-		top: 5px;
-		left: 5px;
-	}
 	
-	.malha {
+	.malhas {
 		position: absolute;
 		background: green;
 		border-radius: 0;
@@ -44,7 +47,7 @@ body {
 		right: 5px;
 	}
 	
-	.gola {
+	.golas {
 		position: absolute;
 		background: red;
 		border-radius: 0;
@@ -55,7 +58,7 @@ body {
 		left: 120px;
 	}
 	
-	.punho {
+	.punhos {
 		position: absolute;
 		background: blue;
 		border-radius: 20px;
