@@ -75,6 +75,7 @@ criarProdutos = function() {
         subNome = o.nome;
         subTipo = o.tipo;
         subRef = o.ref;
+        console.log(subNome + subTipo + subRef);
         c = new produto(subCdp += 1, subNome, subTipo, subRef);
         _results.push(listaSubs.push(c));
       }
@@ -95,15 +96,22 @@ criarProdutos = function() {
   };
   prepararImagem = function(tipo) {
     return $('#' + tipo + ' select').on('change', function() {
-      var i, j, oid, val, _i, _j, _len, _len1;
+      var dir, i, j, oid, ref, val, _i, _j, _k, _len, _len1, _len2;
       val = $(this).val();
+      for (_i = 0, _len = lista.length; _i < _len; _i++) {
+        i = lista[_i];
+        if (i.nome === val) {
+          ref = i.ref;
+        }
+      }
       if (tipo !== 'sub') {
-        for (_i = 0, _len = lista.length; _i < _len; _i++) {
-          i = lista[_i];
+        for (_j = 0, _len1 = lista.length; _j < _len1; _j++) {
+          i = lista[_j];
           if (i.nome === val) {
             oid = i.oid;
           }
         }
+        dir = 'img/' + tipo + '/' + ref + '/';
         if (tipo === 'ribana') {
           $('.ribana').show();
           $('.not-ribana').hide();
@@ -112,9 +120,9 @@ criarProdutos = function() {
           $('.not-ribana').show();
         }
       } else {
-        console.log(listaSubs);
-        for (_j = 0, _len1 = listaSubs.length; _j < _len1; _j++) {
-          j = listaSubs[_j];
+        dir += ref + '.png';
+        for (_k = 0, _len2 = listaSubs.length; _k < _len2; _k++) {
+          j = listaSubs[_k];
           if (j.nome === val) {
             oid = j.oid;
           }
@@ -123,10 +131,13 @@ criarProdutos = function() {
       if (tipo === 'malhas' || 'golas' || 'punhos') {
         criarSubs(oid);
       }
-      return $('#canvas .' + tipo + ' img').attr('src', function() {
-        var dir;
-        return dir = 'img/' + tipo + '/' + oid + '.png';
-      });
+      if (tipo === 'cor') {
+        tipo = 'malha';
+        dir += ref + '.png';
+      } else {
+        dir += '01.png';
+      }
+      return $('#canvas .' + tipo + ' img').attr('src', dir);
     });
   };
   _results = [];
