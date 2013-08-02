@@ -1,4 +1,4 @@
-var criarProdutos, fetch, produto;
+var corSelecionada, criarProdutos, fetch, produto;
 
 fetch = function(arquivo) {
   var listaDeObj;
@@ -24,6 +24,8 @@ fetch = function(arquivo) {
   return listaDeObj;
 };
 
+corSelecionada = '';
+
 produto = (function() {
   function produto(cdp, nome, tipo, ref, sub) {
     this.cdp = cdp;
@@ -42,20 +44,21 @@ produto = (function() {
 })();
 
 criarProdutos = function() {
-  var corCdp, criarSubs, lista, prepararImagem, subTipos, tipo, tipos, _i, _len, _results;
+  var corCdp, criarSubs, lista, listaSubs, prepararImagem, subTipos, tipo, tipos, _i, _len, _results;
   lista = fetch('produtos.json');
+  listaSubs = [];
   tipos = ['malhas', 'golas', 'punhos'];
-  subTipos = ['cor', 'modeloGola', 'modeloPunhos'];
+  subTipos = ['cor', 'modeloGola', 'modeloPunhos', 'ribana'];
   corCdp = 0;
   criarSubs = function(oid) {
-    var criarSub, i, listaSubs, o, sid, subCdp, subNome, subRef, subTipo, _i, _j, _k, _len, _len1, _len2, _ref, _results;
-    listaSubs = [];
+    var criarSub, i, o, sid, subCdp, subNome, subPaiRef, subRef, subTipo, _i, _j, _k, _len, _len1, _len2, _ref, _results;
     subCdp = 0;
     for (_i = 0, _len = lista.length; _i < _len; _i++) {
       i = lista[_i];
       if (!(i.tipo + i.cdp === oid)) {
         continue;
       }
+      subPaiRef = i.ref;
       _ref = i.sub;
       for (sid in _ref) {
         o = _ref[sid];
@@ -75,8 +78,8 @@ criarProdutos = function() {
         subNome = o.nome;
         subTipo = o.tipo;
         subRef = o.ref;
-        console.log(subNome + subTipo + subRef);
         c = new produto(subCdp += 1, subNome, subTipo, subRef);
+        c.subPaiRef = subPaiRef;
         _results.push(listaSubs.push(c));
       }
       return _results;
@@ -96,7 +99,7 @@ criarProdutos = function() {
   };
   prepararImagem = function(tipo) {
     return $('#' + tipo + ' select').on('change', function() {
-      var dir, i, j, oid, ref, val, _i, _j, _k, _len, _len1, _len2;
+      var dir, i, j, oid, ref, subPaiRef, subRef, val, _i, _j, _k, _l, _len, _len1, _len2, _len3, _len4, _m, _tipo;
       val = $(this).val();
       for (_i = 0, _len = lista.length; _i < _len; _i++) {
         i = lista[_i];
@@ -104,15 +107,22 @@ criarProdutos = function() {
           ref = i.ref;
         }
       }
-      if (tipo !== 'sub') {
+      dir = 'img/';
+      if (tipo === 'malhas') {
+        $('#canvas img').attr('src', '');
+        $('#cor option').remove();
+        listaSubs.splice(0, listaSubs.length);
+      }
+      if (tipo === 'malhas' || tipo === 'punhos' || tipo === 'golas') {
         for (_j = 0, _len1 = lista.length; _j < _len1; _j++) {
           i = lista[_j];
           if (i.nome === val) {
             oid = i.oid;
           }
         }
-        dir = 'img/' + tipo + '/' + ref + '/';
-        if (tipo === 'ribana') {
+        dir += tipo + '/' + ref + '/';
+        criarSubs(oid);
+        if (ref === 'meia_malha/ribana') {
           $('.ribana').show();
           $('.not-ribana').hide();
         } else {
@@ -120,24 +130,49 @@ criarProdutos = function() {
           $('.not-ribana').show();
         }
       } else {
-        dir += ref + '.png';
         for (_k = 0, _len2 = listaSubs.length; _k < _len2; _k++) {
           j = listaSubs[_k];
+          if (j.nome === val) {
+            subRef = j.ref;
+          }
+        }
+        for (_l = 0, _len3 = listaSubs.length; _l < _len3; _l++) {
+          j = listaSubs[_l];
+          if (j.nome === val) {
+            subPaiRef = j.subPaiRef;
+          }
+        }
+        for (_m = 0, _len4 = listaSubs.length; _m < _len4; _m++) {
+          j = listaSubs[_m];
           if (j.nome === val) {
             oid = j.oid;
           }
         }
       }
-      if (tipo === 'malhas' || 'golas' || 'punhos') {
-        criarSubs(oid);
+      if (tipo === 'cor' || tipo === 'ribana') {
+        _tipo = 'malhas';
+        dir += _tipo + '/' + subPaiRef + '/' + subRef + '.png';
+        console.log(dir);
+        corSelecionada = subRef;
+        return $('#canvas .' + _tipo + ' img').attr('src', dir);
+      } else if (tipo === 'modeloGola') {
+        _tipo = 'golas';
+        dir += _tipo + '/' + subPaiRef + '/' + subRef + '.png';
+        console.log(dir);
+        return $('#canvas .' + _tipo + ' img').attr('src', dir);
+      } else if (tipo === 'modeloPunhos') {
+        _tipo = 'punhos';
+        dir += _tipo + '/' + subPaiRef + '/' + subRef + '.png';
+        console.log(dir);
+        return $('#canvas .' + _tipo + ' img').attr('src', dir);
+      } else if (tipo === 'ribana') {
+        _tipo = 'malhas';
+        return dir += _tipo + '/' + ref + '/' + corSelecionada + '.png';
+      } else if (tipo === 'malhas') {
+        corSelecionada = '01';
+        dir += corSelecionada + '.png';
+        return $('#canvas .' + tipo + ' img').attr('src', dir);
       }
-      if (tipo === 'cor') {
-        tipo = 'malha';
-        dir += ref + '.png';
-      } else {
-        dir += '01.png';
-      }
-      return $('#canvas .' + tipo + ' img').attr('src', dir);
     });
   };
   _results = [];

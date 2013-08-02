@@ -8,36 +8,101 @@
 				{
 					"nome" : "Vermelho coisa",
 					"tipo" : "cor",
-					"ref" : "1"
+					"ref" : "2"
 				}, 
 				
 				{
 					"nome" : "Chumbo branco",
 					"tipo" : "cor", 
-					"ref" : "2"
+					"ref" : "25"
+				}
+			]
+		},
+
+		{
+			"nome" : "Piquet Mista 2",
+			"selecionado" : "false",
+			"tipo" : "malhas",
+			"ref" : "piquet/mista",
+			"sub" : [
+				{
+					"nome" : "Mescla",
+					"tipo" : "cor",
+					"ref" : "01_mescla"
+				}, 
+				
+				{
+					"nome" : "Chumbo branco",
+					"tipo" : "cor", 
+					"ref" : "25"
 				}
 			]
 		},
 		
 		{
-			"nome" : "Piquet Mista",
+			"nome" : "Suedine",
 			"selecionado" : "false",
 			"tipo" : "malhas",
-			"ref" : "piquet/mista"
+			"ref" : "piquet/mista",
+			"sub" : [
+				{
+					"nome" : "Mescla",
+					"tipo" : "cor",
+					"ref" : "01_mescla"
+				}, 
+				
+				{
+					"nome" : "Chumbo branco",
+					"tipo" : "cor", 
+					"ref" : "25"
+				}
+			]
 		},
 		
 		{
 			"nome" : "Piquet Mista PET",
 			"selecionado" : "false",
 			"tipo" : "malhas",
-			"ref" : "piquet/mista_pet"
+			"ref" : "piquet/mista_pet",
+			"sub" : [
+				{
+					"nome" : "Mescla",
+					"tipo" : "cor",
+					"ref" : "01_mescla"
+				}, 
+				
+				{
+					"nome" : "Chumbo branco",
+					"tipo" : "cor", 
+					"ref" : "25"
+				}
+			]
 		},
 		
 		{
 			"nome" : "Ribana",
 			"selecionado" : "false",
 			"tipo" : "malhas",
-			"ref" : "ribana"
+			"ref" : "meia_malha/ribana",
+			"sub" : [
+				{
+					"nome" : "Branco",
+					"tipo" : "ribana",
+					"ref" : "01_branco"
+				}, 
+				
+				{
+					"nome" : "Alfazema",
+					"tipo" : "ribana", 
+					"ref" : "02_alfazema"
+				},
+
+				{
+					"nome" : "Ametista",
+					"tipo" : "ribana", 
+					"ref" : "03_ametista"
+				}
+			]
 		},
 
 		{
@@ -49,13 +114,13 @@
 				{
 					"nome" : "100% Algodão",
 					"tipo" : "modeloGola", 
-					"ref" : "100_algodao"
+					"ref" : "100-algodao/01"
 				}, 
 				
 				{
-					"nome" : "100% Poliéster Mista",
+					"nome" : "100% Poliéster Mista Havaí (MBV)",
 					"tipo" : "modeloGola", 
-					"ref" : "100_poliester_mista"
+					"ref" : "100-poliester-mista/havai/01"
 				}
 			]
 		},
@@ -76,6 +141,32 @@
 								"nome" : "100% Poliéster Mista",
 								"tipo" : "modeloGola", 
 								"ref" : "100_poliester_mista"
+							}
+						]
+		},
+
+		{
+			"nome" : "Gola mista",
+			"selecionado" : "false",
+			"tipo" : "golas",
+			"ref" : "golas_mistas",
+			"sub" : [
+							{
+								"nome" : "Listrado América (GA)",
+								"tipo" : "modeloGola", 
+								"ref" : "listrado_america/01_verde_garrafa_agua"
+							}, 
+							
+							{
+								"nome" : "Listrado América (AG)",
+								"tipo" : "modeloGola", 
+								"ref" : "listrado_america/02_verde_agua_garrafa"
+							},
+
+							{
+								"nome" : "Listrado Europa (BAC)",
+								"tipo" : "modeloGola", 
+								"ref" : "listrado_europa/01_branco_azul_claro"
 							}
 						]
 		},

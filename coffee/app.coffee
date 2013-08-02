@@ -16,7 +16,7 @@ fetch = (arquivo) ->
 	
 	return listaDeObj
 
-
+corSelecionada = ''
 class produto
 	constructor : (@cdp, @nome, @tipo, @ref, @sub) ->
 		@select = $('#' + @tipo + ' select')
@@ -27,17 +27,18 @@ class produto
 
 criarProdutos = ->
 		lista = fetch 'produtos.json'
+		listaSubs = [];
 		tipos = ['malhas', 'golas', 'punhos'];
-		subTipos = ['cor', 'modeloGola', 'modeloPunhos']
+		subTipos = ['cor', 'modeloGola', 'modeloPunhos', 'ribana']
 
 		corCdp = 0
 
 		criarSubs = (oid)->
-			listaSubs = [];
 			subCdp = 0
 			
 			#deleta options do sub que será modificado e limpa a lista
 			for i in lista when i.tipo + i.cdp is oid 
+				subPaiRef = i.ref
 				for sid, o of i.sub
 					subNome = o.nome
 					subTipo = o.tipo
@@ -52,8 +53,9 @@ criarProdutos = ->
 					subNome = o.nome
 					subTipo = o.tipo
 					subRef = o.ref
-					console.log subNome + subTipo + subRef
+					#console.log subNome + subTipo + subRef
 					c = new produto subCdp += 1, subNome, subTipo, subRef
+					c.subPaiRef = subPaiRef
 					listaSubs.push(c)
 
 			#Executa funções
@@ -65,32 +67,59 @@ criarProdutos = ->
 			$('#' + tipo + ' select').on('change', ->
 				val = $(@).val();
 				ref = i.ref for i in lista when i.nome is val
-				if tipo isnt 'sub'
+				dir = 'img/'
+
+				if tipo is 'malhas'
+					$('#canvas img').attr('src', '')
+					$('#cor option').remove();
+					listaSubs.splice 0, listaSubs.length
+				
+				if tipo is 'malhas' or tipo is 'punhos' or tipo is 'golas'
 					oid = i.oid for i in lista when i.nome is val
-					dir = 'img/' +tipo+ '/' +ref+ '/'
-					if tipo is 'ribana'
+					dir += tipo+ '/' +ref+ '/'
+					criarSubs oid
+					
+					if ref is 'meia_malha/ribana'
 						$('.ribana').show();
 						$('.not-ribana').hide();
 					else
 						$('.ribana').hide();
 						$('.not-ribana').show();
 				else
-					dir += ref+ '.png'
+					subRef = j.ref for j in listaSubs when j.nome is val
+					#console.log subRef
+					subPaiRef = j.subPaiRef for j in listaSubs when j.nome is val
 					oid = j.oid for j in listaSubs when j.nome is val
 
-
-
-
-				criarSubs oid if tipo is 'malhas' or 'golas' or 'punhos'
-
-				if tipo is 'cor'
-					tipo = 'malha'
-					dir += ref + '.png'
-				else
-					dir += '01.png'
 				
-				$('#canvas .' + tipo + ' img').attr('src', dir);
-				)
+
+				#console.log tipo
+				if tipo is 'cor' or tipo is 'ribana'
+					_tipo = 'malhas'
+					dir += _tipo+ '/' +subPaiRef+ '/' +subRef+ '.png'
+					console.log(dir)
+					corSelecionada = subRef
+					$('#canvas .' + _tipo + ' img').attr('src', dir);
+				else if tipo is 'modeloGola'
+					_tipo = 'golas'
+					dir += _tipo+ '/' +subPaiRef+ '/' +subRef+ '.png'
+					console.log(dir)
+					$('#canvas .' + _tipo + ' img').attr('src', dir);
+				else if tipo is 'modeloPunhos'
+					_tipo = 'punhos'
+					dir += _tipo+ '/' +subPaiRef+ '/' +subRef+ '.png'
+					console.log(dir)
+					$('#canvas .' + _tipo + ' img').attr('src', dir);
+				else if tipo is 'ribana'
+					_tipo = 'malhas'
+					dir += _tipo+ '/' +ref+ '/' +corSelecionada+ '.png'
+				else if tipo is 'malhas'
+					corSelecionada = '01'
+					dir += corSelecionada + '.png';
+					$('#canvas .' + tipo + ' img').attr('src', dir);
+				#else if tipo is 'golas' or tipo is 'punhos'
+				
+			)
 		#executa funções
 		prepararImagem tipo for tipo in tipos
 			
