@@ -149,7 +149,7 @@
 			"nome" : "Gola mista",
 			"selecionado" : "false",
 			"tipo" : "golas",
-			"ref" : "golas_mistas",
+			"ref" : "golas_v/golas_mistas",
 			"sub" : [
 							{
 								"nome" : "Listrado América (GA)",

@@ -13,11 +13,6 @@ body p {
   width: 45%;
   margin-right: 2%;
 }
-/* line 16, ../sass/base.scss */
-.row-fluid .overflow {
-  height: 511px;
-  overflow-x: scroll;
-}
 
 /* line 22, ../sass/base.scss */
 .form-line.ribana {
