@@ -4,80 +4,895 @@
 			"selecionado" : "false",
 			"tipo" : "malhas",
 			"ref" : "piquet/100-algodao",
-			"sub" : [
+			"sub" : [				
 				{
-					"nome" : "Vermelho coisa",
-					"tipo" : "cor",
-					"ref" : "2"
-				}, 
-				
-				{
-					"nome" : "Chumbo branco",
+					"nome" : "Branco",
 					"tipo" : "cor", 
-					"ref" : "25"
+					"ref" : "01_branco"
 				}
 			]
 		},
 
 		{
-			"nome" : "Piquet Mista 2",
+			"nome" : "Piquet Mista",
 			"selecionado" : "false",
 			"tipo" : "malhas",
 			"ref" : "piquet/mista",
 			"sub" : [
-				{
-					"nome" : "Mescla",
-					"tipo" : "cor",
-					"ref" : "01_mescla"
-				}, 
-				
-				{
-					"nome" : "Chumbo branco",
-					"tipo" : "cor", 
-					"ref" : "25"
-				}
+						{
+						"nome" : "Branco-001",
+						"tipo" : "cor",
+						"ref" : "01"
+						},
+						{
+						"nome" : "Alfazema-023",
+						"tipo" : "cor",
+						"ref" : "02"
+						},
+						{
+						"nome" : "Lilás-055",
+						"tipo" : "cor",
+						"ref" : "03"
+						},
+						{
+						"nome" : "Ametista-037",
+						"tipo" : "cor",
+						"ref" : "04"
+						},
+						{
+						"nome" : "Rosa Claro-003",
+						"tipo" : "cor",
+						"ref" : "05"
+						},
+						{
+						"nome" : "Telha-146",
+						"tipo" : "cor",
+						"ref" : "06"
+						},
+						{
+						"nome" : "Papaya-132",
+						"tipo" : "cor",
+						"ref" : "07"
+						},
+						{
+						"nome" : "Veludo-106",
+						"tipo" : "cor",
+						"ref" : "08"
+						},
+						{
+						"nome" : "Rosa Antigo-162",
+						"tipo" : "cor",
+						"ref" : "09"
+						},
+						{
+						"nome" : "Melancia-163",
+						"tipo" : "cor",
+						"ref" : "10"
+						},
+						{
+						"nome" : "Vermelho-122",
+						"tipo" : "cor",
+						"ref" : "11"
+						},
+						{
+						"nome" : "Vinho-024",
+						"tipo" : "cor",
+						"ref" : "12"
+						},
+						{
+						"nome" : "Areia-035",
+						"tipo" : "cor",
+						"ref" : "13"
+						},
+						{
+						"nome" : "Nude-161",
+						"tipo" : "cor",
+						"ref" : "14"
+						},
+						{
+						"nome" : "Capuccino-156",
+						"tipo" : "cor",
+						"ref" : "15"
+						},
+						{
+						"nome" : "Café-063",
+						"tipo" : "cor",
+						"ref" : "16"
+						},
+						{
+						"nome" : "Marfim-014",
+						"tipo" : "cor",
+						"ref" : "17"
+						},
+						{
+						"nome" : "Amarelo Claro-004",
+						"tipo" : "cor",
+						"ref" : "18"
+						},
+						{
+						"nome" : "Amarelo Girassol-010",
+						"tipo" : "cor",
+						"ref" : "19"
+						},
+						{
+						"nome" : "Mostarda-020",
+						"tipo" : "cor",
+						"ref" : "20"
+						},
+						{
+						"nome" : "Azul Céu-164",
+						"tipo" : "cor",
+						"ref" : "21"
+						},
+						{
+						"nome" : "Azul Turquesa-016",
+						"tipo" : "cor",
+						"ref" : "22"
+						},
+						{
+						"nome" : "Jeans-153",
+						"tipo" : "cor",
+						"ref" : "23"
+						},
+						{
+						"nome" : "Azul Marinho-119",
+						"tipo" : "cor",
+						"ref" : "24"
+						},
+						{
+						"nome" : "Azul Lavanda-013",
+						"tipo" : "cor",
+						"ref" : "25"
+						},
+						{
+						"nome" : "Azul Bahamas-116",
+						"tipo" : "cor",
+						"ref" : "26"
+						},
+						{
+						"nome" : "Azul Royal Claro-027",
+						"tipo" : "cor",
+						"ref" : "27"
+						},
+						{
+						"nome" : "Azul Royal Bic-073",
+						"tipo" : "cor",
+						"ref" : "28"
+						},
+						{
+						"nome" : "Azul Claro-029",
+						"tipo" : "cor",
+						"ref" : "29"
+						},
+						{
+						"nome" : "Caribe-134",
+						"tipo" : "cor",
+						"ref" : "30"
+						},
+						{
+						"nome" : "Verde Alface-059",
+						"tipo" : "cor",
+						"ref" : "31"
+						},
+						{
+						"nome" : "Verde Menta-026",
+						"tipo" : "cor",
+						"ref" : "32"
+						},
+						{
+						"nome" : "Verde Água-006",
+						"tipo" : "cor",
+						"ref" : "33"
+						},
+						{
+						"nome" : "Verde Garrafa-047",
+						"tipo" : "cor",
+						"ref" : "34"
+						},
+						{
+						"nome" : "Verde Floresta-040",
+						"tipo" : "cor",
+						"ref" : "35"
+						},
+						{
+						"nome" : "Pesto-128",
+						"tipo" : "cor",
+						"ref" : "36"
+						},
+						{
+						"nome" : "Cinza Claro-083",
+						"tipo" : "cor",
+						"ref" : "37"
+						},
+						{
+						"nome" : "Cinza Chumbo-076",
+						"tipo" : "cor",
+						"ref" : "38"
+						},
+						{
+						"nome" : "Preto-009",
+						"tipo" : "cor",
+						"ref" : "39"
+						}
+
 			]
 		},
-		
+
 		{
-			"nome" : "Suedine",
+			"nome" : "Piquet Mescla",
 			"selecionado" : "false",
 			"tipo" : "malhas",
-			"ref" : "piquet/mista",
-			"sub" : [
+			"ref" : "piquet/mescla",
+			"sub" : [				
 				{
-					"nome" : "Mescla",
-					"tipo" : "cor",
-					"ref" : "01_mescla"
-				}, 
-				
-				{
-					"nome" : "Chumbo branco",
-					"tipo" : "cor", 
-					"ref" : "25"
+				"nome" : "Cinza Mescla-042",
+				"tipo" : "cor",
+				"ref" : "01"
 				}
 			]
 		},
-		
+
 		{
 			"nome" : "Piquet Mista PET",
 			"selecionado" : "false",
 			"tipo" : "malhas",
 			"ref" : "piquet/mista_pet",
-			"sub" : [
+			"sub" : [				
 				{
-					"nome" : "Mescla",
+					"nome" : "Stone Pink-363",
 					"tipo" : "cor",
-					"ref" : "01_mescla"
-				}, 
-				
+					"ref" : "01"
+					},
+					
 				{
-					"nome" : "Chumbo branco",
-					"tipo" : "cor", 
-					"ref" : "25"
+					"nome" : "Stone Violeta-396",
+					"tipo" : "cor",
+					"ref" : "02"
+					}
+			]
+		},
+
+		{
+			"nome" : "Piquet Mista Stonada",
+			"selecionado" : "false",
+			"tipo" : "malhas",
+			"ref" : "piquet/stonada",
+			"sub" : [				
+				{
+					"nome" : "Stone Pink-363",
+					"tipo" : "cor",
+					"ref" : "01"
+					},
+					{
+					"nome" : "Stone Vinho-324",
+					"tipo" : "cor",
+					"ref" : "02"
+					},
+					{
+					"nome" : "Stone Violeta-396",
+					"tipo" : "cor",
+					"ref" : "03"
+					},
+					{
+					"nome" : "Stone Índigo-345",
+					"tipo" : "cor",
+					"ref" : "04"
+					},
+					{
+					"nome" : "Stone Veludo-306",
+					"tipo" : "cor",
+					"ref" : "05"
+					},
+					{
+					"nome" : "Stone Vermelho-322",
+					"tipo" : "cor",
+					"ref" : "06"
+					},
+					{
+					"nome" : "Stone Menta-326",
+					"tipo" : "cor",
+					"ref" : "07"
+					},
+					{
+					"nome" : "Stone Floresta-340",
+					"tipo" : "cor",
+					"ref" : "08"
+					},
+					{
+					"nome" : "Stone Jeans-356",
+					"tipo" : "cor",
+					"ref" : "09"
+					},
+					{
+					"nome" : "Stone Preto Grafite-309",
+					"tipo" : "cor",
+					"ref" : "10"
+					},
+					{
+					"nome" : "Stone Marinho-352",
+					"tipo" : "cor",
+					"ref" : "11"
+					},
+					{
+					"nome" : "Stone Ametista-337",
+					"tipo" : "cor",
+					"ref" : "12"
+					}
+			]
+		},
+
+		{
+			"nome" : "Piquet Premium",
+			"selecionado" : "false",
+			"tipo" : "malhas",
+			"ref" : "piquet/premium",
+			"sub" : [				
+				{
+					"nome" : "Branco-001",
+					"tipo" : "cor",
+					"ref" : "01"
+					},
+					{
+					"nome" : "Preto-009",
+					"tipo" : "cor",
+					"ref" : "02"
+					},
+					{
+					"nome" : "Vermelho-122",
+					"tipo" : "cor",
+					"ref" : "03"
+					},
+					{
+					"nome" : "Vinho-024",
+					"tipo" : "cor",
+					"ref" : "04"
+					},
+					{
+					"nome" : "Azul Marinho-119",
+					"tipo" : "cor",
+					"ref" : "05"
+					}
+			]
+		},
+
+		{
+			"nome" : "Piquet Milano",
+			"selecionado" : "false",
+			"tipo" : "malhas",
+			"ref" : "piquet/milano",
+			"sub" : [				
+				{
+					"nome" : "Areia/Preto-03609035",
+					"tipo" : "cor",
+					"ref" : "01"
+					},
+					{
+					"nome" : "Vermelho/Preto-03509022",
+					"tipo" : "cor",
+					"ref" : "02"
+					},
+					{
+					"nome" : "Branco/Royal Bic-03673001",
+					"tipo" : "cor",
+					"ref" : "03"
+					},
+					{
+					"nome" : "Branco/Vermelho-0362201",
+					"tipo" : "cor",
+					"ref" : "04"
+					},
+					{
+					"nome" : "Lavanda/Marinho-03519013",
+					"tipo" : "cor",
+					"ref" : "05"
+					},
+					{
+					"nome" : "Royal Bic/Branco-03501073",
+					"tipo" : "cor",
+					"ref" : "06"
+					},
+					{
+					"nome" : "Branco/Garrafa-03647001",
+					"tipo" : "cor",
+					"ref" : "07"
+					},
+					{
+					"nome" : "Floresta/Cinza Claro-03583040",
+					"tipo" : "cor",
+					"ref" : "08"
+					},
+					{
+					"nome" : "Marinho/Cinza Claro-035831192",
+					"tipo" : "cor",
+					"ref" : "09"
+					},
+					{
+					"nome" : "Branco/Preto-03609001",
+					"tipo" : "cor",
+					"ref" : "10"
+					},
+					{
+					"nome" : "Chumbo/Branco-03501076",
+					"tipo" : "cor",
+					"ref" : "11"
+					},
+					{
+					"nome" : "Preto/Branco-03501009",
+					"tipo" : "cor",
+					"ref" : "12"
+					}
+			]
+		},
+
+		{
+			"nome" : "Malha Piquet Penteada",
+			"selecionado" : "false",
+			"tipo" : "malhas",
+			"ref" : "meia_malha/penteada",
+			"sub" : [				
+				{
+				"nome" : "Branco-001",
+				"tipo" : "cor",
+				"ref" : "01"
+				},
+				{
+				"nome" : "Alfazema-023",
+				"tipo" : "cor",
+				"ref" : "02"
+				},
+				{
+				"nome" : "Lilás-055",
+				"tipo" : "cor",
+				"ref" : "03"
+				},
+				{
+				"nome" : "Ametista-037",
+				"tipo" : "cor",
+				"ref" : "04"
+				},
+				{
+				"nome" : "Rosa Claro-003",
+				"tipo" : "cor",
+				"ref" : "05"
+				},
+				{
+				"nome" : "Telha-146",
+				"tipo" : "cor",
+				"ref" : "06"
+				},
+				{
+				"nome" : "Papaya-132",
+				"tipo" : "cor",
+				"ref" : "07"
+				},
+				{
+				"nome" : "Veludo-106",
+				"tipo" : "cor",
+				"ref" : "08"
+				},
+				{
+				"nome" : "Rosa Antigo-162",
+				"tipo" : "cor",
+				"ref" : "09"
+				},
+				{
+				"nome" : "Melancia-163",
+				"tipo" : "cor",
+				"ref" : "10"
+				},
+				{
+				"nome" : "Vermelho-122",
+				"tipo" : "cor",
+				"ref" : "11"
+				},
+				{
+				"nome" : "Vinho-024",
+				"tipo" : "cor",
+				"ref" : "12"
+				},
+				{
+				"nome" : "Areia-035",
+				"tipo" : "cor",
+				"ref" : "13"
+				},
+				{
+				"nome" : "Nude-161",
+				"tipo" : "cor",
+				"ref" : "14"
+				},
+				{
+				"nome" : "Capuccino-156",
+				"tipo" : "cor",
+				"ref" : "15"
+				},
+				{
+				"nome" : "Café-063",
+				"tipo" : "cor",
+				"ref" : "16"
+				},
+				{
+				"nome" : "Marfim-014",
+				"tipo" : "cor",
+				"ref" : "17"
+				},
+				{
+				"nome" : "Amarelo Claro-004",
+				"tipo" : "cor",
+				"ref" : "18"
+				},
+				{
+				"nome" : "Amarelo Girassol-010",
+				"tipo" : "cor",
+				"ref" : "19"
+				},
+				{
+				"nome" : "Mostarda-020",
+				"tipo" : "cor",
+				"ref" : "20"
+				},
+				{
+				"nome" : "Azul Céu-164",
+				"tipo" : "cor",
+				"ref" : "21"
+				},
+				{
+				"nome" : "Azul Turquesa-016",
+				"tipo" : "cor",
+				"ref" : "22"
+				},
+				{
+				"nome" : "Jeans-153",
+				"tipo" : "cor",
+				"ref" : "23"
+				},
+				{
+				"nome" : "Azul Marinho-119",
+				"tipo" : "cor",
+				"ref" : "24"
+				},
+				{
+				"nome" : "Azul Lavanda-013",
+				"tipo" : "cor",
+				"ref" : "25"
+				},
+				{
+				"nome" : "Azul Bahamas-116",
+				"tipo" : "cor",
+				"ref" : "26"
+				},
+				{
+				"nome" : "Azul Royal Claro-027",
+				"tipo" : "cor",
+				"ref" : "27"
+				},
+				{
+				"nome" : "Azul Royal Bic-073",
+				"tipo" : "cor",
+				"ref" : "28"
+				},
+				{
+				"nome" : "Azul Claro-029",
+				"tipo" : "cor",
+				"ref" : "29"
+				},
+				{
+				"nome" : "Caribe-134",
+				"tipo" : "cor",
+				"ref" : "30"
+				},
+				{
+				"nome" : "Verde Alface-059",
+				"tipo" : "cor",
+				"ref" : "31"
+				},
+				{
+				"nome" : "Verde Menta-026",
+				"tipo" : "cor",
+				"ref" : "32"
+				},
+				{
+				"nome" : "Verde Água-006",
+				"tipo" : "cor",
+				"ref" : "33"
+				},
+				{
+				"nome" : "Verde Garrafa-047",
+				"tipo" : "cor",
+				"ref" : "34"
+				},
+				{
+				"nome" : "Verde Floresta-040",
+				"tipo" : "cor",
+				"ref" : "35"
+				},
+				{
+				"nome" : "Pesto-128",
+				"tipo" : "cor",
+				"ref" : "36"
+				},
+				{
+				"nome" : "Cinza Claro-083",
+				"tipo" : "cor",
+				"ref" : "37"
+				},
+				{
+				"nome" : "Cinza Chumbo-076",
+				"tipo" : "cor",
+				"ref" : "38"
+				},
+				{
+				"nome" : "Preto-009",
+				"tipo" : "cor",
+				"ref" : "39"
 				}
 			]
 		},
+
+		{
+			"nome" : "Meia Malha Econômica",
+			"selecionado" : "false",
+			"tipo" : "malhas",
+			"ref" : "meia_malha/economica",
+			"sub" : [				
+				{
+					"nome" : "Branco-001",
+					"tipo" : "cor",
+					"ref" : "01"
+					},
+					{
+					"nome" : "Rosa Claro-003",
+					"tipo" : "cor",
+					"ref" : "02"
+					},
+					{
+					"nome" : "Amarelo Claro-004",
+					"tipo" : "cor",
+					"ref" : "03"
+					},
+					{
+					"nome" : "Verde Água-006",
+					"tipo" : "cor",
+					"ref" : "04"
+					},
+					{
+					"nome" : "Preto-009",
+					"tipo" : "cor",
+					"ref" : "05"
+					},
+					{
+					"nome" : "Amarelo Girassol-010",
+					"tipo" : "cor",
+					"ref" : "06"
+					},
+					{
+					"nome" : "Azul Claro-029",
+					"tipo" : "cor",
+					"ref" : "07"
+					},
+					{
+					"nome" : "Azul Royal Bic-073",
+					"tipo" : "cor",
+					"ref" : "08"
+					},
+					{
+					"nome" : "Azul Marinho-119",
+					"tipo" : "cor",
+					"ref" : "09"
+					},
+					{
+					"nome" : "Vermelho-122",
+					"tipo" : "cor",
+					"ref" : "10"
+					}
+			]
+		},
+
+		{
+			"nome" : "Meia Malha Open-End",
+			"selecionado" : "false",
+			"tipo" : "malhas",
+			"ref" : "meia_malha/open_end",
+			"sub" : [				
+				{
+					"nome" : "Branco-001",
+					"tipo" : "cor",
+					"ref" : "01"
+					},
+					{
+					"nome" : "Rosa Claro-003",
+					"tipo" : "cor",
+					"ref" : "02"
+					},
+					{
+					"nome" : "Verde Água-006",
+					"tipo" : "cor",
+					"ref" : "03"
+					},
+					{
+					"nome" : "Amarelo Claro-004",
+					"tipo" : "cor",
+					"ref" : "04"
+					},
+					{
+					"nome" : "Azul Claro-029",
+					"tipo" : "cor",
+					"ref" : "05"
+					}
+			]
+		},
+
+		{
+			"nome" : "Meia Malha Mescla",
+			"selecionado" : "false",
+			"tipo" : "malhas",
+			"ref" : "meia_malha/mescla",
+			"sub" : [				
+				{
+					"nome" : "Cinza Mescla-042",
+					"tipo" : "cor",
+					"ref" : "01"
+					}
+			]
+		},
+
+		{
+			"nome" : "Meia Malha Mista PET",
+			"selecionado" : "false",
+			"tipo" : "malhas",
+			"ref" : "meia_malha/mista_pet",
+			"sub" : [				
+				{
+					"nome" : "Branco-001",
+					"tipo" : "cor",
+					"ref" : "01"
+					},
+					{
+					"nome" : "Preto-009",
+					"tipo" : "cor",
+					"ref" : "02"
+					},
+					{
+					"nome" : "Amarelo Girassol-010",
+					"tipo" : "cor",
+					"ref" : "03"
+					},
+					{
+					"nome" : "Areia-035",
+					"tipo" : "cor",
+					"ref" : "04"
+					},
+					{
+					"nome" : "Verde Garrafa-047",
+					"tipo" : "cor",
+					"ref" : "05"
+					},
+					{
+					"nome" : "Azul Royal Bic-073",
+					"tipo" : "cor",
+					"ref" : "06"
+					},
+					{
+					"nome" : "Azul Marinho-119",
+					"tipo" : "cor",
+					"ref" : "07"
+					},
+					{
+					"nome" : "Vermelho-122",
+					"tipo" : "cor",
+					"ref" : "08"
+					}
+			]
+		},
+		
+
+		{
+			"nome" : "Meia Malha Flamê PET",
+			"selecionado" : "false",
+			"tipo" : "malhas",
+			"ref" : "meia_malha/flame",
+			"sub" : [				
+				{
+					"nome" : "Branco-001",
+					"tipo" : "cor",
+					"ref" : "01"
+					},
+					{
+					"nome" : "Preto-009",
+					"tipo" : "cor",
+					"ref" : "02"
+					},
+					{
+					"nome" : "Azul Marinho-119",
+					"tipo" : "cor",
+					"ref" : "03"
+					},
+					{
+					"nome" : "Vermelho-122",
+					"tipo" : "cor",
+					"ref" : "04"
+					}
+			]
+		},
+
+		{
+			"nome" : "Suedine",
+			"selecionado" : "false",
+			"tipo" : "malhas",
+			"ref" : "suedine",
+			"sub" : [				
+				{
+					"nome" : "Branco-001",
+					"tipo" : "cor",
+					"ref" : "01"
+					},
+					{
+					"nome" : "Rosa Claro-003",
+					"tipo" : "cor",
+					"ref" : "02"
+					},
+					{
+					"nome" : "Amarelo Claro-004",
+					"tipo" : "cor",
+					"ref" : "03"
+					},
+					{
+					"nome" : "Preto-009",
+					"tipo" : "cor",
+					"ref" : "04"
+					},
+					{
+					"nome" : "Amarelo Girassol-010",
+					"tipo" : "cor",
+					"ref" : "05"
+					},
+					{
+					"nome" : "Azul Lavanda-013",
+					"tipo" : "cor",
+					"ref" : "06"
+					},
+					{
+					"nome" : "Marfim-014",
+					"tipo" : "cor",
+					"ref" : "07"
+					},
+					{
+					"nome" : "Vinho-024",
+					"tipo" : "cor",
+					"ref" : "08"
+					},
+					{
+					"nome" : "Azul Claro-029",
+					"tipo" : "cor",
+					"ref" : "09"
+					},
+					{
+					"nome" : "Verde Garrafa-047",
+					"tipo" : "cor",
+					"ref" : "10"
+					},
+					{
+					"nome" : "Vermelho-122",
+					"tipo" : "cor",
+					"ref" : "11"
+					},
+					{
+					"nome" : "Azul Royal Bic-073",
+					"tipo" : "cor",
+					"ref" : "12"
+					},
+					{
+					"nome" : "Cinza Claro-083",
+					"tipo" : "cor",
+					"ref" : "13"
+					},
+					{
+					"nome" : "Azul Marinho-119",
+					"tipo" : "cor",
+					"ref" : "14"
+					}
+			]
+		},
+
 		
 		{
 			"nome" : "Ribana",
@@ -86,21 +901,199 @@
 			"ref" : "meia_malha/ribana",
 			"sub" : [
 				{
-					"nome" : "Branco",
-					"tipo" : "ribana",
-					"ref" : "01_branco"
-				}, 
-				
-				{
-					"nome" : "Alfazema",
-					"tipo" : "ribana", 
-					"ref" : "02_alfazema"
+				"nome" : "Branco-001",
+				"tipo" : "ribana",
+				"ref" : "01"
 				},
-
 				{
-					"nome" : "Ametista",
-					"tipo" : "ribana", 
-					"ref" : "03_ametista"
+				"nome" : "Alfazema-023",
+				"tipo" : "ribana",
+				"ref" : "02"
+				},
+				{
+				"nome" : "Lilás-055",
+				"tipo" : "ribana",
+				"ref" : "03"
+				},
+				{
+				"nome" : "Ametista-037",
+				"tipo" : "ribana",
+				"ref" : "04"
+				},
+				{
+				"nome" : "Rosa Claro-003",
+				"tipo" : "ribana",
+				"ref" : "05"
+				},
+				{
+				"nome" : "Telha-146",
+				"tipo" : "ribana",
+				"ref" : "06"
+				},
+				{
+				"nome" : "Papaya-132",
+				"tipo" : "ribana",
+				"ref" : "07"
+				},
+				{
+				"nome" : "Veludo-106",
+				"tipo" : "ribana",
+				"ref" : "08"
+				},
+				{
+				"nome" : "Rosa Antigo-162",
+				"tipo" : "ribana",
+				"ref" : "09"
+				},
+				{
+				"nome" : "Melancia-163",
+				"tipo" : "ribana",
+				"ref" : "10"
+				},
+				{
+				"nome" : "Vermelho-122",
+				"tipo" : "ribana",
+				"ref" : "11"
+				},
+				{
+				"nome" : "Vinho-024",
+				"tipo" : "ribana",
+				"ref" : "12"
+				},
+				{
+				"nome" : "Areia-035",
+				"tipo" : "ribana",
+				"ref" : "13"
+				},
+				{
+				"nome" : "Nude-161",
+				"tipo" : "ribana",
+				"ref" : "14"
+				},
+				{
+				"nome" : "Capuccino-156",
+				"tipo" : "ribana",
+				"ref" : "15"
+				},
+				{
+				"nome" : "Café-063",
+				"tipo" : "ribana",
+				"ref" : "16"
+				},
+				{
+				"nome" : "Marfim-014",
+				"tipo" : "ribana",
+				"ref" : "17"
+				},
+				{
+				"nome" : "Amarelo Claro-004",
+				"tipo" : "ribana",
+				"ref" : "18"
+				},
+				{
+				"nome" : "Amarelo Girassol-010",
+				"tipo" : "ribana",
+				"ref" : "19"
+				},
+				{
+				"nome" : "Mostarda-020",
+				"tipo" : "ribana",
+				"ref" : "20"
+				},
+				{
+				"nome" : "Azul Céu-164",
+				"tipo" : "ribana",
+				"ref" : "21"
+				},
+				{
+				"nome" : "Azul Turquesa-016",
+				"tipo" : "ribana",
+				"ref" : "22"
+				},
+				{
+				"nome" : "Jeans-153",
+				"tipo" : "ribana",
+				"ref" : "23"
+				},
+				{
+				"nome" : "Azul Marinho-119",
+				"tipo" : "ribana",
+				"ref" : "24"
+				},
+				{
+				"nome" : "Azul Lavanda-013",
+				"tipo" : "ribana",
+				"ref" : "25"
+				},
+				{
+				"nome" : "Azul Bahamas-116",
+				"tipo" : "ribana",
+				"ref" : "26"
+				},
+				{
+				"nome" : "Azul Royal Claro-027",
+				"tipo" : "ribana",
+				"ref" : "27"
+				},
+				{
+				"nome" : "Azul Royal Bic-073",
+				"tipo" : "ribana",
+				"ref" : "28"
+				},
+				{
+				"nome" : "Azul Claro-029",
+				"tipo" : "ribana",
+				"ref" : "29"
+				},
+				{
+				"nome" : "Caribe-134",
+				"tipo" : "ribana",
+				"ref" : "30"
+				},
+				{
+				"nome" : "Verde Alface-059",
+				"tipo" : "ribana",
+				"ref" : "31"
+				},
+				{
+				"nome" : "Verde Menta-026",
+				"tipo" : "ribana",
+				"ref" : "32"
+				},
+				{
+				"nome" : "Verde Água-006",
+				"tipo" : "ribana",
+				"ref" : "33"
+				},
+				{
+				"nome" : "Verde Garrafa-047",
+				"tipo" : "ribana",
+				"ref" : "34"
+				},
+				{
+				"nome" : "Verde Floresta-040",
+				"tipo" : "ribana",
+				"ref" : "35"
+				},
+				{
+				"nome" : "Pesto-128",
+				"tipo" : "ribana",
+				"ref" : "36"
+				},
+				{
+				"nome" : "Cinza Claro-083",
+				"tipo" : "ribana",
+				"ref" : "37"
+				},
+				{
+				"nome" : "Cinza Chumbo-076",
+				"tipo" : "ribana",
+				"ref" : "38"
+				},
+				{
+				"nome" : "Preto-009",
+				"tipo" : "ribana",
+				"ref" : "39"
 				}
 			]
 		},
@@ -129,20 +1122,295 @@
 			"nome" : "Gola para camisa polo",
 			"selecionado" : "false",
 			"tipo" : "golas",
-			"ref" : "polo",
+			"ref" : "golas_polo",
 			"sub" : [
-							{
-								"nome" : "100% Algodão",
-								"tipo" : "modeloGola", 
-								"ref" : "100_algodao"
-							}, 
-							
-							{
-								"nome" : "100% Poliéster Mista",
-								"tipo" : "modeloGola", 
-								"ref" : "100_poliester_mista"
-							}
-						]
+						{
+						"nome" : "Stone Pink-363",
+						"tipo" : "modeloGola",
+						"ref" : "stonadas/01"
+						},
+						{
+						"nome" : "Stone Vinho-324",
+						"tipo" : "modeloGola",
+						"ref" : "stonadas/02"
+						},
+						{
+						"nome" : "Stone Violeta-396",
+						"tipo" : "modeloGola",
+						"ref" : "stonadas/03"
+						},
+						{
+						"nome" : "Stone Índigo-345",
+						"tipo" : "modeloGola",
+						"ref" : "stonadas/04"
+						},
+						{
+						"nome" : "Stone Veludo-306",
+						"tipo" : "modeloGola",
+						"ref" : "stonadas/05"
+						},
+						{
+						"nome" : "Stone Vermelho-322",
+						"tipo" : "modeloGola",
+						"ref" : "stonadas/06"
+						},
+						{
+						"nome" : "Stone Menta-326",
+						"tipo" : "modeloGola",
+						"ref" : "stonadas/07"
+						},
+						{
+						"nome" : "Stone Floresta-340",
+						"tipo" : "modeloGola",
+						"ref" : "stonadas/08"
+						},
+						{
+						"nome" : "Stone Jeans-356",
+						"tipo" : "modeloGola",
+						"ref" : "stonadas/09"
+						},
+						{
+						"nome" : "Stone Preto Grafite-309",
+						"tipo" : "modeloGola",
+						"ref" : "stonadas/10"
+						},
+						{
+						"nome" : "Stone Marinho-352",
+						"tipo" : "modeloGola",
+						"ref" : "stonadas/11"
+						},
+						{
+						"nome" : "Stone Ametista-337",
+						"tipo" : "modeloGola",
+						"ref" : "stonadas/12"
+						},
+						{
+						"nome" : "Bordado Listras Am. Ouro e Am. Girassol/Bordado Am. Girassol-902",
+						"tipo" : "modeloGola",
+						"ref" : "bordados/01"
+						},
+						{
+						"nome" : "Bordado Listras Ametista e Lilás/Bordado Lilás-948",
+						"tipo" : "modeloGola",
+						"ref" : "bordados/02"
+						},
+						{
+						"nome" : "Bordado Listras V. Garrafa e V. Água/Bordado V. Água-917",
+						"tipo" : "modeloGola",
+						"ref" : "bordados/03"
+						},
+						{
+						"nome" : "Bordado Listras Azul Royal Claro e Azul Claro/Bordado Azul Claro-926",
+						"tipo" : "modeloGola",
+						"ref" : "bordados/04"
+						},
+						{
+						"nome" : "Bordado Listras Vermelho e Marinho/Bordado Marinho-931",
+						"tipo" : "modeloGola",
+						"ref" : "bordados/05"
+						},
+						{
+						"nome" : "Bordado Listras Fucsia e Rosa Claro/Bordado Rosa Claro-907",
+						"tipo" : "modeloGola",
+						"ref" : "bordados/06"
+						},
+						{
+						"nome" : "Bordado Listras Cinza Claro e Rosa Claro/Bordado Rosa Claro-946",
+						"tipo" : "modeloGola",
+						"ref" : "bordados/07"
+						},
+						{
+						"nome" : "Bordado Listras Preta e Cinza Claro/Bordado Cinza Claro-913",
+						"tipo" : "modeloGola",
+						"ref" : "bordados/08"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras Azul Royal Claro-354",
+						"tipo" : "modeloGola",
+						"ref" : "europa/01"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras Cinza Claro-362",
+						"tipo" : "modeloGola",
+						"ref" : "europa/02"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras Pretas-356",
+						"tipo" : "modeloGola",
+						"ref" : "europa/03"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras Verde Garrafa-357",
+						"tipo" : "modeloGola",
+						"ref" : "europa/04"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras Azul Marinho-355",
+						"tipo" : "modeloGola",
+						"ref" : "europa/05"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras Vinho-359",
+						"tipo" : "modeloGola",
+						"ref" : "europa/06"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras Vermelhas-352",
+						"tipo" : "modeloGola",
+						"ref" : "europa/07"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras Vermelho e V. Garrafa-374",
+						"tipo" : "modeloGola",
+						"ref" : "europa/08"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras Vermelho e Marinho-327",
+						"tipo" : "modeloGola",
+						"ref" : "europa/09"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras Amarelo e Royal Claro-321",
+						"tipo" : "modeloGola",
+						"ref" : "europa/10"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras Amarelo e V. Garrafa-375",
+						"tipo" : "modeloGola",
+						"ref" : "europa/11"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras Vermelho e Royal Claro-358",
+						"tipo" : "modeloGola",
+						"ref" : "europa/12"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras V. Água e V. Garrafa-314",
+						"tipo" : "modeloGola",
+						"ref" : "europa/13"
+						},
+						{
+						"nome" : "Listrado Europa Fundo Branco/Listras Azul Claro e Royal Claro-320",
+						"tipo" : "modeloGola",
+						"ref" : "europa/14"
+						},
+						{
+						"nome" : "Listrado Havaí Fundo Marinho Tinto/Listras Brancas-1915",
+						"tipo" : "modeloGola",
+						"ref" : "havai/01"
+						},
+						{
+						"nome" : "Listrado Havaí Fundo Mescla/Listras Pretas-1909",
+						"tipo" : "modeloGola",
+						"ref" : "havai/02"
+						},
+						{
+						"nome" : "Listrado Havaí Fundo Mescla/Listras Brancas-1942",
+						"tipo" : "modeloGola",
+						"ref" : "havai/03"
+						},
+
+						{
+						"nome" : "Listrado América Fundo Branco/Listras V. Garrafa e V. Água-217",
+						"tipo" : "modeloGola",
+						"ref" : "america/01"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras V. Água e V. Garrafa-214",
+						"tipo" : "modeloGola",
+						"ref" : "america/02"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras V. Alface e V. Garrafa-216",
+						"tipo" : "modeloGola",
+						"ref" : "america/03"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Vermelho e V. Garrafa-256",
+						"tipo" : "modeloGola",
+						"ref" : "america/04"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Amarelo e V. Garrafa-261",
+						"tipo" : "modeloGola",
+						"ref" : "america/05"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Am. Claro e Am. Ouro-201",
+						"tipo" : "modeloGola",
+						"ref" : "america/06"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Vermelho e Marinho-227",
+						"tipo" : "modeloGola",
+						"ref" : "america/07"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Royal Claro e Marinho-228",
+						"tipo" : "modeloGola",
+						"ref" : "america/08"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Amarelo e Royal Claro-221",
+						"tipo" : "modeloGola",
+						"ref" : "america/09"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Vermelho e Royal Claro-224",
+						"tipo" : "modeloGola",
+						"ref" : "america/10"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Azul Claro e Royal Claro-220",
+						"tipo" : "modeloGola",
+						"ref" : "america/11"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Royal Claro e Azul Claro-226",
+						"tipo" : "modeloGola",
+						"ref" : "america/12"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Cinza Claro e Preto-242",
+						"tipo" : "modeloGola",
+						"ref" : "america/13"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Café e Areia-247",
+						"tipo" : "modeloGola",
+						"ref" : "america/14"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Vermelho e Cinza Claro-232",
+						"tipo" : "modeloGola",
+						"ref" : "america/15"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Cinza Claro e Vinho-253",
+						"tipo" : "modeloGola",
+						"ref" : "america/16"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Amarelo e Vinho-252",
+						"tipo" : "modeloGola",
+						"ref" : "america/17"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Cinza Claro e Vermelho-212",
+						"tipo" : "modeloGola",
+						"ref" : "america/18"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Preto e Cinza Claro-213",
+						"tipo" : "modeloGola",
+						"ref" : "america/19"
+						},
+						{
+						"nome" : "Listrado América Fundo Branco/Listras Amarelo e Cinza Claro-209",
+						"tipo" : "modeloGola",
+						"ref" : "america/20"
+						}
+					]
 		},
 
 		{

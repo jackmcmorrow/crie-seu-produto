@@ -15,19 +15,21 @@ fetch = (arquivo) ->
 	).fail -> console.log 'deu ruim, verifique o JSON'
 	
 	return listaDeObj
-
+malhaSelecionada = ''
 corSelecionada = ''
 class produto
 	constructor : (@cdp, @nome, @tipo, @ref, @sub) ->
 		@select = $('#' + @tipo + ' select')
-		@oid = @tipo + @cdp 
-		@el = '<option value="'+@nome+'" oid="'+@oid+'" data-ref="'+@ref+'" >' + @nome + '</option>'
+		@oid = @tipo + @cdp
+		@ext = @ref
+		@el = '<option value="'+@nome+'" oid="'+@oid+'" data-ext="'+@ext+'" >' + @nome + '</option>'
 		$(@select).append(@el)
 		
 
 criarProdutos = ->
 		lista = fetch 'produtos.json'
 		listaSubs = [];
+		listaCores = [];
 		tipos = ['malhas', 'golas', 'punhos'];
 		subTipos = ['cor', 'modeloGola', 'modeloPunhos', 'ribana']
 
@@ -46,7 +48,7 @@ criarProdutos = ->
 					#console.log nome + ' ' +tipo+ ' ' +ref
 					$('#'+subTipo+' option').remove()
 					$('#'+subTipo+' select').append('<option></option>')
-				listaSubs.splice 0, listaSubs.length
+				
 
 			criarSub = (sub)->
 				for sid, o of sub
@@ -56,23 +58,32 @@ criarProdutos = ->
 					#console.log subNome + subTipo + subRef
 					c = new produto subCdp += 1, subNome, subTipo, subRef
 					c.subPaiRef = subPaiRef
-					listaSubs.push(c)
+					c.ext += c.subPaiRef
+					if subTipo is 'cor'
+						listaCores.push(c)
+					else
+						listaSubs.push(c)
 
 			#Executa funções
 			criarSub i.sub for i in lista when i.tipo + i.cdp is oid
+
 			prepararImagem subTipo for subTipo in subTipos
 
 
 		prepararImagem = (tipo) ->
+			$('#' +tipo+ ' select').off();
 			$('#' + tipo + ' select').on('change', ->
 				val = $(@).val();
 				ref = i.ref for i in lista when i.nome is val
 				dir = 'img/'
 
+
 				if tipo is 'malhas'
 					$('#canvas img').attr('src', '')
-					$('#cor option').remove();
+					$('#cor option').remove()
+					malhaSelecionada = ref
 					listaSubs.splice 0, listaSubs.length
+					listaCores.splice 0, listaCores.length
 				
 				if tipo is 'malhas' or tipo is 'punhos' or tipo is 'golas'
 					oid = i.oid for i in lista when i.nome is val
@@ -85,6 +96,14 @@ criarProdutos = ->
 					else
 						$('.ribana').hide();
 						$('.not-ribana').show();
+
+				else if tipo is 'cor' or tipo is 'ribana'
+					console.log listaCores
+					corRef = j.ref for j in listaCores when j.nome is val;
+					#console.log subRef
+					#corPaiRef = j.subPaiRef for j in listaSubs when j.nome is val
+					corPaiRef = malhaSelecionada
+					coid = j.oid for j in listaCores when j.nome is val
 				else
 					subRef = j.ref for j in listaSubs when j.nome is val
 					#console.log subRef
@@ -96,9 +115,11 @@ criarProdutos = ->
 				#console.log tipo
 				if tipo is 'cor' or tipo is 'ribana'
 					_tipo = 'malhas'
-					dir += _tipo+ '/' +subPaiRef+ '/' +subRef+ '.png'
+					if corRef isnt undefined
+						corSelecionada = corRef
+					dir += _tipo+ '/' +corPaiRef+ '/' +corSelecionada+ '.png'
 					console.log(dir)
-					corSelecionada = subRef
+					
 					$('#canvas .' + _tipo + ' img').attr('src', dir);
 				else if tipo is 'modeloGola'
 					_tipo = 'golas'
@@ -118,7 +139,7 @@ criarProdutos = ->
 					dir += corSelecionada + '.png';
 					$('#canvas .' + tipo + ' img').attr('src', dir);
 				#else if tipo is 'golas' or tipo is 'punhos'
-				
+				console.log(corSelecionada)
 			)
 		#executa funções
 		prepararImagem tipo for tipo in tipos

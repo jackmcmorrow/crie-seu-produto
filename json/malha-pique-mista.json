@@ -1,0 +1,198 @@
+MALHA PIQUET MISTA
+
+	{
+	"nome" : "Branco-001",
+	"tipo" : "cor",
+	"ref" : "01"
+	},
+	{
+	"nome" : "Alfazema-023",
+	"tipo" : "cor",
+	"ref" : "02"
+	},
+	{
+	"nome" : "Lilás-055",
+	"tipo" : "cor",
+	"ref" : "03"
+	},
+	{
+	"nome" : "Ametista-037",
+	"tipo" : "cor",
+	"ref" : "04"
+	},
+	{
+	"nome" : "Rosa Claro-003",
+	"tipo" : "cor",
+	"ref" : "05"
+	},
+	{
+	"nome" : "Telha-146",
+	"tipo" : "cor",
+	"ref" : "06"
+	},
+	{
+	"nome" : "Papaya-132",
+	"tipo" : "cor",
+	"ref" : "07"
+	},
+	{
+	"nome" : "Veludo-106",
+	"tipo" : "cor",
+	"ref" : "08"
+	},
+	{
+	"nome" : "Rosa Antigo-162",
+	"tipo" : "cor",
+	"ref" : "09"
+	},
+	{
+	"nome" : "Melancia-163",
+	"tipo" : "cor",
+	"ref" : "10"
+	},
+	{
+	"nome" : "Vermelho-122",
+	"tipo" : "cor",
+	"ref" : "11"
+	},
+	{
+	"nome" : "Vinho-024",
+	"tipo" : "cor",
+	"ref" : "12"
+	},
+	{
+	"nome" : "Areia-035",
+	"tipo" : "cor",
+	"ref" : "13"
+	},
+	{
+	"nome" : "Nude-161",
+	"tipo" : "cor",
+	"ref" : "14"
+	},
+	{
+	"nome" : "Capuccino-156",
+	"tipo" : "cor",
+	"ref" : "15"
+	},
+	{
+	"nome" : "Café-063",
+	"tipo" : "cor",
+	"ref" : "16"
+	},
+	{
+	"nome" : "Marfim-014",
+	"tipo" : "cor",
+	"ref" : "17"
+	},
+	{
+	"nome" : "Amarelo Claro-004",
+	"tipo" : "cor",
+	"ref" : "18"
+	},
+	{
+	"nome" : "Amarelo Girassol-010",
+	"tipo" : "cor",
+	"ref" : "19"
+	},
+	{
+	"nome" : "Mostarda-020",
+	"tipo" : "cor",
+	"ref" : "20"
+	},
+	{
+	"nome" : "Azul Céu-164",
+	"tipo" : "cor",
+	"ref" : "21"
+	},
+	{
+	"nome" : "Azul Turquesa-016",
+	"tipo" : "cor",
+	"ref" : "22"
+	},
+	{
+	"nome" : "Jeans-153",
+	"tipo" : "cor",
+	"ref" : "23"
+	},
+	{
+	"nome" : "Azul Marinho-119",
+	"tipo" : "cor",
+	"ref" : "24"
+	},
+	{
+	"nome" : "Azul Lavanda-013",
+	"tipo" : "cor",
+	"ref" : "25"
+	},
+	{
+	"nome" : "Azul Bahamas-116",
+	"tipo" : "cor",
+	"ref" : "26"
+	},
+	{
+	"nome" : "Azul Royal Claro-027",
+	"tipo" : "cor",
+	"ref" : "27"
+	},
+	{
+	"nome" : "Azul Royal Bic-073",
+	"tipo" : "cor",
+	"ref" : "28"
+	},
+	{
+	"nome" : "Azul Claro-029",
+	"tipo" : "cor",
+	"ref" : "29"
+	},
+	{
+	"nome" : "Caribe-134",
+	"tipo" : "cor",
+	"ref" : "30"
+	},
+	{
+	"nome" : "Verde Alface-059",
+	"tipo" : "cor",
+	"ref" : "31"
+	},
+	{
+	"nome" : "Verde Menta-026",
+	"tipo" : "cor",
+	"ref" : "32"
+	},
+	{
+	"nome" : "Verde Água-006",
+	"tipo" : "cor",
+	"ref" : "33"
+	},
+	{
+	"nome" : "Verde Garrafa-047",
+	"tipo" : "cor",
+	"ref" : "34"
+	},
+	{
+	"nome" : "Verde Floresta-040",
+	"tipo" : "cor",
+	"ref" : "35"
+	},
+	{
+	"nome" : "Pesto-128",
+	"tipo" : "cor",
+	"ref" : "36"
+	},
+	{
+	"nome" : "Cinza Claro-083",
+	"tipo" : "cor",
+	"ref" : "37"
+	},
+	{
+	"nome" : "Cinza Chumbo-076",
+	"tipo" : "cor",
+	"ref" : "38"
+	},
+	{
+	"nome" : "Preto-009",
+	"tipo" : "cor",
+	"ref" : "39"
+	}
+

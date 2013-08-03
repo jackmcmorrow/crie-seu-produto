@@ -1,4 +1,4 @@
-var corSelecionada, criarProdutos, fetch, produto;
+var corSelecionada, criarProdutos, fetch, malhaSelecionada, produto;
 
 fetch = function(arquivo) {
   var listaDeObj;
@@ -24,6 +24,8 @@ fetch = function(arquivo) {
   return listaDeObj;
 };
 
+malhaSelecionada = '';
+
 corSelecionada = '';
 
 produto = (function() {
@@ -35,7 +37,8 @@ produto = (function() {
     this.sub = sub;
     this.select = $('#' + this.tipo + ' select');
     this.oid = this.tipo + this.cdp;
-    this.el = '<option value="' + this.nome + '" oid="' + this.oid + '" data-ref="' + this.ref + '" >' + this.nome + '</option>';
+    this.ext = this.ref;
+    this.el = '<option value="' + this.nome + '" oid="' + this.oid + '" data-ext="' + this.ext + '" >' + this.nome + '</option>';
     $(this.select).append(this.el);
   }
 
@@ -44,9 +47,10 @@ produto = (function() {
 })();
 
 criarProdutos = function() {
-  var corCdp, criarSubs, lista, listaSubs, prepararImagem, subTipos, tipo, tipos, _i, _len, _results;
+  var corCdp, criarSubs, lista, listaCores, listaSubs, prepararImagem, subTipos, tipo, tipos, _i, _len, _results;
   lista = fetch('produtos.json');
   listaSubs = [];
+  listaCores = [];
   tipos = ['malhas', 'golas', 'punhos'];
   subTipos = ['cor', 'modeloGola', 'modeloPunhos', 'ribana'];
   corCdp = 0;
@@ -68,7 +72,6 @@ criarProdutos = function() {
         $('#' + subTipo + ' option').remove();
         $('#' + subTipo + ' select').append('<option></option>');
       }
-      listaSubs.splice(0, listaSubs.length);
     }
     criarSub = function(sub) {
       var c, _results;
@@ -80,7 +83,12 @@ criarProdutos = function() {
         subRef = o.ref;
         c = new produto(subCdp += 1, subNome, subTipo, subRef);
         c.subPaiRef = subPaiRef;
-        _results.push(listaSubs.push(c));
+        c.ext += c.subPaiRef;
+        if (subTipo === 'cor') {
+          _results.push(listaCores.push(c));
+        } else {
+          _results.push(listaSubs.push(c));
+        }
       }
       return _results;
     };
@@ -98,8 +106,9 @@ criarProdutos = function() {
     return _results;
   };
   prepararImagem = function(tipo) {
+    $('#' + tipo + ' select').off();
     return $('#' + tipo + ' select').on('change', function() {
-      var dir, i, j, oid, ref, subPaiRef, subRef, val, _i, _j, _k, _l, _len, _len1, _len2, _len3, _len4, _m, _tipo;
+      var coid, corPaiRef, corRef, dir, i, j, oid, ref, subPaiRef, subRef, val, _i, _j, _k, _l, _len, _len1, _len2, _len3, _len4, _len5, _len6, _m, _n, _o, _tipo;
       val = $(this).val();
       for (_i = 0, _len = lista.length; _i < _len; _i++) {
         i = lista[_i];
@@ -111,7 +120,9 @@ criarProdutos = function() {
       if (tipo === 'malhas') {
         $('#canvas img').attr('src', '');
         $('#cor option').remove();
+        malhaSelecionada = ref;
         listaSubs.splice(0, listaSubs.length);
+        listaCores.splice(0, listaCores.length);
       }
       if (tipo === 'malhas' || tipo === 'punhos' || tipo === 'golas') {
         for (_j = 0, _len1 = lista.length; _j < _len1; _j++) {
@@ -129,21 +140,36 @@ criarProdutos = function() {
           $('.ribana').hide();
           $('.not-ribana').show();
         }
+      } else if (tipo === 'cor' || tipo === 'ribana') {
+        console.log(listaCores);
+        for (_k = 0, _len2 = listaCores.length; _k < _len2; _k++) {
+          j = listaCores[_k];
+          if (j.nome === val) {
+            corRef = j.ref;
+          }
+        }
+        corPaiRef = malhaSelecionada;
+        for (_l = 0, _len3 = listaCores.length; _l < _len3; _l++) {
+          j = listaCores[_l];
+          if (j.nome === val) {
+            coid = j.oid;
+          }
+        }
       } else {
-        for (_k = 0, _len2 = listaSubs.length; _k < _len2; _k++) {
-          j = listaSubs[_k];
+        for (_m = 0, _len4 = listaSubs.length; _m < _len4; _m++) {
+          j = listaSubs[_m];
           if (j.nome === val) {
             subRef = j.ref;
           }
         }
-        for (_l = 0, _len3 = listaSubs.length; _l < _len3; _l++) {
-          j = listaSubs[_l];
+        for (_n = 0, _len5 = listaSubs.length; _n < _len5; _n++) {
+          j = listaSubs[_n];
           if (j.nome === val) {
             subPaiRef = j.subPaiRef;
           }
         }
-        for (_m = 0, _len4 = listaSubs.length; _m < _len4; _m++) {
-          j = listaSubs[_m];
+        for (_o = 0, _len6 = listaSubs.length; _o < _len6; _o++) {
+          j = listaSubs[_o];
           if (j.nome === val) {
             oid = j.oid;
           }
@@ -151,28 +177,31 @@ criarProdutos = function() {
       }
       if (tipo === 'cor' || tipo === 'ribana') {
         _tipo = 'malhas';
-        dir += _tipo + '/' + subPaiRef + '/' + subRef + '.png';
+        if (corRef !== void 0) {
+          corSelecionada = corRef;
+        }
+        dir += _tipo + '/' + corPaiRef + '/' + corSelecionada + '.png';
         console.log(dir);
-        corSelecionada = subRef;
-        return $('#canvas .' + _tipo + ' img').attr('src', dir);
+        $('#canvas .' + _tipo + ' img').attr('src', dir);
       } else if (tipo === 'modeloGola') {
         _tipo = 'golas';
         dir += _tipo + '/' + subPaiRef + '/' + subRef + '.png';
         console.log(dir);
-        return $('#canvas .' + _tipo + ' img').attr('src', dir);
+        $('#canvas .' + _tipo + ' img').attr('src', dir);
       } else if (tipo === 'modeloPunhos') {
         _tipo = 'punhos';
         dir += _tipo + '/' + subPaiRef + '/' + subRef + '.png';
         console.log(dir);
-        return $('#canvas .' + _tipo + ' img').attr('src', dir);
+        $('#canvas .' + _tipo + ' img').attr('src', dir);
       } else if (tipo === 'ribana') {
         _tipo = 'malhas';
-        return dir += _tipo + '/' + ref + '/' + corSelecionada + '.png';
+        dir += _tipo + '/' + ref + '/' + corSelecionada + '.png';
       } else if (tipo === 'malhas') {
         corSelecionada = '01';
         dir += corSelecionada + '.png';
-        return $('#canvas .' + tipo + ' img').attr('src', dir);
+        $('#canvas .' + tipo + ' img').attr('src', dir);
       }
+      return console.log(corSelecionada);
     });
   };
   _results = [];

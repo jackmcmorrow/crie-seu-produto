@@ -1,0 +1,530 @@
+<!-- TODAS AS MALHAS!!! -->
+
+
+
+<!-- MALHA MESCLA -->
+
+{
+	"nome" : "Cinza Mescla-042",
+	"tipo" : "cor",
+	"ref" : "01"
+	}
+    
+    
+<!-- fim malha mescla -->
+
+
+<!-- Malha Piquet Mista PET -->
+
+{
+	"nome" : "Stone Pink-363",
+	"tipo" : "cor",
+	"ref" : "01"
+	},
+	
+{
+	"nome" : "Stone Violeta-396",
+	"tipo" : "cor",
+	"ref" : "02"
+	}
+	
+	<!-- fim malha mista pet -->
+	
+	
+<!-- MALHA PIQUET STONADA -->
+
+{
+	"nome" : "Stone Pink-363",
+	"tipo" : "cor",
+	"ref" : "01"
+	},
+	{
+	"nome" : "Stone Vinho-324",
+	"tipo" : "cor",
+	"ref" : "02"
+	},
+	{
+	"nome" : "Stone Violeta-396",
+	"tipo" : "cor",
+	"ref" : "03"
+	},
+	{
+	"nome" : "Stone Índigo-345",
+	"tipo" : "cor",
+	"ref" : "04"
+	},
+	{
+	"nome" : "Stone Veludo-306",
+	"tipo" : "cor",
+	"ref" : "05"
+	},
+	{
+	"nome" : "Stone Vermelho-322",
+	"tipo" : "cor",
+	"ref" : "06"
+	},
+	{
+	"nome" : "Stone Menta-326",
+	"tipo" : "cor",
+	"ref" : "07"
+	},
+	{
+	"nome" : "Stone Floresta-340",
+	"tipo" : "cor",
+	"ref" : "08"
+	},
+	{
+	"nome" : "Stone Jeans-356",
+	"tipo" : "cor",
+	"ref" : "09"
+	},
+	{
+	"nome" : "Stone Preto Grafite-309",
+	"tipo" : "cor",
+	"ref" : "10"
+	},
+	{
+	"nome" : "Stone Marinho-352",
+	"tipo" : "cor",
+	"ref" : "11"
+	},
+	{
+	"nome" : "Stone Ametista-337",
+	"tipo" : "cor",
+	"ref" : "12"
+	}
+
+<!-- fim malha piquet stonada -->
+
+<!-- Malha Piquet Soft -->
+
+	{
+	"nome" : "Branco-001",
+	"tipo" : "cor",
+	"ref" : "01"
+	},
+	{
+	"nome" : "Preto-009",
+	"tipo" : "cor",
+	"ref" : "02"
+	}
+
+<!-- fim Malha Piquet Soft -->
+
+<!-- Malha Piquet Premium -->
+
+
+{
+	"nome" : "Branco-001",
+	"tipo" : "cor",
+	"ref" : "01"
+	},
+	{
+	"nome" : "Preto-009",
+	"tipo" : "cor",
+	"ref" : "02"
+	},
+	{
+	"nome" : "Vermelho-122",
+	"tipo" : "cor",
+	"ref" : "03"
+	},
+	{
+	"nome" : "Vinho-024",
+	"tipo" : "cor",
+	"ref" : "04"
+	},
+	{
+	"nome" : "Azul Marinho-119",
+	"tipo" : "cor",
+	"ref" : "05"
+	}
+	
+<!-- fim Malha Piquet Premium -->	
+	
+
+<!-- Malha Piquet Milano -->
+
+	
+{
+	"nome" : "Areia/Preto-03609035",
+	"tipo" : "cor",
+	"ref" : "01"
+	},
+	{
+	"nome" : "Vermelho/Preto-03509022",
+	"tipo" : "cor",
+	"ref" : "02"
+	},
+	{
+	"nome" : "Branco/Royal Bic-03673001",
+	"tipo" : "cor",
+	"ref" : "03"
+	},
+	{
+	"nome" : "Branco/Vermelho-0362201",
+	"tipo" : "cor",
+	"ref" : "04"
+	},
+	{
+	"nome" : "Lavanda/Marinho-03519013",
+	"tipo" : "cor",
+	"ref" : "05"
+	},
+	{
+	"nome" : "Royal Bic/Branco-03501073",
+	"tipo" : "cor",
+	"ref" : "06"
+	},
+	{
+	"nome" : "Branco/Garrafa-03647001",
+	"tipo" : "cor",
+	"ref" : "07"
+	},
+	{
+	"nome" : "Floresta/Cinza Claro-03583040",
+	"tipo" : "cor",
+	"ref" : "08"
+	},
+	{
+	"nome" : "Marinho/Cinza Claro-035831192",
+	"tipo" : "cor",
+	"ref" : "09"
+	},
+	{
+	"nome" : "Branco/Preto-03609001",
+	"tipo" : "cor",
+	"ref" : "10"
+	},
+	{
+	"nome" : "Chumbo/Branco-03501076",
+	"tipo" : "cor",
+	"ref" : "11"
+	},
+	{
+	"nome" : "Preto/Branco-03501009",
+	"tipo" : "cor",
+	"ref" : "12"
+	}
+
+
+<!-- fim Malha Piquet Milano -->
+
+
+<!-- Malha Piquet Penteada segue a mesma formatação da Piquet Mista -->
+
+
+
+<!-- Meia Malha Econômica -->
+
+{
+	"nome" : "Branco-001",
+	"tipo" : "cor",
+	"ref" : "01"
+	},
+	{
+	"nome" : "Rosa Claro-003",
+	"tipo" : "cor",
+	"ref" : "02"
+	},
+	{
+	"nome" : "Amarelo Claro-004",
+	"tipo" : "cor",
+	"ref" : "03"
+	},
+	{
+	"nome" : "Verde Água-006",
+	"tipo" : "cor",
+	"ref" : "04"
+	},
+	{
+	"nome" : "Preto-009",
+	"tipo" : "cor",
+	"ref" : "05"
+	},
+	{
+	"nome" : "Amarelo Girassol-010",
+	"tipo" : "cor",
+	"ref" : "06"
+	},
+	{
+	"nome" : "Azul Claro-029",
+	"tipo" : "cor",
+	"ref" : "07"
+	},
+	{
+	"nome" : "Azul Royal Bic-073",
+	"tipo" : "cor",
+	"ref" : "08"
+	},
+	{
+	"nome" : "Azul Marinho-119",
+	"tipo" : "cor",
+	"ref" : "09"
+	},
+	{
+	"nome" : "Vermelho-122",
+	"tipo" : "cor",
+	"ref" : "10"
+	}
+
+<!-- fim economica -->
+
+
+<!-- Meia Malha Open-End -->	
+
+
+{
+	"nome" : "Branco-001",
+	"tipo" : "cor",
+	"ref" : "01"
+	},
+	{
+	"nome" : "Rosa Claro-003",
+	"tipo" : "cor",
+	"ref" : "02"
+	},
+	{
+	"nome" : "Verde Água-006",
+	"tipo" : "cor",
+	"ref" : "03"
+	},
+	{
+	"nome" : "Amarelo Claro-004",
+	"tipo" : "cor",
+	"ref" : "04"
+	},
+	{
+	"nome" : "Azul Claro-029",
+	"tipo" : "cor",
+	"ref" : "05"
+	}
+
+<!-- fim Malha Open-end -->
+
+<!-- Meia Malha Mescla -->
+
+{
+	"nome" : "Cinza Mescla-042",
+	"tipo" : "cor",
+	"ref" : "01"
+	}
+
+<!-- fim Meia Malha Mescla -->
+
+<!-- Meia Malha Mista PET -->
+
+{
+	"nome" : "Branco-001",
+	"tipo" : "cor",
+	"ref" : "01"
+	},
+	{
+	"nome" : "Preto-009",
+	"tipo" : "cor",
+	"ref" : "02"
+	},
+	{
+	"nome" : "Amarelo Girassol-010",
+	"tipo" : "cor",
+	"ref" : "03"
+	},
+	{
+	"nome" : "Areia-035",
+	"tipo" : "cor",
+	"ref" : "04"
+	},
+	{
+	"nome" : "Verde Garrafa-047",
+	"tipo" : "cor",
+	"ref" : "05"
+	},
+	{
+	"nome" : "Azul Royal Bic-073",
+	"tipo" : "cor",
+	"ref" : "06"
+	},
+	{
+	"nome" : "Azul Marinho-119",
+	"tipo" : "cor",
+	"ref" : "07"
+	},
+	{
+	"nome" : "Vermelho-122",
+	"tipo" : "cor",
+	"ref" : "08"
+	}
+
+<!-- fim Meia Malha Mista PET -->
+
+
+
+<!-- Meia Malha Mista Stonada -->	
+
+{
+	"nome" : "Stone Pink-363",
+	"tipo" : "cor",
+	"ref" : "01"
+	},
+	{
+	"nome" : "Stone Vinho-324",
+	"tipo" : "cor",
+	"ref" : "02"
+	},
+	{
+	"nome" : "Stone Violeta-396",
+	"tipo" : "cor",
+	"ref" : "03"
+	},
+	{
+	"nome" : "Stone Índigo-345",
+	"tipo" : "cor",
+	"ref" : "04"
+	},
+	{
+	"nome" : "Stone Veludo-306",
+	"tipo" : "cor",
+	"ref" : "05"
+	},
+	{
+	"nome" : "Stone Vermelho-322",
+	"tipo" : "cor",
+	"ref" : "06"
+	},
+	{
+	"nome" : "Stone Menta-326",
+	"tipo" : "cor",
+	"ref" : "07"
+	},
+	{
+	"nome" : "Stone Floresta-340",
+	"tipo" : "cor",
+	"ref" : "08"
+	},
+	{
+	"nome" : "Stone Jeans-356",
+	"tipo" : "cor",
+	"ref" : "09"
+	},
+	{
+	"nome" : "Stone Preto Grafite-309",
+	"tipo" : "cor",
+	"ref" : "10"
+	},
+	{
+	"nome" : "Stone Marinho-352",
+	"tipo" : "cor",
+	"ref" : "11"
+	},
+	{
+	"nome" : "Stone Ametista-337",
+	"tipo" : "cor",
+	"ref" : "12"
+	}
+	
+<!-- fim Meia Malha Mista Stonada -->
+
+<!-- Meia Malha Flamê PET -->
+
+{
+	"nome" : "Branco-001",
+	"tipo" : "cor",
+	"ref" : "01"
+	},
+	{
+	"nome" : "Preto-009",
+	"tipo" : "cor",
+	"ref" : "02"
+	},
+	{
+	"nome" : "Azul Marinho-119",
+	"tipo" : "cor",
+	"ref" : "03"
+	},
+	{
+	"nome" : "Vermelho-122",
+	"tipo" : "cor",
+	"ref" : "04"
+	}
+
+<!-- fim Meia Malha Flamê -->
+
+<!-- Ribana é igual à Piquet Mista -->
+
+
+
+
+<!-- Suedine -->
+
+{
+	"nome" : "Branco-001",
+	"tipo" : "cor",
+	"ref" : "01"
+	},
+	{
+	"nome" : "Rosa Claro-003",
+	"tipo" : "cor",
+	"ref" : "02"
+	},
+	{
+	"nome" : "Amarelo Claro-004",
+	"tipo" : "cor",
+	"ref" : "03"
+	},
+	{
+	"nome" : "Preto-009",
+	"tipo" : "cor",
+	"ref" : "04"
+	},
+	{
+	"nome" : "Amarelo Girassol-010",
+	"tipo" : "cor",
+	"ref" : "05"
+	},
+	{
+	"nome" : "Azul Lavanda-013",
+	"tipo" : "cor",
+	"ref" : "06"
+	},
+	{
+	"nome" : "Marfim-014",
+	"tipo" : "cor",
+	"ref" : "07"
+	},
+	{
+	"nome" : "Vinho-024",
+	"tipo" : "cor",
+	"ref" : "08"
+	},
+	{
+	"nome" : "Azul Claro-029",
+	"tipo" : "cor",
+	"ref" : "09"
+	},
+	{
+	"nome" : "Verde Garrafa-047",
+	"tipo" : "cor",
+	"ref" : "10"
+	},
+	{
+	"nome" : "Vermelho-122",
+	"tipo" : "cor",
+	"ref" : "11"
+	},
+	{
+	"nome" : "Azul Royal Bic-073",
+	"tipo" : "cor",
+	"ref" : "12"
+	},
+	{
+	"nome" : "Cinza Claro-083",
+	"tipo" : "cor",
+	"ref" : "13"
+	},
+	{
+	"nome" : "Azul Marinho-119",
+	"tipo" : "cor",
+	"ref" : "14"
+	}
+
+<!-- fim da Suedine -->
