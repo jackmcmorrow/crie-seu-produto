@@ -1098,25 +1098,7 @@
 			]
 		},
 
-		{
-			"nome" : "Gola V",
-			"selecionado" : "false",
-			"tipo" : "golas",
-			"ref" : "golas_v",
-			"sub" : [
-				{
-					"nome" : "100% Algodão",
-					"tipo" : "modeloGola", 
-					"ref" : "100-algodao/01"
-				}, 
-				
-				{
-					"nome" : "100% Poliéster Mista Havaí (MBV)",
-					"tipo" : "modeloGola", 
-					"ref" : "100-poliester-mista/havai/01"
-				}
-			]
-		},
+		
 
 		{
 			"nome" : "Gola para camisa polo",
@@ -1409,34 +1391,559 @@
 						"nome" : "Listrado América Fundo Branco/Listras Amarelo e Cinza Claro-209",
 						"tipo" : "modeloGola",
 						"ref" : "america/20"
+						},
+						{
+						"nome" : "Liso Branco-801",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/01"
+						},
+						{
+						"nome" : "Liso Areia-835",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/02"
+						},
+						{
+						"nome" : "Liso Amarelo Girassol-844",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/03"
+						},
+						{
+						"nome" : "Liso Amarelo Ouro-810",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/04"
+						},
+						{
+						"nome" : "Liso Azul Claro-823",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/05"
+						},
+						{
+						"nome" : "Liso Azul Bahamas-816",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/06"
+						},
+						{
+						"nome" : "Liso Azul Royal Claro-827",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/07"
+						},
+						{
+						"nome" : "Liso Azul Royal Bic-815",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/08"
+						},
+						{
+						"nome" : "Liso Azul Marinho-813",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/09"
+						},
+						{
+						"nome" : "Liso Azul Marinho Escuro-814",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/10"
+						},
+						{
+						"nome" : "Liso Verde Alface-859",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/11"
+						},
+						{
+						"nome" : "Liso Verde Garrafa-847",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/12"
+						},
+						{
+						"nome" : "Liso Verde Floresta-840",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/13"
+						},
+						{
+						"nome" : "Liso Cinza Claro-883",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/14"
+						},
+						{
+						"nome" : "Liso Cinza Chumbo-833",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/15"
+						},
+						{
+						"nome" : "Liso Veludo-830",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/16"
+						},
+						{
+						"nome" : "Liso Vermelho-811",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/17"
+						},
+						{
+						"nome" : "Liso Café-863",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/18"
+						},
+						{
+						"nome" : "Liso Preto-809",
+						"tipo" : "modeloGola",
+						"ref" : "100_poliester_liso/19"
+						},
+						{
+						"nome" : "Listrado “Linha 8060” Fundo Royal Bic/Listra Amarela-8065",
+						"tipo" : "modeloGola",
+						"ref" : "8060_listrado/01"
+						},
+						{
+						"nome" : "Listrado “Linha 8060” Fundo Royal Bic/Listra Branca-8063",
+						"tipo" : "modeloGola",
+						"ref" : "8060_listrado/02"
+						},
+						{
+						"nome" : "Listrado “Linha 8060” Fundo Branco/Listra Preta-8060",
+						"tipo" : "modeloGola",
+						"ref" : "8060_listrado/03"
+						},
+						{
+						"nome" : "Listrado “Linha 8060” Fundo Preto/Listra Branca-8061",
+						"tipo" : "modeloGola",
+						"ref" : "8060_listrado/04"
+						},
+						{
+						"nome" : "Listrado “Linha 8060” Fundo Preto/Listra Vermelha-8066",
+						"tipo" : "modeloGola",
+						"ref" : "8060_listrado/05"
+						},
+						{
+						"nome" : "Listrado “Linha 8060” Fundo Preto/Listra Amarelo Girassol-8067",
+						"tipo" : "modeloGola",
+						"ref" : "8060_listrado/06"
+						},
+						{
+						"nome" : "Listrado “Linha 8060” Fundo Vermelho/Listra Preta-8062",
+						"tipo" : "modeloGola",
+						"ref" : "8060_listrado/07"
+						},
+						{
+						"nome" : "Listrado “Linha 8060” Fundo Vermelho/Listra Branca-8064",
+						"tipo" : "modeloGola",
+						"ref" : "8060_listrado/08"
+						},
+						{
+						"nome" : "Listrado “Linha 8060” Fundo Preto/Listra Fucsia-8068",
+						"tipo" : "modeloGola",
+						"ref" : "8060_listrado/09"
+						},
+						{
+						"nome" : "Listrado “Linha 8060” Fundo Preto/Listra Azul Royal Claro-8069 ",
+						"tipo" : "modeloGola",
+						"ref" : "8060_listrado/10"
+						},
+						{
+						"nome" : "Listrado “Linha 8060” Fundo Preto/Listra Verde Garrafa-8070",
+						"tipo" : "modeloGola",
+						"ref" : "8060_listrado/11"
+						},
+						{
+						"nome" : "Listrado “Linha 8200” Brasil Fundo Verde Garrafa-8203",
+						"tipo" : "modeloGola",
+						"ref" : "8200_listrado/01"
+						},
+						{
+						"nome" : "Listrado “Linha 8200” Brasil Fundo Amarelo Girassol-8202",
+						"tipo" : "modeloGola",
+						"ref" : "8200_listrado/02"
+						},
+						{
+						"nome" : "Listrado “Linha 8200” Brasil Fundo Branco-8201",
+						"tipo" : "modeloGola",
+						"ref" : "8200_listrado/03"
+						},
+						{
+						"nome" : "Listrado “Linha 8200” Brasil Fundo Azul Royal Bic-8204",
+						"tipo" : "modeloGola",
+						"ref" : "8200_listrado/04"
+						},
+						{
+						"nome" : "Listrado “Linha 8200” Fluminense-8205",
+						"tipo" : "modeloGola",
+						"ref" : "8200_listrado/05"
+						},
+						{
+						"nome" : "Listrado Havaí Fundo Royal Bic/Listras Branca e Vermelha-1964",
+						"tipo" : "modeloGola",
+						"ref" : "listrado_havai/01"
+						},
+						{
+						"nome" : "Listrado Havaí Fundo Marinho/Listras Brancas-1915",
+						"tipo" : "modeloGola",
+						"ref" : "listrado_havai/02"
+						},
+						{
+						"nome" : "Listrado Havaí Fundo Azul Royal Bic/Listras Brancas-1973",
+						"tipo" : "modeloGola",
+						"ref" : "listrado_havai/03"
+						},
+						{
+						"nome" : "Listrado Havaí Fundo Vermelho/Listras Brancas-1922",
+						"tipo" : "modeloGola",
+						"ref" : "listrado_havai/04"
+						},
+						{
+						"nome" : "Listrado Havaí Fundo Floresta/Listras Branca e Cinza-1963",
+						"tipo" : "modeloGola",
+						"ref" : "listrado_havai/05"
+						},
+						{
+						"nome" : "Listrado Havaí Fundo Azul Royal Claro/Listras Brancas-1918",
+						"tipo" : "modeloGola",
+						"ref" : "listrado_havai/06"
+						},
+						{
+						"nome" : "Listrado “Linha 8080” Fundo Preto/Listra Branca-8081",
+						"tipo" : "modeloGola",
+						"ref" : "listrado_8080/01"
+						},
+						{
+						"nome" : "Listrado “Linha 8080” Fundo Preto/Listra Areia-8085",
+						"tipo" : "modeloGola",
+						"ref" : "listrado_8080/02"
+						},
+						{
+						"nome" : "Listrado “Linha 8080” Fundo Preto/Listra Vermelha-8082",
+						"tipo" : "modeloGola",
+						"ref" : "listrado_8080/03"
+						},
+						{
+						"nome" : "Listrado “Linha 8080” Fundo Vermelho/Listra Amarelo Girassol-8084",
+						"tipo" : "modeloGola",
+						"ref" : "listrado_8080/04"
 						}
 					]
 		},
 
 		{
-			"nome" : "Gola mista",
+			"nome" : "Golas Carecas",
 			"selecionado" : "false",
 			"tipo" : "golas",
-			"ref" : "golas_v/golas_mistas",
+			"ref" : "golas_carecas",
 			"sub" : [
-							{
-								"nome" : "Listrado América (GA)",
-								"tipo" : "modeloGola", 
-								"ref" : "listrado_america/01_verde_garrafa_agua"
-							}, 
-							
-							{
-								"nome" : "Listrado América (AG)",
-								"tipo" : "modeloGola", 
-								"ref" : "listrado_america/02_verde_agua_garrafa"
-							},
+				{
+				"nome" : "Lisa Branco-001",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/01"
+				},
+				{
+				"nome" : "Lisa Alfazema-023",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/02"
+				},
+				{
+				"nome" : "Lisa Lilás-055",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/03"
+				},
+				{
+				"nome" : "Lisa Ametista-037",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/03"
+				},
+				{
+				"nome" : "Lisa Rosa Claro-003",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/04"
+				},
+				{
+				"nome" : "Lisa Telha-146",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/06"
+				},
+				{
+				"nome" : "Lisa Papaya-132",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/05"
+				},
+				{
+				"nome" : "Lisa Veludo-106",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/06"
+				},
+				{
+				"nome" : "Lisa Rosa Antigo-162",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/07"
+				},
+				{
+				"nome" : "Lisa Melancia-163",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/08"
+				},
+				{
+				"nome" : "Lisa Vermelho-122",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/09"
+				},
+				{
+				"nome" : "Lisa Vinho-024",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/10"
+				},
+				{
+				"nome" : "Lisa Areia-035",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/11"
+				},
+				{
+				"nome" : "Lisa Nude-161",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/12"
+				},
+				{
+				"nome" : "Lisa Capuccino-156",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/13"
+				},
+				{
+				"nome" : "Lisa Café-063",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/14"
+				},
+				{
+				"nome" : "Lisa Marfim-014",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/15"
+				},
+				{
+				"nome" : "Lisa Amarelo Claro-004",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/16"
+				},
+				{
+				"nome" : "Lisa Amarelo Girassol-010",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/17"
+				},
+				{
+				"nome" : "Lisa Mostarda-020",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/18"
+				},
+				{
+				"nome" : "Lisa Azul Céu-164",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/19"
+				},
+				{
+				"nome" : "Lisa Azul Turquesa-016",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/20"
+				},
+				{
+				"nome" : "Lisa Jeans-153",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/21"
+				},
+				{
+				"nome" : "Lisa Azul Marinho-119",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/22"
+				},
+				{
+				"nome" : "Lisa Azul Lavanda-013",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/23"
+				},
+				{
+				"nome" : "Lisa Azul Bahamas-116",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/24"
+				},
+				{
+				"nome" : "Lisa Azul Royal Claro-027",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/25"
+				},
+				{
+				"nome" : "Lisa Azul Royal Bic-073",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/26"
+				},
+				{
+				"nome" : "Lisa Azul Claro-029",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/27"
+				},
+				{
+				"nome" : "Lisa Caribe-134",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/28"
+				},
+				
+				{
+				"nome" : "Lisa Verde Menta-026",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/29"
+				},
+				{
+				"nome" : "Lisa Verde Água-006",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/30"
+				},
+				
+				{
+				"nome" : "Lisa Verde Floresta-040",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/31"
+				},
+				
+				{
+				"nome" : "Lisa Cinza Claro-083",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/32"
+				},
+				{
+				"nome" : "Lisa Cinza Chumbo-076",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/33"
+				},
+				{
+				"nome" : "Lisa Preto-009",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/34"
+				},
+				{
+				"nome" : "Lisa Cinza Mescla-042",
+				"tipo" : "modeloGola",
+				"ref" : "lisas/35"
+				},
+				{
+				"nome" : "Stone Pink-363",
+				"tipo" : "modeloGola",
+				"ref" : "stonadas/01"
+				},
+				{
+				"nome" : "Stone Vinho-324",
+				"tipo" : "modeloGola",
+				"ref" : "stonadas/03"
+				},
+				{
+				"nome" : "Stone Violeta-396",
+				"tipo" : "modeloGola",
+				"ref" : "stonadas/04"
+				},
+				{
+				"nome" : "Stone Índigo-345",
+				"tipo" : "modeloGola",
+				"ref" : "stonadas/02"
+				},
+				{
+				"nome" : "Stone Veludo-306",
+				"tipo" : "modeloGola",
+				"ref" : "stonadas/05"
+				},
+				{
+				"nome" : "Stone Vermelho-322",
+				"tipo" : "modeloGola",
+				"ref" : "stonadas/06"
+				},
+				{
+				"nome" : "Stone Menta-326",
+				"tipo" : "modeloGola",
+				"ref" : "stonadas/07"
+				},
+				{
+				"nome" : "Stone Floresta-340",
+				"tipo" : "modeloGola",
+				"ref" : "stonadas/08"
+				},
+				{
+				"nome" : "Stone Jeans-356",
+				"tipo" : "modeloGola",
+				"ref" : "stonadas/09"
+				},
+				{
+				"nome" : "Stone Preto Grafite-309",
+				"tipo" : "modeloGola",
+				"ref" : "stonadas/10"
+				},
+				{
+				"nome" : "Stone Marinho-352",
+				"tipo" : "modeloGola",
+				"ref" : "stonadas/11"
+				},
+				{
+				"nome" : "Stone Ametista-337",
+				"tipo" : "modeloGola",
+				"ref" : "stonadas/12"
+				}
+			]
+		},
 
-							{
-								"nome" : "Listrado Europa (BAC)",
-								"tipo" : "modeloGola", 
-								"ref" : "listrado_europa/01_branco_azul_claro"
-							}
-						]
+		{
+			"nome" : "Gola V",
+			"selecionado" : "false",
+			"tipo" : "golas",
+			"ref" : "golas_v",
+			"sub" : [
+						{
+						"nome" : "Stone Pink-363",
+						"tipo" : "modeloGola",
+						"ref" : "golas_mistas/stonadas/01"
+						},
+						{
+						"nome" : "Stone Vinho-324",
+						"tipo" : "modeloGola",
+						"ref" : "golas_mistas/stonadas/03"
+						},
+						{
+						"nome" : "Stone Violeta-396",
+						"tipo" : "modeloGola",
+						"ref" : "golas_mistas/stonadas/04"
+						},
+						{
+						"nome" : "Stone Índigo-345",
+						"tipo" : "modeloGola",
+						"ref" : "golas_mistas/stonadas/02"
+						},
+						{
+						"nome" : "Stone Veludo-306",
+						"tipo" : "modeloGola",
+						"ref" : "golas_mistas/stonadas/05"
+						},
+						{
+						"nome" : "Stone Vermelho-322",
+						"tipo" : "modeloGola",
+						"ref" : "golas_mistas/stonadas/06"
+						},
+						{
+						"nome" : "Stone Menta-326",
+						"tipo" : "modeloGola",
+						"ref" : "golas_mistas/stonadas/07"
+						},
+						{
+						"nome" : "Stone Floresta-340",
+						"tipo" : "modeloGola",
+						"ref" : "golas_mistas/stonadas/08"
+						},
+						{
+						"nome" : "Stone Jeans-356",
+						"tipo" : "modeloGola",
+						"ref" : "golas_mistas/stonadas/09"
+						},
+						{
+						"nome" : "Stone Preto Grafite-309",
+						"tipo" : "modeloGola",
+						"ref" : "golas_mistas/stonadas/10"
+						},
+						{
+						"nome" : "Stone Marinho-352",
+						"tipo" : "modeloGola",
+						"ref" : "golas_mistas/stonadas/11"
+						},
+						{
+						"nome" : "Stone Ametista-337",
+						"tipo" : "modeloGola",
+						"ref" : "golas_mistas/stonadas/12"
+						}
+					]
 		},
 
 		{
@@ -1450,7 +1957,7 @@
 			"nome" : "100% Poliéster",
 			"selecionado" : "false",
 			"tipo" : "punhos",
-			"ref" : "100_poliester",
+			"ref" : "golas_polo",
 			"sub" : [
 							{
 								"nome" : "100% Algodão",
@@ -1459,9 +1966,9 @@
 							}, 
 							
 							{
-								"nome" : "100% Poliéster Mista",
+								"nome" : "Listrado Europa (BAC)",
 								"tipo" : "modeloPunhos", 
-								"ref" : "100_poliester_mista"
+								"ref" : "stonadas/01"
 							}
 					]
 		}

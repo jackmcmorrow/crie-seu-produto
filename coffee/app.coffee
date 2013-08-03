@@ -128,7 +128,7 @@ criarProdutos = ->
 					$('#canvas .' + _tipo + ' img').attr('src', dir);
 				else if tipo is 'modeloPunhos'
 					_tipo = 'punhos'
-					dir += _tipo+ '/' +subPaiRef+ '/' +subRef+ '.png'
+					dir += 'golas/' +subPaiRef+ '/' +subRef+ '.png'
 					console.log(dir)
 					$('#canvas .' + _tipo + ' img').attr('src', dir);
 				else if tipo is 'ribana'

@@ -37,14 +37,23 @@ body p {
   position: absolute;
   top: 50px;
   left: 49px;
+  overflow: hidden;
+  height: 100px;
 }
-/* line 41, ../sass/base.scss */
+/* line 43, ../sass/base.scss */
 #canvas .golas img {
   width: 89%;
 }
-/* line 44, ../sass/base.scss */
+/* line 46, ../sass/base.scss */
 #canvas .punhos {
   position: absolute;
-  top: 135px;
-  left: 5px;
+  top: 150px;
+  left: 49px;
+  overflow: hidden;
+  height: 130px;
+}
+/* line 53, ../sass/base.scss */
+#canvas .punhos img {
+  width: 89%;
+  margin-top: -100px;
 }

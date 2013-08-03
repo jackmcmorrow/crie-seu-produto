@@ -37,13 +37,22 @@ body {
 		position: absolute;		
 		top: 50px;
 		left: 49px;
+		overflow: hidden;
+		height: 100px;
 
 		img {width: 89%;}
 	}
 	
 	.punhos {
 		position: absolute;		
-		top: 135px;
-		left: 5px;
+		top: 150px;
+		left: 49px;
+		overflow: hidden;
+		height: 130px;
+
+		img {
+			width: 89%;
+			margin-top: -100px;
+		}
 	}
 }
