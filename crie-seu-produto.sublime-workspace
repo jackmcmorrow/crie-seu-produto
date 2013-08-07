@@ -4,16 +4,48 @@
 		"selected_items":
 		[
 			[
-				"lista",
-				"listaCores"
+				"Mescla",
+				"Mescla-042"
+			],
+			[
+				"malha",
+				"malhaSelecionada"
+			],
+			[
+				"ext",
+				"ext"
 			],
 			[
 				"cor",
-				"cor"
+				"corSelecionada"
+			],
+			[
+				"gol",
+				"modeloGola"
+			],
+			[
+				"ref",
+				"ref"
+			],
+			[
+				"modelo",
+				"modeloGola"
+			],
+			[
+				"lista",
+				"listaSubs"
 			],
 			[
 				"val",
 				"val"
+			],
+			[
+				"mode",
+				"modeloPunho"
+			],
+			[
+				"wi",
+				"width"
 			],
 			[
 				"j",
@@ -44,43 +76,60 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "json/produtos.json",
 			"settings":
 			{
-				"buffer_size": 4031,
-				"line_ending": "Windows"
+				"buffer_size": 40211,
+				"line_ending": "Windows",
+				"name": "["
+			}
+		},
+		{
+			"file": "/C/Users/Daniel/Dropbox/imagens_crie_seu_produto/visualize.html",
+			"settings":
+			{
+				"buffer_size": 4134,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "json/malha-pique-mista.json",
+			"settings":
+			{
+				"buffer_size": 2556,
+				"line_ending": "Windows",
+				"name": "MALHA PIQUET MISTA"
 			}
 		},
 		{
 			"file": "coffee/app.coffee",
 			"settings":
 			{
-				"buffer_size": 1518,
+				"buffer_size": 4174,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "json/malhas.json",
+			"settings":
+			{
+				"buffer_size": 6926,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "sass/base.scss",
 			"settings":
 			{
-				"buffer_size": 879,
+				"buffer_size": 713,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "json/produtos.json",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2555,
-				"line_ending": "Windows",
-				"name": "["
-			}
-		},
-		{
-			"file": "js/app.js",
-			"settings":
-			{
-				"buffer_size": 3094,
+				"buffer_size": 10904,
 				"line_ending": "Windows"
 			}
 		}
@@ -88,9 +137,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 173.0,
 		"selected_items":
 		[
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
 			[
 				"jso",
 				"Set Syntax: JSON"
@@ -125,6 +178,13 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/css/jotformz.css",
+		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/.gitignore",
+		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/sass/base.scss",
+		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/index.html",
+		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/coffee/app.coffee",
+		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/js/app.js",
+		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/jotformz.html",
 		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/js/jquery.js",
 		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/css/bootstrap.css"
 	],
@@ -141,9 +201,16 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"/stonada",
+			"23",
+			"\"16\"",
+			"\"01\"",
+			"punho",
+			"gola",
+			"malha",
 			"            \n",
 			"form",
 			"1",
@@ -165,7 +232,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 		],
@@ -178,105 +245,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 4031,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2401,
-								2401
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "coffee/app.coffee",
-					"settings":
-					{
-						"buffer_size": 1518,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1074,
-								1074
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 336.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sass/base.scss",
-					"settings":
-					{
-						"buffer_size": 879,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								511,
-								511
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "json/produtos.json",
 					"settings":
 					{
-						"buffer_size": 2555,
+						"buffer_size": 40211,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								412,
-								412
+								221,
+								221
 							]
 						],
 						"settings":
@@ -286,41 +271,169 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 108.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 4,
-					"file": "js/app.js",
+					"buffer": 1,
+					"file": "/C/Users/Daniel/Dropbox/imagens_crie_seu_produto/visualize.html",
 					"settings":
 					{
-						"buffer_size": 3094,
+						"buffer_size": 4134,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3931,
+								3931
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1956.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "json/malha-pique-mista.json",
+					"settings":
+					{
+						"buffer_size": 2556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								2554
+							]
+						],
+						"settings":
+						{
+							"auto_name": "MALHA PIQUET MISTA",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2512.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "coffee/app.coffee",
+					"settings":
+					{
+						"buffer_size": 4174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3640,
+								3640
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1718.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "json/malhas.json",
+					"settings":
+					{
+						"buffer_size": 6926,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sass/base.scss",
+					"settings":
+					{
+						"buffer_size": 713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								681,
+								681
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 407.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 10904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4286,
+								4286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 24.0,
-						"translation.y": 1086.0,
+						"translation.x": 0.0,
+						"translation.y": 1112.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -345,18 +458,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.578189806207,
 			1.0
 		],
 		"rows":
@@ -366,6 +472,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"replace":
 	{
 		"height": 0.0
@@ -388,9 +498,9 @@
 		"width": 0.0
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 150.0,
+	"side_bar_visible": true,
+	"side_bar_width": 131.0,
 	"status_bar_visible": true
 }

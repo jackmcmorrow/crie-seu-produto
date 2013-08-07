@@ -56,3 +56,14 @@ body {
 		}
 	}
 }
+
+.btn {
+	display: inline-block;
+	padding: 2px 4px;
+	border: 5px;
+	background-color: #cccccc;
+	color: #222222;
+	text-decoration: none;
+
+	&.active {background-color: #777777; color: #ffffff;}
+}

@@ -181,17 +181,14 @@ criarProdutos = function() {
           corSelecionada = corRef;
         }
         dir += _tipo + '/' + corPaiRef + '/' + corSelecionada + '.png';
-        console.log(dir);
         $('#canvas .' + _tipo + ' img').attr('src', dir);
       } else if (tipo === 'modeloGola') {
         _tipo = 'golas';
         dir += _tipo + '/' + subPaiRef + '/' + subRef + '.png';
-        console.log(dir);
         $('#canvas .' + _tipo + ' img').attr('src', dir);
       } else if (tipo === 'modeloPunhos') {
         _tipo = 'punhos';
         dir += 'golas/' + subPaiRef + '/' + subRef + '.png';
-        console.log(dir);
         $('#canvas .' + _tipo + ' img').attr('src', dir);
       } else if (tipo === 'ribana') {
         _tipo = 'malhas';

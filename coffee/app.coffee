@@ -118,18 +118,18 @@ criarProdutos = ->
 					if corRef isnt undefined
 						corSelecionada = corRef
 					dir += _tipo+ '/' +corPaiRef+ '/' +corSelecionada+ '.png'
-					console.log(dir)
+					#console.log(dir)
 					
 					$('#canvas .' + _tipo + ' img').attr('src', dir);
 				else if tipo is 'modeloGola'
 					_tipo = 'golas'
 					dir += _tipo+ '/' +subPaiRef+ '/' +subRef+ '.png'
-					console.log(dir)
+					#console.log(dir)
 					$('#canvas .' + _tipo + ' img').attr('src', dir);
 				else if tipo is 'modeloPunhos'
 					_tipo = 'punhos'
 					dir += 'golas/' +subPaiRef+ '/' +subRef+ '.png'
-					console.log(dir)
+					#console.log(dir)
 					$('#canvas .' + _tipo + ' img').attr('src', dir);
 				else if tipo is 'ribana'
 					_tipo = 'malhas'
