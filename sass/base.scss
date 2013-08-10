@@ -31,6 +31,8 @@ body {
 		position: absolute;		
 		top: 50px;
 		left: 50px;
+
+		img { width: 400px;}
 	}
 	
 	.golas {
@@ -53,6 +55,10 @@ body {
 		img {
 			width: 89%;
 			margin-top: -100px;
+		}
+
+		&.tshirt img {
+			margin-top: -124px;
 		}
 	}
 }

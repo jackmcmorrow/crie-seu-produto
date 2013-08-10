@@ -79,7 +79,8 @@
               <li>
                 <label class="form-label-left">Estilo: </label>
                 <div class="form-input">
-                  <a href="#" class="btn active" id="estilo_1">Polo</a> <a href="#" class="btn" id="estilo_2">T-shirt</a>
+                  <a href="#" class="btn" id="estilo_polo">Polo</a> 
+                  <a href="#" class="btn" id="estilo_tshirt">T-shirt</a>
                 </div>
               </li>
               <li class="form-line" id="id_3">
@@ -209,9 +210,6 @@
 	  			<div class="malhas">
 	  				<img width="400" src="" alt="">
 	  			</div>
-	  			<div class="cor">
-	  				<img src="" alt="">
-	  			</div>
 	  			<div class="golas">
 	  				<img src="" alt="">
 	  			</div>
@@ -224,5 +222,43 @@
   </div>
   
   <script src="js/app.js"></script>
+  <script>
+    $(document).ready(function(e) {
+      var option = '<option></option>';
+      var img = '<img>';
+
+      $('#estilo_polo').on('click', function(e) {
+        e.preventDefault();
+        $('select option').remove();
+        $('select').append(option);
+
+        $(this).addClass('active');
+        $('#canvas img').remove();
+        $('#canvas .malhas').append(img);
+        $('#canvas .golas').append(img);
+        $('#canvas .punhos').append(img);
+        $('#estilo_tshirt').removeClass('active');
+        $('#canvas .punhos').removeClass('tshirt');
+        
+        criarProdutos('polo.json');
+      });
+
+      $('#estilo_tshirt').on('click', function(e) {
+        e.preventDefault();
+        $('select option').remove();
+        $('select').append(option);
+
+        $(this).addClass('active');
+        $('#canvas img').remove();
+        $('#canvas .malhas').append(img);
+        $('#canvas .golas').append(img);
+        $('#canvas .punhos').append(img);
+        $('#estilo_polo').removeClass('active');
+        $('#canvas .punhos').addClass('tshirt');
+        
+        criarProdutos('tshirt.json')
+      });
+    });
+  </script>
 </body>
 </html>

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"modelo",
+				"modeloGola"
+			],
+			[
 				"Mescla",
 				"Mescla-042"
 			],
@@ -26,10 +34,6 @@
 			[
 				"ref",
 				"ref"
-			],
-			[
-				"modelo",
-				"modeloGola"
 			],
 			[
 				"lista",
@@ -79,49 +83,33 @@
 			"file": "json/produtos.json",
 			"settings":
 			{
-				"buffer_size": 40211,
+				"buffer_size": 82341,
 				"line_ending": "Windows",
 				"name": "["
-			}
-		},
-		{
-			"file": "/C/Users/Daniel/Dropbox/imagens_crie_seu_produto/visualize.html",
-			"settings":
-			{
-				"buffer_size": 4134,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "json/malha-pique-mista.json",
-			"settings":
-			{
-				"buffer_size": 2556,
-				"line_ending": "Windows",
-				"name": "MALHA PIQUET MISTA"
 			}
 		},
 		{
 			"file": "coffee/app.coffee",
 			"settings":
 			{
-				"buffer_size": 4174,
+				"buffer_size": 4303,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "json/malhas.json",
+			"file": "json/punhos01.json",
 			"settings":
 			{
-				"buffer_size": 6926,
-				"line_ending": "Unix"
+				"buffer_size": 9041,
+				"line_ending": "Windows",
+				"name": "Algumas observações apenas... { \"nome\" : \"Punhos 1"
 			}
 		},
 		{
 			"file": "sass/base.scss",
 			"settings":
 			{
-				"buffer_size": 713,
+				"buffer_size": 905,
 				"line_ending": "Windows"
 			}
 		},
@@ -129,7 +117,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10904,
+				"buffer_size": 11193,
 				"line_ending": "Windows"
 			}
 		}
@@ -137,9 +125,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 173.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
 			[
 				"open",
 				"View: Toggle Open Files in Side Bar"
@@ -178,6 +170,11 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Daniel/Dropbox/imagens_crie_seu_produto/golas/gola_v_100_poliester_havai_e_8080.html",
+		"/C/Users/Daniel/Dropbox/imagens_crie_seu_produto/golas/gola_v_100_algodao.html",
+		"/C/Users/Daniel/Dropbox/imagens_crie_seu_produto/visualize.html",
+		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/json/malha-pique-mista.json",
+		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/json/malhas.json",
 		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/css/jotformz.css",
 		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/.gitignore",
 		"/C/Users/Daniel/Documents/GitHub/crie-seu-produto/sass/base.scss",
@@ -204,6 +201,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"listrado_asia/14",
+			"Gola V 100% algodão	",
+			"Gola V 100% poliéster",
+			"Gola V Mista	",
 			"/stonada",
 			"23",
 			"\"16\"",
@@ -245,7 +246,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -253,15 +254,15 @@
 					"file": "json/produtos.json",
 					"settings":
 					{
-						"buffer_size": 40211,
+						"buffer_size": 82341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								221,
-								221
+								68277,
+								68277
 							]
 						],
 						"settings":
@@ -271,78 +272,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 39730.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/Daniel/Dropbox/imagens_crie_seu_produto/visualize.html",
-					"settings":
-					{
-						"buffer_size": 4134,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3931,
-								3931
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1956.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "json/malha-pique-mista.json",
-					"settings":
-					{
-						"buffer_size": 2556,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20,
-								2554
-							]
-						],
-						"settings":
-						{
-							"auto_name": "MALHA PIQUET MISTA",
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2512.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "coffee/app.coffee",
 					"settings":
 					{
-						"buffer_size": 4174,
+						"buffer_size": 4303,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3640,
-								3640
+								3200,
+								3200
 							]
 						],
 						"settings":
@@ -351,31 +299,31 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1718.0,
+						"translation.y": 1755.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "json/malhas.json",
+					"buffer": 2,
+					"file": "json/punhos01.json",
 					"settings":
 					{
-						"buffer_size": 6926,
+						"buffer_size": 9041,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								102,
-								102
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"auto_name": "Algumas observações apenas... { \"nome\" : \"Punhos 1",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -384,19 +332,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"file": "sass/base.scss",
 					"settings":
 					{
-						"buffer_size": 713,
+						"buffer_size": 905,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								681,
-								681
+								775,
+								775
 							]
 						],
 						"settings":
@@ -405,25 +353,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 407.0,
+						"translation.y": 677.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 10904,
+						"buffer_size": 11193,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4286,
-								4286
+								4478,
+								4478
 							]
 						],
 						"settings":
@@ -433,7 +381,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1112.0,
+						"translation.y": 1061.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

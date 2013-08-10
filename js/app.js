@@ -46,11 +46,12 @@ produto = (function() {
 
 })();
 
-criarProdutos = function() {
-  var corCdp, criarSubs, lista, listaCores, listaSubs, prepararImagem, subTipos, tipo, tipos, _i, _len, _results;
-  lista = fetch('produtos.json');
+criarProdutos = function(arq) {
+  var corCdp, criarSubs, lista, listaCores, listaGolas, listaSubs, prepararImagem, subTipos, tipo, tipos, _i, _len, _results;
+  lista = fetch(arq);
   listaSubs = [];
   listaCores = [];
+  listaGolas = [];
   tipos = ['malhas', 'golas', 'punhos'];
   subTipos = ['cor', 'modeloGola', 'modeloPunhos', 'ribana'];
   corCdp = 0;
@@ -84,8 +85,10 @@ criarProdutos = function() {
         c = new produto(subCdp += 1, subNome, subTipo, subRef);
         c.subPaiRef = subPaiRef;
         c.ext += c.subPaiRef;
-        if (subTipo === 'cor') {
+        if (subTipo === 'cor' || subTipo === 'ribana') {
           _results.push(listaCores.push(c));
+        } else if (subTipo === 'golas') {
+          _results.push(listaGolas.push(c));
         } else {
           _results.push(listaSubs.push(c));
         }
@@ -123,6 +126,7 @@ criarProdutos = function() {
         malhaSelecionada = ref;
         listaSubs.splice(0, listaSubs.length);
         listaCores.splice(0, listaCores.length);
+        listaGolas.splice(0, listaGolas.length);
       }
       if (tipo === 'malhas' || tipo === 'punhos' || tipo === 'golas') {
         for (_j = 0, _len1 = lista.length; _j < _len1; _j++) {
@@ -184,15 +188,12 @@ criarProdutos = function() {
         $('#canvas .' + _tipo + ' img').attr('src', dir);
       } else if (tipo === 'modeloGola') {
         _tipo = 'golas';
-        dir += _tipo + '/' + subPaiRef + '/' + subRef + '.png';
+        dir += 'golas/' + subPaiRef + '/' + subRef + '.png';
         $('#canvas .' + _tipo + ' img').attr('src', dir);
       } else if (tipo === 'modeloPunhos') {
         _tipo = 'punhos';
         dir += 'golas/' + subPaiRef + '/' + subRef + '.png';
         $('#canvas .' + _tipo + ' img').attr('src', dir);
-      } else if (tipo === 'ribana') {
-        _tipo = 'malhas';
-        dir += _tipo + '/' + ref + '/' + corSelecionada + '.png';
       } else if (tipo === 'malhas') {
         corSelecionada = '01';
         dir += corSelecionada + '.png';
@@ -208,5 +209,3 @@ criarProdutos = function() {
   }
   return _results;
 };
-
-criarProdutos();

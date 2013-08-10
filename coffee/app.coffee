@@ -26,10 +26,11 @@ class produto
 		$(@select).append(@el)
 		
 
-criarProdutos = ->
-		lista = fetch 'produtos.json'
+criarProdutos = (arq)->
+		lista = fetch arq
 		listaSubs = [];
 		listaCores = [];
+		listaGolas = [];
 		tipos = ['malhas', 'golas', 'punhos'];
 		subTipos = ['cor', 'modeloGola', 'modeloPunhos', 'ribana']
 
@@ -59,8 +60,10 @@ criarProdutos = ->
 					c = new produto subCdp += 1, subNome, subTipo, subRef
 					c.subPaiRef = subPaiRef
 					c.ext += c.subPaiRef
-					if subTipo is 'cor'
+					if subTipo is 'cor' or subTipo is 'ribana'
 						listaCores.push(c)
+					else if subTipo is 'golas'
+						listaGolas.push(c)
 					else
 						listaSubs.push(c)
 
@@ -84,6 +87,7 @@ criarProdutos = ->
 					malhaSelecionada = ref
 					listaSubs.splice 0, listaSubs.length
 					listaCores.splice 0, listaCores.length
+					listaGolas.splice 0, listaGolas.length
 				
 				if tipo is 'malhas' or tipo is 'punhos' or tipo is 'golas'
 					oid = i.oid for i in lista when i.nome is val
@@ -123,7 +127,7 @@ criarProdutos = ->
 					$('#canvas .' + _tipo + ' img').attr('src', dir);
 				else if tipo is 'modeloGola'
 					_tipo = 'golas'
-					dir += _tipo+ '/' +subPaiRef+ '/' +subRef+ '.png'
+					dir += 'golas/' +subPaiRef+ '/' +subRef+ '.png'
 					#console.log(dir)
 					$('#canvas .' + _tipo + ' img').attr('src', dir);
 				else if tipo is 'modeloPunhos'
@@ -131,9 +135,7 @@ criarProdutos = ->
 					dir += 'golas/' +subPaiRef+ '/' +subRef+ '.png'
 					#console.log(dir)
 					$('#canvas .' + _tipo + ' img').attr('src', dir);
-				else if tipo is 'ribana'
-					_tipo = 'malhas'
-					dir += _tipo+ '/' +ref+ '/' +corSelecionada+ '.png'
+				
 				else if tipo is 'malhas'
 					corSelecionada = '01'
 					dir += corSelecionada + '.png';
@@ -146,4 +148,4 @@ criarProdutos = ->
 			
 
 
-criarProdutos()
+
