@@ -13,6 +13,14 @@
   </script-->
 </head>
 <body>
+
+  
+
+
+ 
+ 
+
+
   <div class="container">
   	<div id="app" class="row-fluid">
 	  	<div class="span6 overflow">
@@ -81,6 +89,7 @@
                 <div class="form-input">
                   <a href="#" class="btn" id="estilo_polo">Polo</a> 
                   <a href="#" class="btn" id="estilo_tshirt">T-shirt</a>
+                  <a href="#" class="btn" id="estilo_tshirt_golav">T-shirt com Gola V</a>
                 </div>
               </li>
               <li class="form-line" id="id_3">
@@ -88,7 +97,7 @@
                 <div id="cid_3" class="form-input">
                   <div id="malhas">
                   <select class="form-dropdown" style="width:150px" id="input_3" name="q3_malha3">
-                    <option value="">  </option>
+                    <option value=""> Selecione um estilo </option>
                   </select>
                   </div>
                 </div>
@@ -98,7 +107,7 @@
                 <div id="cid_6" class="form-input">
                   <div id="cor">
                   <select class="form-dropdown" style="width:150px" id="input_6" name="q6_cor">
-                    <option value="">  </option>
+                    <option value=""> Selecione um estilo </option>
                   </select>
                   </div>
                 </div>
@@ -130,7 +139,7 @@
                 <div id="cid_4" class="form-input">
                   <div id="golas">
                   <select class="form-dropdown" style="width:150px" id="input_4" name="q4_gola">
-                    <option value="">  </option>
+                    <option value=""> Selecione um estilo </option>
                   </select>
                   </div>
                 </div>
@@ -140,7 +149,7 @@
                 <div id="cid_10" class="form-input">
                   <div id="modeloGola">
                   <select class="form-dropdown" style="width:150px" id="input_10" name="q10_modelo">
-                    <option value="">  </option>
+                    <option value=""> Selecione um estilo </option>
                   </select>
                   </div>
                 </div>
@@ -156,7 +165,7 @@
                 <div id="cid_5" class="form-input">
                   <div id="punhos">
                   <select class="form-dropdown" style="width:150px" id="input_5" name="q5_punhos5">
-                    <option value="">  </option>
+                    <option value=""> Selecione um estilo </option>
                   </select>
                   </div>
                 </div>
@@ -166,7 +175,7 @@
                 <div id="cid_15" class="form-input">
                   <div id="modeloPunhos">
                   <select class="form-dropdown" style="width:250px" id="input_15" name="q15_modelo15">
-                    <option value="">  </option>
+                    <option value=""> Selecione um estilo </option>
                     
                   </select>
                   </div>
@@ -232,6 +241,7 @@
         $('select option').remove();
         $('select').append(option);
 
+        $('.btn').removeClass('active');
         $(this).addClass('active');
         $('#canvas img').remove();
         $('#canvas .malhas').append(img);
@@ -248,6 +258,7 @@
         $('select option').remove();
         $('select').append(option);
 
+        $('.btn').removeClass('active');
         $(this).addClass('active');
         $('#canvas img').remove();
         $('#canvas .malhas').append(img);
@@ -257,6 +268,25 @@
         $('#canvas .punhos').addClass('tshirt');
         
         criarProdutos('tshirt.json')
+      });
+
+      $('#estilo_tshirt_golav').on('click', function(e) {
+        e.preventDefault();
+        $('select option').remove();
+        $('select').append(option);
+
+        $('.btn').removeClass('active');
+        $(this).addClass('active');
+        $('#canvas img').remove();
+        $('#canvas .malhas').append(img);
+        $('#canvas .malhas img').attr('src', 'img/malhas/meia_malha/economica/01.png');
+        $('#canvas .golas').append(img);
+        $('#canvas .golas img').attr('src', 'img/golas/golas_v/base.png');
+        $('#canvas .punhos').append(img);
+        $('#estilo_polo').removeClass('active');
+        $('#canvas .punhos').addClass('tshirt');
+        
+        criarProdutos('tshirt_golav.json')
       });
     });
   </script>

@@ -1,42 +1,34 @@
-/* line 5, ../sass/base.scss */
 body p {
   color: #efefef;
 }
 
-/* line 8, ../sass/base.scss */
 .row-fluid {
   width: 100%;
 }
-/* line 10, ../sass/base.scss */
 .row-fluid .span6 {
   float: left;
   width: 45%;
   margin-right: 2%;
 }
 
-/* line 22, ../sass/base.scss */
 .form-line.ribana {
   display: none;
 }
 
-/* line 24, ../sass/base.scss */
 #canvas {
   position: relative;
   width: 500px;
   height: 511px;
   background-color: #efefef;
 }
-/* line 30, ../sass/base.scss */
 #canvas .malhas {
   position: absolute;
   top: 50px;
   left: 50px;
 }
-/* line 35, ../sass/base.scss */
 #canvas .malhas img {
   width: 400px;
 }
-/* line 38, ../sass/base.scss */
 #canvas .golas {
   position: absolute;
   top: 50px;
@@ -44,11 +36,9 @@ body p {
   overflow: hidden;
   height: 100px;
 }
-/* line 45, ../sass/base.scss */
 #canvas .golas img {
   width: 89%;
 }
-/* line 48, ../sass/base.scss */
 #canvas .punhos {
   position: absolute;
   top: 150px;
@@ -56,17 +46,14 @@ body p {
   overflow: hidden;
   height: 130px;
 }
-/* line 55, ../sass/base.scss */
 #canvas .punhos img {
   width: 89%;
   margin-top: -100px;
 }
-/* line 60, ../sass/base.scss */
 #canvas .punhos.tshirt img {
   margin-top: -124px;
 }
 
-/* line 66, ../sass/base.scss */
 .btn {
   display: inline-block;
   padding: 2px 4px;
@@ -75,7 +62,6 @@ body p {
   color: #222222;
   text-decoration: none;
 }
-/* line 74, ../sass/base.scss */
 .btn.active {
   background-color: #777777;
   color: #ffffff;
