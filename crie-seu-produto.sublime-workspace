@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"estilo_",
+				"estilo_tshirt"
+			],
+			[
 				"inline",
 				"inline-block"
 			],
@@ -83,24 +91,67 @@
 			"file": "json/produtos.json",
 			"settings":
 			{
-				"buffer_size": 82341,
+				"buffer_size": 106347,
 				"line_ending": "Windows",
 				"name": "["
+			}
+		},
+		{
+			"file": "json/polo.json",
+			"settings":
+			{
+				"buffer_size": 65992,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "json/tshirt.json",
+			"settings":
+			{
+				"buffer_size": 74743,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Daniel/Dropbox/imagens_crie_seu_produto/punhos_mistos.html",
+			"settings":
+			{
+				"buffer_size": 14159,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "coffee/app.coffee",
 			"settings":
 			{
-				"buffer_size": 4303,
+				"buffer_size": 4193,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "json/punhos01.json",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9041,
+				"buffer_size": 12293,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Daniel/Dropbox/imagens_crie_seu_produto/produtos/jacquard.html",
+			"settings":
+			{
+				"buffer_size": 707,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{ \"nome\" : \"Listrado Fundo Branco/Listras Vermelho e Preto-9401\", \"tipo\" : \"modeloPunho\", \"ref\" : \"mista_bordado/01\" }, { \"nome\" : \"Listrado Fundo Vermelho/Listras Branco e Preto-9402\", \"tipo\" : \"modeloPunho\", \"ref\" : \"mista_bordado/02\" }, { \"nome\" : \"Listrado Fundo Marinho/Listras Branco e Cinza Mescla-9403\", \"tipo\" : \"modeloPunho\", \"ref\" : \"mista_bordado/03\" }, { \"nome\" : \"Listrado Fundo Marinho/Listras Lilás-9404\", \"tipo\" : \"modeloPunho\", \"ref\" : \"mista_bordado/04\" }, { \"nome\" : \"Listrado Fundo Marinho/Listras Veludo-9405\", \"tipo\" : \"modeloPunho\", \"ref\" : \"mista_bordado/05\" }, { \"nome\" : \"Listrado Fundo Branco/Listras Amarelo Girassol e V. Garrafa-9406\", \"tipo\" : \"modeloPunho\", \"ref\" : \"mista_bordado/06\" }, { \"nome\" : \"Listrado Fundo Amarelo Girassol/Listras Royal Bic e V. Garrafa-9407\", \"tipo\" : \"modeloPunho\", \"ref\" : \"mista_bordado/07\" }, { \"nome\" : \"Listrado Fundo V. Garrafa/Listras Royal Bic e Amarelo Girassol-9408\", \"tipo\" : \"modeloPunho\", \"ref\" : \"mista_bordado/08\" } Daniel, esses Punhos 100% poliester Liso, a pasta dele corresponde à mesma da gola_polo... é a mesma coisa, rs... ok? { \"nome\" : \"Punhos 100% poliéster	Liso Branco-801\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/01\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Areia-835\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/02\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Amarelo Girassol-844\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/03\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Amarelo Ouro-810\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/04\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Azul Claro-823\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/05\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Azul Bahamas-816\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/06\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Azul Royal Claro-827\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/07\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Azul Royal Bic-815\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/08\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Azul Marinho-813\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/09\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Azul Marinho Escuro-814\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/10\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Verde Alface-859\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/11\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Verde Garrafa-847\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/13\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Verde Floresta-840\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/14\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Cinza Claro-883\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/15\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Cinza Chumbo-833\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/15\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Veludo-830\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/16\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Vermelho-811\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/17\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Café-863\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/18\" }, { \"nome\" : \"Punhos 100% poliéster	Liso Preto-809\", \"tipo\" : \"modeloPunho\", \"ref\" : \"100_poliester_liso/19\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8060” Fundo Royal Bic/Listra Amarela-8065\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8060_listrado/01\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8060” Fundo Royal Bic/Listra Branca-8063\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8060_listrado/02\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8060” Fundo Branco/Listra Preta-8060\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8060_listrado/03\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8060” Fundo Preto/Listra Branca-8061\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8060_listrado/04\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8060” Fundo Preto/Listra Vermelha-8066\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8060_listrado/05\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8060” Fundo Preto/Listra Amarela Girassol-8067\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8060_listrado/06\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8060” Fundo Vermelho/Listra Preta-8062\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8060_listrado/07\" }, { \"nome\" : \"Punhos 100% poliéster Listrado “Linha 8060” Fundo Vermelho/Listra Branca-8064\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8060_listrado/08\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8060” Fundo Preto/Listra Fucsia-8068\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8060_listrado/09\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8060” Fundo Preto/Listra Azul Royal Claro-8069\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8060_listrado/10\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8060” Fundo Preto/Listra Verde Garrafa-8070\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8060_listrado/11\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8200” Brasil Fundo Verde Garrafa-8203\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8200_listrado/01\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8200” Brasil Fundo Amarelo Girassol-8202\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8200_listrado/02\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8200” Brasil Fundo Branco-8201\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8200_listrado/03\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8200” Brasil Fundo Azul Royal Bic-8204\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8200_listrado/04\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8200” Fluminense-8205\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"8200_listrado/05\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Havaí Fundo Royal Bic/Listras Branca e Vermelha-1964\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"listrado_havai/01\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Havaí Fundo Marinho/Listras Brancas-1915\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"listrado_havai/02\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Havaí Fundo Azul Royal Bic/Listras Brancas-1973\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"listrado_havai/03\" }, { \"nome\" : \"Punhos 100% poliéster Listrado Havaí Fundo Vermelho/Listras Brancas-1922\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"listrado_havai/04\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Havaí Fundo Floresta/Listras Branca e Cinza-1963\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"listrado_havai/05\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Havaí Fundo Azul Royal Claro/Listras Brancas-1918\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"listrado_havai/06\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Havaí Fundo Mescla/Listras Pretas-1909\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"listrado_havai/07\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Havaí Fundo Mescla/Listras Brancas-1942\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"listrado_havai/08\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8080” Fundo Preto/Listra Branca-8081\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"listrado_8080/01\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8080” Fundo Preto/Listra Areia-8085\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"listrado_8080/02\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8080” Fundo Preto/Listra Areia-8085\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"listrado_8080/03\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado “Linha 8080” Fundo Vermelho/Listra Amarelo Girassol-8084\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"listrado_8080/04\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Ásia Vinho-519\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"asia_listrado/01\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Ásia Amarelo Girassol-503\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"asia_listrado/02\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Ásia Verde Garrafa-508\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"asia_listrado/03\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Ásia Verde Água-509\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"asia_listrado/04\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Ásia Azul Marinho-507\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"asia_listrado/05\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Ásia Azul Royal Bic-573\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"asia_listrado/06\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Ásia Azul Royal Claro-506\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"asia_listrado/07\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Ásia Azul Claro-504\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"asia_listrado/08\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Ásia Café-520\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"asia_listrado/09\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Ásia Areia-511\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"asia_listrado/10\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Ásia Preto-515\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"asia_listrado/11\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Ásia Cinza Chumbo-523\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"asia_listrado/12\" }, { \"nome\" : \"Punhos 100% poliéster	Listrado Ásia Cinza Claro-512\", \"tipo\" : \"modeloPunhos\", \"ref\" : \"asia_listrado/13\" },\n\n",
+			"file": "json/punhos01.json",
+			"file_size": 9302,
+			"file_write_time": 130205731508947023,
+			"settings":
+			{
+				"buffer_size": 8965,
 				"line_ending": "Windows",
 				"name": "Algumas observações apenas... { \"nome\" : \"Punhos 1"
 			}
@@ -109,15 +160,7 @@
 			"file": "sass/base.scss",
 			"settings":
 			{
-				"buffer_size": 905,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 11193,
+				"buffer_size": 974,
 				"line_ending": "Windows"
 			}
 		}
@@ -125,9 +168,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 104.0,
 		"selected_items":
 		[
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
 			[
 				"json",
 				"Set Syntax: JSON"
@@ -201,6 +248,16 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Punhos Mistos",
+			"Punhos Mistos ",
+			"listrado_8080",
+			"\"ref\":\"listrado_8080/04\"",
+			":\"listrado_8080/04\"",
+			"\"listrado_8080/04\"",
+			"listrado_8080/04",
+			"]",
+			"Punhos 100% algodão",
+			"modeloGola",
 			"listrado_asia/14",
 			"Gola V 100% algodão	",
 			"Gola V 100% poliéster",
@@ -246,7 +303,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -254,15 +311,15 @@
 					"file": "json/produtos.json",
 					"settings":
 					{
-						"buffer_size": 82341,
+						"buffer_size": 106347,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								68277,
-								68277
+								106342,
+								64342
 							]
 						],
 						"settings":
@@ -272,25 +329,106 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 39730.0,
+						"translation.y": 43683.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "coffee/app.coffee",
+					"file": "json/polo.json",
 					"settings":
 					{
-						"buffer_size": 4303,
+						"buffer_size": 65992,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3200,
-								3200
+								0,
+								65992
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 26033.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "json/tshirt.json",
+					"settings":
+					{
+						"buffer_size": 74743,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7924,
+								7924
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6936.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Daniel/Dropbox/imagens_crie_seu_produto/punhos_mistos.html",
+					"settings":
+					{
+						"buffer_size": 14159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12923,
+								14154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8396.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "coffee/app.coffee",
+					"settings":
+					{
+						"buffer_size": 4193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1646,
+								1646
 							]
 						],
 						"settings":
@@ -299,17 +437,72 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1755.0,
+						"translation.y": 675.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 5,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 12293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12103,
+								12103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3667.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Daniel/Dropbox/imagens_crie_seu_produto/produtos/jacquard.html",
+					"settings":
+					{
+						"buffer_size": 707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "json/punhos01.json",
 					"settings":
 					{
-						"buffer_size": 9041,
+						"buffer_size": 8965,
 						"regions":
 						{
 						},
@@ -317,7 +510,7 @@
 						[
 							[
 								0,
-								0
+								8965
 							]
 						],
 						"settings":
@@ -332,19 +525,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 8,
 					"file": "sass/base.scss",
 					"settings":
 					{
-						"buffer_size": 905,
+						"buffer_size": 974,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								775,
-								775
+								451,
+								451
 							]
 						],
 						"settings":
@@ -353,35 +546,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 677.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 11193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4478,
-								4478
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1061.0,
+						"translation.y": 362.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
