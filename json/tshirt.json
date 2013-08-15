@@ -358,7 +358,7 @@
         "nome": "Meia Malha Flamê PET",
         "selecionado": "false",
         "tipo": "malhas",
-        "ref": "meia_malha/flame",
+        "ref": "meia_malha/flame_pet",
         "sub": [
             {
                 "nome": "Branco-001",
@@ -589,7 +589,7 @@
         "nome": "Suedine",
         "selecionado": "false",
         "tipo": "malhas",
-        "ref": "suedine_gola_careca",
+        "ref": "t-shirts/suedine",
         "sub": [
             {
                 "nome": "Branco-001",
@@ -920,47 +920,47 @@
         "nome": "100% Algodão",
         "selecionado": "false",
         "tipo": "punhos",
-        "ref": "100_algodao",
+        "ref": "golas_polo/100_algodao_dupla_face",
         "sub": [
             {
                 "nome": "Listrado Fundo Branco/Listras Vermelho e Preto-9401",
                 "tipo": "modeloPunhos",
-                "ref": "mista_bordado/01"
+                "ref": "01"
             },
             {
                 "nome": "Listrado Fundo Vermelho/Listras Branco e Preto-9402",
                 "tipo": "modeloPunhos",
-                "ref": "mista_bordado/02"
+                "ref": "02"
             },
             {
                 "nome": "Listrado Fundo Marinho/Listras Branco e Cinza Mescla-9403",
                 "tipo": "modeloPunhos",
-                "ref": "mista_bordado/03"
+                "ref": "03"
             },
             {
                 "nome": "Listrado Fundo Marinho/Listras Lilás-9404",
                 "tipo": "modeloPunhos",
-                "ref": "mista_bordado/04"
+                "ref": "04"
             },
             {
                 "nome": "Listrado Fundo Marinho/Listras Veludo-9405",
                 "tipo": "modeloPunhos",
-                "ref": "mista_bordado/05"
+                "ref": "05"
             },
             {
                 "nome": "Listrado Fundo Branco/Listras Amarelo Girassol e V. Garrafa-9406",
                 "tipo": "modeloPunhos",
-                "ref": "mista_bordado/06"
+                "ref": "06"
             },
             {
                 "nome": "Listrado Fundo Amarelo Girassol/Listras Royal Bic e V. Garrafa-9407",
                 "tipo": "modeloPunhos",
-                "ref": "mista_bordado/07"
+                "ref": "07"
             },
             {
                 "nome": "Listrado Fundo V. Garrafa/Listras Royal Bic e Amarelo Girassol-9408",
                 "tipo": "modeloPunhos",
-                "ref": "mista_bordado/08"
+                "ref": "08"
             }
         ]
     },
@@ -971,174 +971,269 @@
         "ref": "golas_polo",
         "sub": [
             {
-                "nome": "Stone Pink-363",
+                "nome": "Liso Branco-801",
                 "tipo": "modeloPunhos",
-                "ref": "stonadas/01"
+                "ref": "100_poliester_liso/01"
             },
             {
-                "nome": "Stone Vinho-324",
+                "nome": "Liso Areia-835",
                 "tipo": "modeloPunhos",
-                "ref": "stonadas/02"
+                "ref": "100_poliester_liso/02"
             },
             {
-                "nome": "Stone Violeta-396",
+                "nome": "Liso Amarelo Girassol-844",
                 "tipo": "modeloPunhos",
-                "ref": "stonadas/03"
+                "ref": "100_poliester_liso/03"
             },
             {
-                "nome": "Stone Índigo-345",
+                "nome": "Liso Amarelo Ouro-810",
                 "tipo": "modeloPunhos",
-                "ref": "stonadas/04"
+                "ref": "100_poliester_liso/04"
             },
             {
-                "nome": "Stone Veludo-306",
+                "nome": "Liso Azul Claro-823",
                 "tipo": "modeloPunhos",
-                "ref": "stonadas/05"
+                "ref": "100_poliester_liso/05"
             },
             {
-                "nome": "Stone Vermelho-322",
+                "nome": "Liso Azul Bahamas-816",
                 "tipo": "modeloPunhos",
-                "ref": "stonadas/06"
+                "ref": "100_poliester_liso/06"
             },
             {
-                "nome": "Stone Menta-326",
+                "nome": "Liso Azul Royal Claro-827",
                 "tipo": "modeloPunhos",
-                "ref": "stonadas/07"
+                "ref": "100_poliester_liso/07"
             },
             {
-                "nome": "Stone Floresta-340",
+                "nome": "Liso Azul Royal Bic-815",
                 "tipo": "modeloPunhos",
-                "ref": "stonadas/08"
+                "ref": "100_poliester_liso/08"
             },
             {
-                "nome": "Stone Jeans-356",
+                "nome": "Liso Azul Marinho-813",
                 "tipo": "modeloPunhos",
-                "ref": "stonadas/09"
+                "ref": "100_poliester_liso/09"
             },
             {
-                "nome": "Stone Preto Grafite-309",
+                "nome": "Liso Azul Marinho Escuro-814",
                 "tipo": "modeloPunhos",
-                "ref": "stonadas/10"
+                "ref": "100_poliester_liso/10"
             },
             {
-                "nome": "Stone Marinho-352",
+                "nome": "Liso Verde Alface-859",
                 "tipo": "modeloPunhos",
-                "ref": "stonadas/11"
+                "ref": "100_poliester_liso/11"
             },
             {
-                "nome": "Stone Ametista-337",
+                "nome": "Liso Verde Garrafa-847",
                 "tipo": "modeloPunhos",
-                "ref": "stonadas/12"
+                "ref": "100_poliester_liso/12"
             },
             {
-                "nome": "Bordado Listras Am. Ouro e Am. Girassol/Bordado Am. Girassol-902",
+                "nome": "Liso Verde Floresta-840",
                 "tipo": "modeloPunhos",
-                "ref": "bordados/01"
+                "ref": "100_poliester_liso/13"
             },
             {
-                "nome": "Bordado Listras Ametista e Lilás/Bordado Lilás-948",
+                "nome": "Liso Cinza Claro-883",
                 "tipo": "modeloPunhos",
-                "ref": "bordados/02"
+                "ref": "100_poliester_liso/14"
             },
             {
-                "nome": "Bordado Listras V. Garrafa e V. Água/Bordado V. Água-917",
+                "nome": "Liso Cinza Chumbo-833",
                 "tipo": "modeloPunhos",
-                "ref": "bordados/03"
+                "ref": "100_poliester_liso/15"
             },
             {
-                "nome": "Bordado Listras Azul Royal Claro e Azul Claro/Bordado Azul Claro-926",
+                "nome": "Liso Veludo-830",
                 "tipo": "modeloPunhos",
-                "ref": "bordados/04"
+                "ref": "100_poliester_liso/16"
             },
             {
-                "nome": "Bordado Listras Vermelho e Marinho/Bordado Marinho-931",
+                "nome": "Liso Vermelho-811",
                 "tipo": "modeloPunhos",
-                "ref": "bordados/05"
+                "ref": "100_poliester_liso/17"
             },
             {
-                "nome": "Bordado Listras Fucsia e Rosa Claro/Bordado Rosa Claro-907",
+                "nome": "Liso Café-863",
                 "tipo": "modeloPunhos",
-                "ref": "bordados/06"
+                "ref": "100_poliester_liso/18"
             },
             {
-                "nome": "Bordado Listras Cinza Claro e Rosa Claro/Bordado Rosa Claro-946",
+                "nome": "Liso Preto-809",
                 "tipo": "modeloPunhos",
-                "ref": "bordados/07"
+                "ref": "100_poliester_liso/19"
             },
             {
-                "nome": "Bordado Listras Preta e Cinza Claro/Bordado Cinza Claro-913",
+                "nome": "Listrado Ásia Vermelho-510",
                 "tipo": "modeloPunhos",
-                "ref": "bordados/08"
+                "ref": "listrado_asia/01"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras Azul Royal Claro-354",
+                "nome": "Listrado Ásia Vinho-519",
                 "tipo": "modeloPunhos",
-                "ref": "europa/01"
+                "ref": "listrado_asia/02"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras Cinza Claro-362",
+                "nome": "Listrado Ásia Amarelo Girassol-503",
                 "tipo": "modeloPunhos",
-                "ref": "europa/02"
+                "ref": "listrado_asia/03"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras Pretas-356",
+                "nome": "Listrado Ásia Verde Garrafa-508",
                 "tipo": "modeloPunhos",
-                "ref": "europa/03"
+                "ref": "listrado_asia/04"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras Verde Garrafa-357",
+                "nome": "Listrado Ásia Verde Água-509",
                 "tipo": "modeloPunhos",
-                "ref": "europa/04"
+                "ref": "listrado_asia/05"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras Azul Marinho-355",
+                "nome": "Listrado Ásia Azul Marinho-507",
                 "tipo": "modeloPunhos",
-                "ref": "europa/05"
+                "ref": "listrado_asia/06"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras Vinho-359",
+                "nome": "Listrado Ásia Azul Royal Bic-573",
                 "tipo": "modeloPunhos",
-                "ref": "europa/06"
+                "ref": "listrado_asia/07"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras Vermelhas-352",
+                "nome": "Listrado Ásia Azul Royal Claro-506",
                 "tipo": "modeloPunhos",
-                "ref": "europa/07"
+                "ref": "listrado_asia/08"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras Vermelho e V. Garrafa-374",
+                "nome": "Listrado Ásia Azul Claro-504",
                 "tipo": "modeloPunhos",
-                "ref": "europa/08"
+                "ref": "listrado_asia/09"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras Vermelho e Marinho-327",
+                "nome": "Listrado Ásia Café-520",
                 "tipo": "modeloPunhos",
-                "ref": "europa/09"
+                "ref": "listrado_asia/10"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras Amarelo e Royal Claro-321",
+                "nome": "Listrado Ásia Areia-511",
                 "tipo": "modeloPunhos",
-                "ref": "europa/10"
+                "ref": "listrado_asia/11"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras Amarelo e V. Garrafa-375",
+                "nome": "Listrado Ásia Preto-515",
                 "tipo": "modeloPunhos",
-                "ref": "europa/11"
+                "ref": "listrado_asia/12"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras Vermelho e Royal Claro-358",
+                "nome": "Listrado Ásia Cinza Chumbo-523",
                 "tipo": "modeloPunhos",
-                "ref": "europa/12"
+                "ref": "listrado_asia/13"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras V. Água e V. Garrafa-314",
+                "nome": "Listrado Ásia Cinza Claro-512",
                 "tipo": "modeloPunhos",
-                "ref": "europa/13"
+                "ref": "listrado_asia/14"
             },
             {
-                "nome": "Listrado Europa Fundo Branco/Listras Azul Claro e Royal Claro-320",
+                "nome": "Listrado “Linha 8080” Fundo Preto/Listra Branca-8081",
                 "tipo": "modeloPunhos",
-                "ref": "europa/14"
+                "ref": "listrado_8080/01"
+            },
+            {
+                "nome": "Listrado “Linha 8080” Fundo Preto/Listra Areia-8085",
+                "tipo": "modeloPunhos",
+                "ref": "listrado_8080/02"
+            },
+            {
+                "nome": "Listrado “Linha 8080” Fundo Preto/Listra Vermelha-8082",
+                "tipo": "modeloPunhos",
+                "ref": "listrado_8080/03"
+            },
+            {
+                "nome": "Listrado “Linha 8080” Fundo Vermelho/Listra Amarelo Girassol-8084",
+                "tipo": "modeloPunhos",
+                "ref": "listrado_8080/04"
+            },
+            {
+                "nome": "Listrado “Linha 8060” Fundo Royal Bic/Listra Amarela-8065",
+                "tipo": "modeloPunhos",
+                "ref": "8060_listrado/01"
+            },
+            {
+                "nome": "Listrado “Linha 8060” Fundo Royal Bic/Listra Branca-8063",
+                "tipo": "modeloPunhos",
+                "ref": "8060_listrado/02"
+            },
+            {
+                "nome": "Listrado “Linha 8060” Fundo Branco/Listra Preta-8060",
+                "tipo": "modeloPunhos",
+                "ref": "8060_listrado/03"
+            },
+            {
+                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Branca-8061",
+                "tipo": "modeloPunhos",
+                "ref": "8060_listrado/04"
+            },
+            {
+                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Vermelha-8066",
+                "tipo": "modeloPunhos",
+                "ref": "8060_listrado/05"
+            },
+            {
+                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Amarelo Girassol-8067",
+                "tipo": "modeloPunhos",
+                "ref": "8060_listrado/06"
+            },
+            {
+                "nome": "Listrado “Linha 8060” Fundo Vermelho/Listra Preta-8062",
+                "tipo": "modeloPunhos",
+                "ref": "8060_listrado/07"
+            },
+            {
+                "nome": "Listrado “Linha 8060” Fundo Vermelho/Listra Branca-8064",
+                "tipo": "modeloPunhos",
+                "ref": "8060_listrado/08"
+            },
+            {
+                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Fucsia-8068",
+                "tipo": "modeloPunhos",
+                "ref": "8060_listrado/09"
+            },
+            {
+                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Azul Royal Claro-8069 ",
+                "tipo": "modeloPunhos",
+                "ref": "8060_listrado/10"
+            },
+            {
+                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Verde Garrafa-8070",
+                "tipo": "modeloPunhos",
+                "ref": "8060_listrado/11"
+            },
+            {
+                "nome": "Listrado “Linha 8200” Brasil Fundo Verde Garrafa-8203",
+                "tipo": "modeloPunhos",
+                "ref": "8200_listrado/01"
+            },
+            {
+                "nome": "Listrado “Linha 8200” Brasil Fundo Amarelo Girassol-8202",
+                "tipo": "modeloPunhos",
+                "ref": "8200_listrado/02"
+            },
+            {
+                "nome": "Listrado “Linha 8200” Brasil Fundo Branco-8201",
+                "tipo": "modeloPunhos",
+                "ref": "8200_listrado/03"
+            },
+            {
+                "nome": "Listrado “Linha 8200” Brasil Fundo Azul Royal Bic-8204",
+                "tipo": "modeloPunhos",
+                "ref": "8200_listrado/04"
+            },
+            {
+                "nome": "Listrado “Linha 8200” Fluminense-8205",
+                "tipo": "modeloPunhos",
+                "ref": "8200_listrado/05"
             },
             {
                 "nome": "Listrado Havaí Fundo Marinho Tinto/Listras Brancas-1915",
@@ -1149,12 +1244,111 @@
                 "nome": "Listrado Havaí Fundo Mescla/Listras Pretas-1909",
                 "tipo": "modeloPunhos",
                 "ref": "havai/02"
+            }
+        ]
+    },
+    {
+        "nome": "Mistos",
+        "selecionado": "false",
+        "tipo": "punhos",
+        "ref": "golas_polo",
+        "sub": [
+            {
+                "nome": "Liso Branco-801",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/01"
             },
             {
-                "nome": "Listrado Havaí Fundo Mescla/Listras Brancas-1942",
+                "nome": "Liso Areia-835",
                 "tipo": "modeloPunhos",
-                "ref": "havai/03"
+                "ref": "100_poliester_liso/02"
             },
+            {
+                "nome": "Liso Amarelo Girassol-844",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/03"
+            },
+            {
+                "nome": "Liso Amarelo Ouro-810",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/04"
+            },
+            {
+                "nome": "Liso Azul Claro-823",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/05"
+            },
+            {
+                "nome": "Liso Azul Bahamas-816",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/06"
+            },
+            {
+                "nome": "Liso Azul Royal Claro-827",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/07"
+            },
+            {
+                "nome": "Liso Azul Royal Bic-815",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/08"
+            },
+            {
+                "nome": "Liso Azul Marinho-813",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/09"
+            },
+            {
+                "nome": "Liso Azul Marinho Escuro-814",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/10"
+            },
+            {
+                "nome": "Liso Verde Alface-859",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/11"
+            },
+            {
+                "nome": "Liso Verde Garrafa-847",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/12"
+            },
+            {
+                "nome": "Liso Verde Floresta-840",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/13"
+            },
+            {
+                "nome": "Liso Cinza Claro-883",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/14"
+            },
+            {
+                "nome": "Liso Cinza Chumbo-833",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/15"
+            },
+            {
+                "nome": "Liso Veludo-830",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/16"
+            },
+            {
+                "nome": "Liso Vermelho-811",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/17"
+            },
+            {
+                "nome": "Liso Café-863",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/18"
+            },
+            {
+                "nome": "Liso Preto-809",
+                "tipo": "modeloPunhos",
+                "ref": "100_poliester_liso/19"
+            },
+
             {
                 "nome": "Listrado América Fundo Branco/Listras V. Garrafa e V. Água-217",
                 "tipo": "modeloPunhos",
@@ -1255,1024 +1449,7 @@
                 "tipo": "modeloPunhos",
                 "ref": "america/20"
             },
-            {
-                "nome": "Liso Branco-801",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/01"
-            },
-            {
-                "nome": "Liso Areia-835",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/02"
-            },
-            {
-                "nome": "Liso Amarelo Girassol-844",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/03"
-            },
-            {
-                "nome": "Liso Amarelo Ouro-810",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/04"
-            },
-            {
-                "nome": "Liso Azul Claro-823",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/05"
-            },
-            {
-                "nome": "Liso Azul Bahamas-816",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/06"
-            },
-            {
-                "nome": "Liso Azul Royal Claro-827",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/07"
-            },
-            {
-                "nome": "Liso Azul Royal Bic-815",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/08"
-            },
-            {
-                "nome": "Liso Azul Marinho-813",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/09"
-            },
-            {
-                "nome": "Liso Azul Marinho Escuro-814",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/10"
-            },
-            {
-                "nome": "Liso Verde Alface-859",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/11"
-            },
-            {
-                "nome": "Liso Verde Garrafa-847",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/12"
-            },
-            {
-                "nome": "Liso Verde Floresta-840",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/13"
-            },
-            {
-                "nome": "Liso Cinza Claro-883",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/14"
-            },
-            {
-                "nome": "Liso Cinza Chumbo-833",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/15"
-            },
-            {
-                "nome": "Liso Veludo-830",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/16"
-            },
-            {
-                "nome": "Liso Vermelho-811",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/17"
-            },
-            {
-                "nome": "Liso Café-863",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/18"
-            },
-            {
-                "nome": "Liso Preto-809",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/19"
-            },
-            {
-                "nome": "Liso Branco-801",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/01"
-            },
-            {
-                "nome": "Liso Areia-835",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/02"
-            },
-            {
-                "nome": "Liso Amarelo Girassol-844",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/03"
-            },
-            {
-                "nome": "Liso Amarelo Ouro-810",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/04"
-            },
-            {
-                "nome": "Liso Azul Claro-823",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/05"
-            },
-            {
-                "nome": "Liso Azul Bahamas-816",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/06"
-            },
-            {
-                "nome": "Liso Azul Royal Claro-827",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/07"
-            },
-            {
-                "nome": "Liso Azul Royal Bic-815",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/08"
-            },
-            {
-                "nome": "Liso Azul Marinho-813",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/09"
-            },
-            {
-                "nome": "Liso Azul Marinho Escuro-814",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/10"
-            },
-            {
-                "nome": "Liso Verde Alface-859",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/11"
-            },
-            {
-                "nome": "Liso Verde Garrafa-847",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/13"
-            },
-            {
-                "nome": "Liso Verde Floresta-840",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/14"
-            },
-            {
-                "nome": "Liso Cinza Claro-883",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/15"
-            },
-            {
-                "nome": "Liso Cinza Chumbo-833",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/15"
-            },
-            {
-                "nome": "Liso Veludo-830",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/16"
-            },
-            {
-                "nome": "Liso Vermelho-811",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/17"
-            },
-            {
-                "nome": "Liso Café-863",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/18"
-            },
-            {
-                "nome": "Liso Preto-809",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/19"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Royal Bic/Listra Amarela-8065",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/01"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Royal Bic/Listra Branca-8063",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/02"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Branco/Listra Preta-8060",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/03"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Branca-8061",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/04"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Vermelha-8066",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/05"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Amarelo Girassol-8067",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/06"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Vermelho/Listra Preta-8062",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/07"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Vermelho/Listra Branca-8064",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/08"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Fucsia-8068",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/09"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Azul Royal Claro-8069 ",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/10"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Verde Garrafa-8070",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/11"
-            },
-            {
-                "nome": "Listrado “Linha 8200” Brasil Fundo Verde Garrafa-8203",
-                "tipo": "modeloPunhos",
-                "ref": "8200_listrado/01"
-            },
-            {
-                "nome": "Listrado “Linha 8200” Brasil Fundo Amarelo Girassol-8202",
-                "tipo": "modeloPunhos",
-                "ref": "8200_listrado/02"
-            },
-            {
-                "nome": "Listrado “Linha 8200” Brasil Fundo Branco-8201",
-                "tipo": "modeloPunhos",
-                "ref": "8200_listrado/03"
-            },
-            {
-                "nome": "Listrado “Linha 8200” Brasil Fundo Azul Royal Bic-8204",
-                "tipo": "modeloPunhos",
-                "ref": "8200_listrado/04"
-            },
-            {
-                "nome": "Listrado “Linha 8200” Fluminense-8205",
-                "tipo": "modeloPunhos",
-                "ref": "8200_listrado/05"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Royal Bic/Listras Branca e Vermelha-1964",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/01"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Marinho/Listras Brancas-1915",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/02"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Azul Royal Bic/Listras Brancas-1973",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/03"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Vermelho/Listras Brancas-1922",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/04"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Floresta/Listras Branca e Cinza-1963",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/05"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Azul Royal Claro/Listras Brancas-1918",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/06"
-            },
-            {
-                "nome": "Listrado “Linha 8080” Fundo Preto/Listra Branca-8081",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_8080/01"
-            },
-            {
-                "nome": "Listrado “Linha 8080” Fundo Preto/Listra Areia-8085",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_8080/02"
-            },
-            {
-                "nome": "Listrado “Linha 8080” Fundo Preto/Listra Vermelha-8082",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_8080/03"
-            },
-            {
-                "nome": "Listrado “Linha 8080” Fundo Vermelho/Listra Amarelo Girassol-8084",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_8080/04"
-            },
-            {
-                "nome": "Dupla-face Fundo Branco/Listras Vermelho e Preto-9401",
-                "tipo": "modeloPunhos",
-                "ref": "100_algodao_dupla_face/01"
-            },
-            {
-                "nome": "Dupla-face Fundo Vermelho/Listras Branco e Preto-9402",
-                "tipo": "modeloPunhos",
-                "ref": "100_algodao_dupla_face/02"
-            },
-            {
-                "nome": "Dupla-face Fundo Marinho/Listras Branco e Cinza Mescla-9403",
-                "tipo": "modeloPunhos",
-                "ref": "100_algodao_dupla_face/03"
-            },
-            {
-                "nome": "Dupla-face Fundo Marinho/Listras Lilás-9404",
-                "tipo": "modeloPunhos",
-                "ref": "100_algodao_dupla_face/04"
-            },
-            {
-                "nome": "Dupla-face Fundo Marinho/Listras Veludo-9405",
-                "tipo": "modeloPunhos",
-                "ref": "100_algodao_dupla_face/05"
-            },
-            {
-                "nome": "Dupla-face Fundo Branco/Listras Amarelo Girassol e V. Garrafa-9406",
-                "tipo": "modeloPunhos",
-                "ref": "100_algodao_dupla_face/06"
-            },
-            {
-                "nome": "Dupla-face Fundo Amarelo Girassol/Listras Royal Bic e V. Garrafa-9407",
-                "tipo": "modeloPunhos",
-                "ref": "100_algodao_dupla_face/07"
-            },
-            {
-                "nome": "Dupla-face Fundo V. Garrafa/Listras Royal Bic e Amarelo Girassol-9408",
-                "tipo": "modeloPunhos",
-                "ref": "100_algodao_dupla_face/08"
-            },
-            {
-                "nome": "Listrado Ásia Vermelho-510",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/01"
-            },
-            {
-                "nome": "Listrado Ásia Vinho-519",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/02"
-            },
-            {
-                "nome": "Listrado Ásia Amarelo Girassol-503",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/03"
-            },
-            {
-                "nome": "Listrado Ásia Verde Garrafa-508",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/04"
-            },
-            {
-                "nome": "Listrado Ásia Verde Água-509",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/05"
-            },
-            {
-                "nome": "Listrado Ásia Azul Marinho-507",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/06"
-            },
-            {
-                "nome": "Listrado Ásia Azul Royal Bic-573",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/07"
-            },
-            {
-                "nome": "Listrado Ásia Azul Royal Claro-506",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/08"
-            },
-            {
-                "nome": "Listrado Ásia Azul Claro-504",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/09"
-            },
-            {
-                "nome": "Listrado Ásia Café-520",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/10"
-            },
-            {
-                "nome": "Listrado Ásia Areia-511",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/11"
-            },
-            {
-                "nome": "Listrado Ásia Preto-515",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/12"
-            },
-            {
-                "nome": "Listrado Ásia Cinza Chumbo-523",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/13"
-            },
-            {
-                "nome": "Listrado Ásia Cinza Claro-512",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_asia/14"
-            },
-            {
-                "nome": "Listrado Ásia Vinho-519",
-                "tipo": "modeloPunhos",
-                "ref": "asia_listrado/01"
-            },
-            {
-                "nome": "Listrado Ásia Amarelo Girassol-503",
-                "tipo": "modeloPunhos",
-                "ref": "asia_listrado/02"
-            },
-            {
-                "nome": "Listrado Ásia Verde Garrafa-508",
-                "tipo": "modeloPunhos",
-                "ref": "asia_listrado/03"
-            },
-            {
-                "nome": "Listrado Ásia Verde Água-509",
-                "tipo": "modeloPunhos",
-                "ref": "asia_listrado/04"
-            },
-            {
-                "nome": "Listrado Ásia Azul Marinho-507",
-                "tipo": "modeloPunhos",
-                "ref": "asia_listrado/05"
-            },
-            {
-                "nome": "Listrado Ásia Azul Royal Bic-573",
-                "tipo": "modeloPunhos",
-                "ref": "asia_listrado/06"
-            },
-            {
-                "nome": "Listrado Ásia Azul Royal Claro-506",
-                "tipo": "modeloPunhos",
-                "ref": "asia_listrado/07"
-            },
-            {
-                "nome": "Listrado Ásia Azul Claro-504",
-                "tipo": "modeloPunhos",
-                "ref": "asia_listrado/08"
-            },
-            {
-                "nome": "Listrado Ásia Café-520",
-                "tipo": "modeloPunhos",
-                "ref": "asia_listrado/09"
-            },
-            {
-                "nome": "Listrado Ásia Areia-511",
-                "tipo": "modeloPunhos",
-                "ref": "asia_listrado/10"
-            },
-            {
-                "nome": "Listrado Ásia Preto-515",
-                "tipo": "modeloPunhos",
-                "ref": "asia_listrado/11"
-            },
-            {
-                "nome": "Listrado Ásia Cinza Chumbo-523",
-                "tipo": "modeloPunhos",
-                "ref": "asia_listrado/12"
-            },
-            {
-                "nome": "Listrado Ásia Cinza Claro-512",
-                "tipo": "modeloPunhos",
-                "ref": "asia_listrado/13"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Royal Bic/Listra Amarela-8065",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/01"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Royal Bic/Listra Branca-8063",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/02"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Branco/Listra Preta-8060",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/03"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Branca-8061",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/04"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Vermelha-8066",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/05"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Amarela Girassol-8067",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/06"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Vermelho/Listra Preta-8062",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/07"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Vermelho/Listra Branca-8064",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/08"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Fucsia-8068",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/09"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Azul Royal Claro-8069",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/10"
-            },
-            {
-                "nome": "Listrado “Linha 8060” Fundo Preto/Listra Verde Garrafa-8070",
-                "tipo": "modeloPunhos",
-                "ref": "8060_listrado/11"
-            },
-            {
-                "nome": "Listrado “Linha 8200” Brasil Fundo Verde Garrafa-8203",
-                "tipo": "modeloPunhos",
-                "ref": "8200_listrado/01"
-            },
-            {
-                "nome": "Listrado “Linha 8200” Brasil Fundo Amarelo Girassol-8202",
-                "tipo": "modeloPunhos",
-                "ref": "8200_listrado/02"
-            },
-            {
-                "nome": "Listrado “Linha 8200” Brasil Fundo Branco-8201",
-                "tipo": "modeloPunhos",
-                "ref": "8200_listrado/03"
-            },
-            {
-                "nome": "Listrado “Linha 8200” Brasil Fundo Azul Royal Bic-8204",
-                "tipo": "modeloPunhos",
-                "ref": "8200_listrado/04"
-            },
-            {
-                "nome": "Listrado “Linha 8200” Fluminense-8205",
-                "tipo": "modeloPunhos",
-                "ref": "8200_listrado/05"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Royal Bic/Listras Branca e Vermelha-1964",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/01"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Marinho/Listras Brancas-1915",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/02"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Azul Royal Bic/Listras Brancas-1973",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/03"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Vermelho/Listras Brancas-1922",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/04"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Floresta/Listras Branca e Cinza-1963",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/05"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Azul Royal Claro/Listras Brancas-1918",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/06"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Mescla/Listras Pretas-1909",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/07"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Mescla/Listras Brancas-1942",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_havai/08"
-            },
-            {
-                "nome": "Listrado “Linha 8080” Fundo Preto/Listra Branca-8081",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_8080/01"
-            },
-            {
-                "nome": "Listrado “Linha 8080” Fundo Preto/Listra Areia-8085",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_8080/02"
-            },
-            {
-                "nome": "Listrado “Linha 8080” Fundo Preto/Listra Areia-8085",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_8080/03"
-            },
-            {
-                "nome": "Listrado “Linha 8080” Fundo Vermelho/Listra Amarelo Girassol-8084",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_8080/04"
-            }
-        ]
-    },
-    {
-        "nome": "Mistos",
-        "selecionado": "false",
-        "tipo": "punhos",
-        "ref": "golas_polo",
-        "sub": [
-            {
-                "nome": "Branco-001",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/01"
-            },
-            {
-                "nome": "Alfazema-023",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/02"
-            },
-            {
-                "nome": "Lilás-055",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/03"
-            },
-            {
-                "nome": "Ametista-037",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/04"
-            },
-            {
-                "nome": "Rosa Claro-003",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/05"
-            },
-            {
-                "nome": "Telha-146",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/06"
-            },
-            {
-                "nome": "Papaya-132",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/07"
-            },
-            {
-                "nome": "Veludo-106",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/08"
-            },
-            {
-                "nome": "Rosa Antigo-162",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/09"
-            },
-            {
-                "nome": "Melancia-163",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/10"
-            },
-            {
-                "nome": "Vermelho-122",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/11"
-            },
-            {
-                "nome": "Vinho-024",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/12"
-            },
-            {
-                "nome": "Areia-035",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/13"
-            },
-            {
-                "nome": "Nude-161",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/14"
-            },
-            {
-                "nome": "Capuccino-156",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/15"
-            },
-            {
-                "nome": "Café-063",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/16"
-            },
-            {
-                "nome": "Marfim-014",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/17"
-            },
-            {
-                "nome": "Amarelo Claro-004",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/18"
-            },
-            {
-                "nome": "Amarelo Girassol-010",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/19"
-            },
-            {
-                "nome": "Mostarda-020",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/20"
-            },
-            {
-                "nome": "Azul Céu-164",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/21"
-            },
-            {
-                "nome": "Azul Turquesa-016",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/22"
-            },
-            {
-                "nome": "Jeans-153",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/23"
-            },
-            {
-                "nome": "Azul Marinho-119",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/24"
-            },
-            {
-                "nome": "Azul Lavanda-013",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/25"
-            },
-            {
-                "nome": "Azul Bahamas-116",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/26"
-            },
-            {
-                "nome": "Azul Royal Claro-027",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/27"
-            },
-            {
-                "nome": "Azul Royal Bic-073",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/28"
-            },
-            {
-                "nome": "Azul Claro-029",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/29"
-            },
-            {
-                "nome": "Caribe-134",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/30"
-            },
-            {
-                "nome": "Verde Alface-059",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/31"
-            },
-            {
-                "nome": "Verde Menta-026",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/32"
-            },
-            {
-                "nome": "Verde Água-006",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/33"
-            },
-            {
-                "nome": "Verde Garrafa-047",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/34"
-            },
-            {
-                "nome": "Verde Floresta-040",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/35"
-            },
-            {
-                "nome": "Pesto-128",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/36"
-            },
-            {
-                "nome": "Cinza Claro-083",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/37"
-            },
-            {
-                "nome": "Cinza Mescla-042",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/38"
-            },
-            {
-                "nome": "Cinza Chumbo-076",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/39"
-            },
-            {
-                "nome": "Preto-009",
-                "tipo": "modeloPunhos",
-                "ref": "mistas_lisas/40"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Mescla/Listras Pretas-1909",
-                "tipo": "modeloPunhos",
-                "ref": "havai_mista/02"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Marinho Tinto/Listras Brancas-1915",
-                "tipo": "modeloPunhos",
-                "ref": "havai_mista/01"
-            },
-            {
-                "nome": "Listrado Havaí Fundo Mescla/Listras Brancas-1942",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/03"
-            },
-            {
-                "nome": "Listrado Europa Fundo Branco/Listras Azul Royal Claro-354",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_europa/01"
-            },
-            {
-                "nome": "Listrado Europa Fundo Branco/Listras Cinza Claro-362",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_europa/02"
-            },
-            {
-                "nome": "Listrado Europa Fundo Branco/Listras Verde Garrafa-357",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_europa/03"
-            },
-            {
-                "nome": "Listrado Europa Fundo Branco/Listras Azul Marinho-355",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_europa/04"
-            },
-            {
-                "nome": "Listrado Europa Fundo Branco/Listras Vinho-359",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_europa/05"
-            },
-            {
-                "nome": "Listrado Europa Fundo Branco/Listras Vermelhas-352",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_europa/06"
-            },
-            {
-                "nome": "Listrado Europa Fundo Branco/Listras Vermelho e V. Garrafa-374",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_europa/07"
-            },
-            {
-                "nome": "Listrado Europa Fundo Branco/Listras Vermelho e Marinho-327",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_europa/08"
-            },
-            {
-                "nome": "Listrado Europa Fundo Branco/Listras Amarelo e Royal Claro-321",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_europa/09"
-            },
-            {
-                "nome": "Listrado Europa Fundo Branco/Listras Amarelo e V. Garrafa-375",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_europa/10"
-            },
-            {
-                "nome": "Listrado Europa Fundo Branco/Listras Vermelho e Royal Claro-358",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_europa/11"
-            },
-            {
-                "nome": "Listrado Europa Fundo Branco/Listras V. Água e V. Garrafa-314",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_europa/12"
-            },
-            {
-                "nome": "Listrado Europa Fundo Branco/Listras Azul Claro e Royal Claro-320",
-                "tipo": "modeloPunhos",
-                "ref": "listrado_europa/13"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras V. Garrafa e V. Água-217",
-                "tipo": "modeloPunhos",
-                "ref": "america/01"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras V. Água e V. Garrafa-214",
-                "tipo": "modeloPunhos",
-                "ref": "america/02"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras V. Alface e V. Garrafa-216",
-                "tipo": "modeloPunhos",
-                "ref": "america/03"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Vermelho e V. Garrafa-256",
-                "tipo": "modeloPunhos",
-                "ref": "america/04"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Amarelo e V. Garrafa-261",
-                "tipo": "modeloPunhos",
-                "ref": "america/05"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Am. Claro e Am. Ouro-201",
-                "tipo": "modeloPunhos",
-                "ref": "america/06"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Vermelho e Marinho-227",
-                "tipo": "modeloPunhos",
-                "ref": "america/07"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Royal Claro e Marinho-228",
-                "tipo": "modeloPunhos",
-                "ref": "america/08"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Amarelo e Royal Claro-221",
-                "tipo": "modeloPunhos",
-                "ref": "america/09"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Vermelho e Royal Claro-224",
-                "tipo": "modeloPunhos",
-                "ref": "america/10"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Azul Claro e Royal Claro-220",
-                "tipo": "modeloPunhos",
-                "ref": "america/11"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Royal Claro e Azul Claro-226",
-                "tipo": "modeloPunhos",
-                "ref": "america/12"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Cinza Claro e Preto-242",
-                "tipo": "modeloPunhos",
-                "ref": "america/13"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Café e Areia-247",
-                "tipo": "modeloPunhos",
-                "ref": "america/14"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Vermelho e Cinza Claro-232",
-                "tipo": "modeloPunhos",
-                "ref": "america/15"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Cinza Claro e Vinho-253",
-                "tipo": "modeloPunhos",
-                "ref": "america/16"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Amarelo e Vinho-252",
-                "tipo": "modeloPunhos",
-                "ref": "america/17"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Preto e Cinza Claro-213",
-                "tipo": "modeloPunhos",
-                "ref": "america/19"
-            },
-            {
-                "nome": "Listrado América Fundo Branco/Listras Amarelo e Cinza Claro-209",
-                "tipo": "modeloPunhos",
-                "ref": "america/20"
-            },
+
             {
                 "nome": "Bordado Listras Am. Ouro e Am. Girassol/Bordado Am. Girassol-902",
                 "tipo": "modeloPunhos",
@@ -2313,6 +1490,94 @@
                 "tipo": "modeloPunhos",
                 "ref": "bordados/08"
             },
+
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras Azul Royal Claro-354",
+                "tipo": "modeloPunhos",
+                "ref": "europa/01"
+            },
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras Cinza Claro-362",
+                "tipo": "modeloPunhos",
+                "ref": "europa/02"
+            },
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras Pretas-356",
+                "tipo": "modeloPunhos",
+                "ref": "europa/03"
+            },
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras Verde Garrafa-357",
+                "tipo": "modeloPunhos",
+                "ref": "europa/04"
+            },
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras Azul Marinho-355",
+                "tipo": "modeloPunhos",
+                "ref": "europa/05"
+            },
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras Vinho-359",
+                "tipo": "modeloPunhos",
+                "ref": "europa/06"
+            },
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras Vermelhas-352",
+                "tipo": "modeloPunhos",
+                "ref": "europa/07"
+            },
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras Vermelho e V. Garrafa-374",
+                "tipo": "modeloPunhos",
+                "ref": "europa/08"
+            },
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras Vermelho e Marinho-327",
+                "tipo": "modeloPunhos",
+                "ref": "europa/09"
+            },
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras Amarelo e Royal Claro-321",
+                "tipo": "modeloPunhos",
+                "ref": "europa/10"
+            },
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras Amarelo e V. Garrafa-375",
+                "tipo": "modeloPunhos",
+                "ref": "europa/11"
+            },
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras Vermelho e Royal Claro-358",
+                "tipo": "modeloPunhos",
+                "ref": "europa/12"
+            },
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras V. Água e V. Garrafa-314",
+                "tipo": "modeloPunhos",
+                "ref": "europa/13"
+            },
+            {
+                "nome": "Listrado Europa Fundo Branco/Listras Azul Claro e Royal Claro-320",
+                "tipo": "modeloPunhos",
+                "ref": "europa/14"
+            },
+
+            {
+                "nome": "Listrado Havaí Fundo Marinho Tinto/Listras Brancas-1915",
+                "tipo": "modeloPunhos",
+                "ref": "havai/01"
+            },
+            {
+                "nome": "Listrado Havaí Fundo Mescla/Listras Pretas-1909",
+                "tipo": "modeloPunhos",
+                "ref": "havai/02"
+            },
+            {
+                "nome": "Listrado Havaí Fundo Mescla/Listras Brancas-1942",
+                "tipo": "modeloPunhos",
+                "ref": "havai/03"
+            },
+
             {
                 "nome": "Listrado Tricolor Azul Claro/Cinza Claro/Azul Royal Claro-1402",
                 "tipo": "modeloPunhos",
@@ -2328,6 +1593,7 @@
                 "tipo": "modeloPunhos",
                 "ref": "tricolor/03"
             },
+
             {
                 "nome": "Milano Areia/Preto-03609035",
                 "tipo": "modeloPunhos",
@@ -2388,6 +1654,7 @@
                 "tipo": "modeloPunhos",
                 "ref": "milano/12"
             },
+
             {
                 "nome": "Stone Pink-363",
                 "tipo": "modeloPunhos",
