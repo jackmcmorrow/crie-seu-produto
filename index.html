@@ -43,7 +43,7 @@
               <li class="form-line" id="id_1">
                 <label class="form-label-left" id="label_1" for="input_1"> Estado: </label>
                 <div id="cid_1" class="form-input">
-                  <select class="form-dropdown" style="width:150px" id="input_1" name="q1_estado1">
+                  <select class="form-dropdown" id="input_1" name="q1_estado1">
                     <option value="">  </option>
                     <option value="Acre"> Acre </option>
                     <option value="Alagoas"> Alagoas </option>
@@ -96,7 +96,7 @@
                 <label class="form-label-left" id="label_3" for="input_3"> Malha: </label>
                 <div id="cid_3" class="form-input">
                   <div id="malhas">
-                  <select class="form-dropdown" style="width:150px" id="input_3" name="q3_malha3">
+                  <select class="form-dropdown crie" id="input_3" name="q3_malha3">
                     <option value=""> Selecione um estilo </option>
                   </select>
                   </div>
@@ -106,7 +106,7 @@
                 <label class="form-label-left" id="label_6" for="input_6"> Cor: </label>
                 <div id="cid_6" class="form-input">
                   <div id="cor">
-                  <select class="form-dropdown" style="width:150px" id="input_6" name="q6_cor">
+                  <select class="form-dropdown crie" id="input_6" name="q6_cor">
                     <option value=""> Selecione um estilo </option>
                   </select>
                   </div>
@@ -122,7 +122,7 @@
                 <label class="form-label-left" id="label_21" for="input_21"> Ribana </label>
                 <div id="cid_21" class="form-input">
                   <div id="ribana">
-                  <select class="form-dropdown" style="width:150px" id="input_21" name="q21_ribana">
+                  <select class="form-dropdown crie" id="input_21" name="q21_ribana">
                     <option value="">  </option>
                   </select>
                   </div>
@@ -138,7 +138,7 @@
                 <label class="form-label-left" id="label_4" for="input_4"> Gola: </label>
                 <div id="cid_4" class="form-input">
                   <div id="golas">
-                  <select class="form-dropdown" style="width:150px" id="input_4" name="q4_gola">
+                  <select class="form-dropdown crie" id="input_4" name="q4_gola">
                     <option value=""> Selecione um estilo </option>
                   </select>
                   </div>
@@ -148,7 +148,7 @@
                 <label class="form-label-left" id="label_10" for="input_10"> Modelo: </label>
                 <div id="cid_10" class="form-input">
                   <div id="modeloGola">
-                  <select class="form-dropdown" style="width:150px" id="input_10" name="q10_modelo">
+                  <select class="form-dropdown crie" id="input_10" name="q10_modelo">
                     <option value=""> Selecione um estilo </option>
                   </select>
                   </div>
@@ -164,7 +164,7 @@
                 <label class="form-label-left" id="label_5" for="input_5"> Punhos: </label>
                 <div id="cid_5" class="form-input">
                   <div id="punhos">
-                  <select class="form-dropdown" style="width:150px" id="input_5" name="q5_punhos5">
+                  <select class="form-dropdown crie" id="input_5" name="q5_punhos5">
                     <option value=""> Selecione um estilo </option>
                   </select>
                   </div>
@@ -174,7 +174,7 @@
                 <label class="form-label-left" id="label_15" for="input_15"> Modelo: </label>
                 <div id="cid_15" class="form-input">
                   <div id="modeloPunhos">
-                  <select class="form-dropdown" style="width:250px" id="input_15" name="q15_modelo15">
+                  <select class="form-dropdown crie" id="input_15" name="q15_modelo15">
                     <option value=""> Selecione um estilo </option>
                     
                   </select>
@@ -238,7 +238,7 @@
 
       $('#estilo_polo').on('click', function(e) {
         e.preventDefault();
-        $('select option').remove();
+        $('select.crie option').remove();
         $('select').append(option);
 
         $('.btn').removeClass('active');
@@ -255,7 +255,7 @@
 
       $('#estilo_tshirt').on('click', function(e) {
         e.preventDefault();
-        $('select option').remove();
+        $('select.crie option').remove();
         $('select').append(option);
 
         $('.btn').removeClass('active');
@@ -272,7 +272,7 @@
 
       $('#estilo_tshirt_golav').on('click', function(e) {
         e.preventDefault();
-        $('select option').remove();
+        $('select.crie option').remove();
         $('select').append(option);
 
         $('.btn').removeClass('active');

@@ -307,6 +307,74 @@
         ]
     },
     {
+        "nome": "Meia Malha Mista Stonada",
+        "selecionado": "false",
+        "tipo": "malhas",
+        "ref": "meia_malha/mista_stonada",
+        "sub": [
+            {
+                "nome": "Stone Pink-363",
+                "tipo": "cor",
+                "ref": "01"
+            },
+            {
+                "nome": "Stone Vinho-324",
+                "tipo": "cor",
+                "ref": "02"
+            },
+            {
+                "nome": "Stone Violeta-396",
+                "tipo": "cor",
+                "ref": "03"
+            },
+            {
+                "nome": "Stone Índigo-345",
+                "tipo": "cor",
+                "ref": "04"
+            },
+            {
+                "nome": "Stone Veludo-306",
+                "tipo": "cor",
+                "ref": "05"
+            },
+            {
+                "nome": "Stone Vermelho-322",
+                "tipo": "cor",
+                "ref": "06"
+            },
+            {
+                "nome": "Stone Menta-326",
+                "tipo": "cor",
+                "ref": "07"
+            },
+            {
+                "nome": "Stone Floresta-340",
+                "tipo": "cor",
+                "ref": "08"
+            },
+            {
+                "nome": "Stone Jeans-356",
+                "tipo": "cor",
+                "ref": "09"
+            },
+            {
+                "nome": "Stone Preto Grafite-309",
+                "tipo": "cor",
+                "ref": "10"
+            },
+            {
+                "nome": "Stone Marinho-352",
+                "tipo": "cor",
+                "ref": "11"
+            },
+            {
+                "nome": "Stone Ametista-337",
+                "tipo": "cor",
+                "ref": "12"
+            }
+        ]
+    },
+    {
         "nome": "Meia Malha Mista PET",
         "selecionado": "false",
         "tipo": "malhas",
@@ -382,6 +450,7 @@
             }
         ]
     },
+    
     {
         "nome": "Ribana",
         "selecionado": "false",

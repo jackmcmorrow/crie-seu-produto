@@ -1635,6 +1635,24 @@
         ]
     },
     {
+        "nome": "Gola Jacquard",
+        "selecionado": "false",
+        "tipo": "golas",
+        "ref": "golas_polo/jacquard",
+        "sub": [
+            {
+                "nome": "Brasil Fundo Azul Royal Bic-8301",
+                "tipo": "modeloGola",
+                "ref": "01"
+            },
+            {
+                "nome": "Brasil Fundo Amarelo Girassol “Copacabana”-8302",
+                "tipo": "modeloGola",
+                "ref": "02"
+            }
+        ]
+    },
+    {
         "nome": "Gola Polo Mista",
         "selecionado": "false",
         "tipo": "golas",
@@ -2104,24 +2122,7 @@
             }
         ]
     },
-    {
-        "nome": "Jacquard",
-        "selecionado": "false",
-        "tipo": "golas",
-        "ref": "golas_polo",
-        "sub": [
-            {
-                "nome": "Gola Polo Jacquard / Brasil Fundo Azul Royal Bic-8301",
-                "tipo": "modeloGola",
-                "ref": "jacquard/01"
-            },
-            {
-                "nome": "Gola Polo Jacquard / Brasil Fundo Amarelo Girassol “Copacabana”-8302",
-                "tipo": "modeloGola",
-                "ref": "jacquard/02"
-            }
-        ]
-    },
+
     {
         "nome": "100% Algodão",
         "selecionado": "false",
