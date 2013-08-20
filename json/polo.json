@@ -6,7 +6,7 @@
         "ref": "piquet/100-algodao",
         "sub": [
             {
-                "nome": "Branco",
+                "nome": "Branco-001",
                 "tipo": "cor",
                 "ref": "01"
             }
@@ -850,17 +850,17 @@
             {
                 "nome": "Preto-009",
                 "tipo": "cor",
-                "ref": "02"
+                "ref": "04"
             },
             {
                 "nome": "Azul Marinho-119",
                 "tipo": "cor",
-                "ref": "03"
+                "ref": "02"
             },
             {
                 "nome": "Vermelho-122",
                 "tipo": "cor",
-                "ref": "04"
+                "ref": "03"
             }
         ]
     },
