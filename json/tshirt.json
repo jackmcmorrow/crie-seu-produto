@@ -15,11 +15,7 @@
                 "tipo": "cor",
                 "ref": "02"
             },
-            {
-                "nome": "Lilás-055",
-                "tipo": "cor",
-                "ref": "03"
-            },
+            
             {
                 "nome": "Ametista-037",
                 "tipo": "cor",
@@ -30,11 +26,7 @@
                 "tipo": "cor",
                 "ref": "05"
             },
-            {
-                "nome": "Telha-146",
-                "tipo": "cor",
-                "ref": "06"
-            },
+            
             {
                 "nome": "Papaya-132",
                 "tipo": "cor",
@@ -155,11 +147,7 @@
                 "tipo": "cor",
                 "ref": "30"
             },
-            {
-                "nome": "Verde Alface-059",
-                "tipo": "cor",
-                "ref": "31"
-            },
+            
             {
                 "nome": "Verde Menta-026",
                 "tipo": "cor",
@@ -170,11 +158,7 @@
                 "tipo": "cor",
                 "ref": "33"
             },
-            {
-                "nome": "Verde Garrafa-047",
-                "tipo": "cor",
-                "ref": "34"
-            },
+            
             {
                 "nome": "Verde Floresta-040",
                 "tipo": "cor",
@@ -467,11 +451,7 @@
                 "tipo": "ribana",
                 "ref": "02"
             },
-            {
-                "nome": "Lilás-055",
-                "tipo": "ribana",
-                "ref": "03"
-            },
+            
             {
                 "nome": "Ametista-037",
                 "tipo": "ribana",
@@ -482,11 +462,7 @@
                 "tipo": "ribana",
                 "ref": "05"
             },
-            {
-                "nome": "Telha-146",
-                "tipo": "ribana",
-                "ref": "06"
-            },
+            
             {
                 "nome": "Papaya-132",
                 "tipo": "ribana",
@@ -607,11 +583,7 @@
                 "tipo": "ribana",
                 "ref": "30"
             },
-            {
-                "nome": "Verde Alface-059",
-                "tipo": "ribana",
-                "ref": "31"
-            },
+            
             {
                 "nome": "Verde Menta-026",
                 "tipo": "ribana",
@@ -622,21 +594,13 @@
                 "tipo": "ribana",
                 "ref": "33"
             },
-            {
-                "nome": "Verde Garrafa-047",
-                "tipo": "ribana",
-                "ref": "34"
-            },
+            
             {
                 "nome": "Verde Floresta-040",
                 "tipo": "ribana",
                 "ref": "35"
             },
-            {
-                "nome": "Pesto-128",
-                "tipo": "ribana",
-                "ref": "36"
-            },
+            
             {
                 "nome": "Cinza Claro-083",
                 "tipo": "ribana",
@@ -733,7 +697,7 @@
         ]
     },
     {
-        "nome": "Golas Carecas",
+        "nome": "Gola Careca (Ribana)",
         "selecionado": "false",
         "tipo": "golas",
         "ref": "golas_carecas",
@@ -748,11 +712,7 @@
                 "tipo": "modeloGola",
                 "ref": "lisas/02"
             },
-            {
-                "nome": "Lisa Lilás-055",
-                "tipo": "modeloGola",
-                "ref": "lisas/03"
-            },
+            
             {
                 "nome": "Lisa Ametista-037",
                 "tipo": "modeloGola",
@@ -763,11 +723,7 @@
                 "tipo": "modeloGola",
                 "ref": "lisas/04"
             },
-            {
-                "nome": "Lisa Telha-146",
-                "tipo": "modeloGola",
-                "ref": "lisas/06"
-            },
+            
             {
                 "nome": "Lisa Papaya-132",
                 "tipo": "modeloGola",
@@ -1323,100 +1279,205 @@
         "ref": "golas_polo",
         "sub": [
             {
-                "nome": "Liso Branco-801",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/01"
-            },
-            {
-                "nome": "Liso Areia-835",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/02"
-            },
-            {
-                "nome": "Liso Amarelo Girassol-844",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/03"
-            },
-            {
-                "nome": "Liso Amarelo Ouro-810",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/04"
-            },
-            {
-                "nome": "Liso Azul Claro-823",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/05"
-            },
-            {
-                "nome": "Liso Azul Bahamas-816",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/06"
-            },
-            {
-                "nome": "Liso Azul Royal Claro-827",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/07"
-            },
-            {
-                "nome": "Liso Azul Royal Bic-815",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/08"
-            },
-            {
-                "nome": "Liso Azul Marinho-813",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/09"
-            },
-            {
-                "nome": "Liso Azul Marinho Escuro-814",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/10"
-            },
-            {
-                "nome": "Liso Verde Alface-859",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/11"
-            },
-            {
-                "nome": "Liso Verde Garrafa-847",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/12"
-            },
-            {
-                "nome": "Liso Verde Floresta-840",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/13"
-            },
-            {
-                "nome": "Liso Cinza Claro-883",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/14"
-            },
-            {
-                "nome": "Liso Cinza Chumbo-833",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/15"
-            },
-            {
-                "nome": "Liso Veludo-830",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/16"
-            },
-            {
-                "nome": "Liso Vermelho-811",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/17"
-            },
-            {
-                "nome": "Liso Café-863",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/18"
-            },
-            {
-                "nome": "Liso Preto-809",
-                "tipo": "modeloPunhos",
-                "ref": "100_poliester_liso/19"
-            },
+                "nome" : "Branco-001",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/01"
+                },
+                {
+                "nome" : "Alfazema-023",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/02"
+                },
+                {
+                "nome" : "Lilás-055",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/03"
+                },
+                {
+                "nome" : "Ametista-037",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/04"
+                },
+                {
+                "nome" : "Rosa Claro-003",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/05"
+                },
+                {
+                "nome" : "Telha-146",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/06"
+                },
+                {
+                "nome" : "Papaya-132",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/07"
+                },
+                {
+                "nome" : "Veludo-106",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/08"
+                },
+                {
+                "nome" : "Rosa Antigo-162",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/09"
+                },
+                {
+                "nome" : "Melancia-163",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/10"
+                },
+                {
+                "nome" : "Vermelho-122",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/11"
+                },
+                {
+                "nome" : "Vinho-024",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/12"
+                },
+                {
+                "nome" : "Areia-035",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/13"
+                },
+                {
+                "nome" : "Nude-161",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/14"
+                },
+                {
+                "nome" : "Capuccino-156",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/15"
+                },
+                {
+                "nome" : "Café-063",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/16"
+                },
+                {
+                "nome" : "Marfim-014",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/17"
+                },
+                {
+                "nome" : "Amarelo Claro-004",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/18"
+                },
+                {
+                "nome" : "Amarelo Girassol-010",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/19"
+                },
+                {
+                "nome" : "Mostarda-020",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/20"
+                },
+                {
+                "nome" : "Azul Céu-164",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/21"
+                },
+                {
+                "nome" : "Azul Turquesa-016",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/22"
+                },
+                {
+                "nome" : "Jeans-153",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/23"
+                },
+                {
+                "nome" : "Azul Marinho-119",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/24"
+                },
+                {
+                "nome" : "Azul Lavanda-013",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/25"
+                },
+                {
+                "nome" : "Azul Bahamas-116",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/26"
+                },
+                {
+                "nome" : "Azul Royal Claro-027",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/27"
+                },
+                {
+                "nome" : "Azul Royal Bic-073",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/28"
+                },
+                {
+                "nome" : "Azul Claro-029",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/29"
+                },
+                {
+                "nome" : "Caribe-134",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/30"
+                },
+                {
+                "nome" : "Verde Alface-059",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/31"
+                },
+                {
+                "nome" : "Verde Menta-026",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/32"
+                },
+                {
+                "nome" : "Verde Água-006",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/33"
+                },
+                {
+                "nome" : "Verde Garrafa-047",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/34"
+                },
+                {
+                "nome" : "Verde Floresta-040",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/35"
+                },
+                {
+                "nome" : "Pesto-128",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/36"
+                },
+                {
+                "nome" : "Cinza Claro-083",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/37"
+                },
+                {
+                "nome" : "Cinza Mescla-042",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/38"
+                },
+                 {
+                "nome" : "Cinza Chumbo-076",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/39"
+                },
+                 {
+                "nome" : "Preto-009",
+                "tipo" : "modeloPunhos",
+                "ref" : "mista/40"
+                },
 
             {
                 "nome": "Listrado América Fundo Branco/Listras V. Garrafa e V. Água-217",
@@ -1655,12 +1716,12 @@
             {
                 "nome": "Listrado Tricolor Azul Claro/Azul Royal Claro/Azul Royal Bic-1422",
                 "tipo": "modeloPunhos",
-                "ref": "tricolor/02"
+                "ref": "tricolor/03"
             },
             {
                 "nome": "Listrado Tricolor Amarelo Girassol/Areia/Café-1420",
                 "tipo": "modeloPunhos",
-                "ref": "tricolor/03"
+                "ref": "tricolor/02"
             },
 
             {
