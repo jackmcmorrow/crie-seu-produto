@@ -85,23 +85,22 @@ criarProdutos = (arq)->
 					$('#canvas img').attr('src', '')
 					$('#cor option').remove()
 					malhaSelecionada = ref
-					listaSubs.splice 0, listaSubs.length
 					listaCores.splice 0, listaCores.length
-					listaGolas.splice 0, listaGolas.length
+					
 				
 				if tipo is 'malhas' or tipo is 'punhos' or tipo is 'golas'
 					oid = i.oid for i in lista when i.nome is val
 					dir += tipo+ '/' +ref+ '/'
 					criarSubs oid
 					
-					if ref is 'meia_malha/ribana'
-						$('.ribana').show();
-						$('.not-ribana').hide();
-					else
-						$('.ribana').hide();
-						$('.not-ribana').show();
+				#	if ref is 'meia_malha/ribana'
+				#		$('.ribana').show();
+				#		$('.not-ribana').hide();
+				#	else
+				#		$('.ribana').hide();
+				#		$('.not-ribana').show();
 
-				else if tipo is 'cor' or tipo is 'ribana'
+				else if tipo is 'cor'
 					console.log listaCores
 					corRef = j.ref for j in listaCores when j.nome is val;
 					#console.log subRef

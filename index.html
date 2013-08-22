@@ -102,7 +102,7 @@
                   </div>
                 </div>
               </li>
-              <li class="form-line not-ribana" id="id_6">
+              <li class="form-line" id="id_6">
                 <label class="form-label-left" id="label_6" for="input_6"> Cor: </label>
                 <div id="cid_6" class="form-input">
                   <div id="cor">
@@ -112,13 +112,13 @@
                   </div>
                 </div>
               </li>
-              <li class="form-line not-ribana" id="id_23">
+              <li class="form-line" id="id_23">
                 <label class="form-label-left" id="label_23" for="input_23"> Quantidade (em KG) </label>
                 <div id="cid_23" class="form-input">
                   <input type="text" class=" form-textbox" data-type="input-textbox" id="input_23" name="q23_quantidadeem23" size="20">
                 </div>
               </li>
-              <li class="form-line ribana" id="id_21">
+              <li class="form-line hide" id="id_21">
                 <label class="form-label-left" id="label_21" for="input_21"> Ribana </label>
                 <div id="cid_21" class="form-input">
                   <div id="ribana">
@@ -128,12 +128,7 @@
                   </div>
                 </div>
               </li>
-              <li class="form-line ribana" id="id_22">
-                <label class="form-label-left" id="label_22" for="input_22"> Quantidade (em KG) </label>
-                <div id="cid_22" class="form-input">
-                  <input type="text" class=" form-textbox" data-type="input-textbox" id="input_22" name="q22_quantidadeem" size="20">
-                </div>
-              </li>
+              
               <li class="form-line" id="id_4">
                 <label class="form-label-left" id="label_4" for="input_4"> Gola: </label>
                 <div id="cid_4" class="form-input">
@@ -154,10 +149,17 @@
                   </div>
                 </div>
               </li>
-              <li class="form-line" id="id_13">
+
+              <li class="form-line not-ribana" id="id_13">
                 <label class="form-label-left" id="label_13" for="input_13"> Quantidade (em unidades) </label>
                 <div id="cid_13" class="form-input">
                   <input type="text" class=" form-textbox" data-type="input-textbox" id="input_13" name="q13_quantidadeem13" size="20">
+                </div>
+              </li>
+              <li class="form-line ribana" id="id_22">
+                <label class="form-label-left" id="label_22" for="input_22"> Quantidade (em KG) </label>
+                <div id="cid_22" class="form-input">
+                  <input type="text" class=" form-textbox" data-type="input-textbox" id="input_22" name="q22_quantidadeem" size="20">
                 </div>
               </li>
               <li class="form-line" id="id_5">
@@ -249,6 +251,9 @@
         $('#canvas .punhos').append(img);
         $('#estilo_tshirt').removeClass('active');
         $('#canvas .punhos').removeClass('tshirt');
+
+        $('.ribana').hide();
+        $('.not-ribana').show();
         
         criarProdutos('polo.json');
       });
@@ -266,6 +271,9 @@
         $('#canvas .punhos').append(img);
         $('#estilo_polo').removeClass('active');
         $('#canvas .punhos').addClass('tshirt');
+        
+        $('.ribana').show();
+        $('.not-ribana').hide();
         
         criarProdutos('tshirt.json')
       });
@@ -285,6 +293,9 @@
         $('#canvas .punhos').append(img);
         $('#estilo_polo').removeClass('active');
         $('#canvas .punhos').addClass('tshirt');
+
+        $('.ribana').hide();
+        $('.not-ribana').show();
         
         criarProdutos('tshirt_golav.json')
       });
