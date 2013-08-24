@@ -32,7 +32,7 @@ criarProdutos = (arq)->
 		listaCores = [];
 		listaGolas = [];
 		tipos = ['malhas', 'golas', 'punhos'];
-		subTipos = ['cor', 'modeloGola', 'modeloPunhos', 'ribana']
+		subTipos = ['cor', 'modeloGola', 'modeloPunhos']
 
 		corCdp = 0
 
@@ -46,7 +46,7 @@ criarProdutos = (arq)->
 					subNome = o.nome
 					subTipo = o.tipo
 					subRef = o.ref
-					#console.log nome + ' ' +tipo+ ' ' +ref
+					#console.log subNome + ' ' + subTipo+ ' ' + subRef
 					$('#'+subTipo+' option').remove()
 					$('#'+subTipo+' select').append('<option></option>')
 				
@@ -60,9 +60,9 @@ criarProdutos = (arq)->
 					c = new produto subCdp += 1, subNome, subTipo, subRef
 					c.subPaiRef = subPaiRef
 					c.ext += c.subPaiRef
-					if subTipo is 'cor' or subTipo is 'ribana'
+					if subTipo is 'cor'
 						listaCores.push(c)
-					else if subTipo is 'golas'
+					else if subTipo is 'modeloGola'
 						listaGolas.push(c)
 					else
 						listaSubs.push(c)
@@ -107,7 +107,11 @@ criarProdutos = (arq)->
 					#corPaiRef = j.subPaiRef for j in listaSubs when j.nome is val
 					corPaiRef = malhaSelecionada
 					coid = j.oid for j in listaCores when j.nome is val
-				else
+				else if tipo is 'modeloGola'
+					golaRef = j.ref for j in listaGolas when j.nome is val
+					golaPaiRef = j.subPaiRef for j in listaGolas when j.nome is val
+					oid = j.oid for j in listaGolas when j.nome is val
+				else #acaba sendo 'punhos'
 					subRef = j.ref for j in listaSubs when j.nome is val
 					#console.log subRef
 					subPaiRef = j.subPaiRef for j in listaSubs when j.nome is val
@@ -126,7 +130,7 @@ criarProdutos = (arq)->
 					$('#canvas .' + _tipo + ' img').attr('src', dir);
 				else if tipo is 'modeloGola'
 					_tipo = 'golas'
-					dir += 'golas/' +subPaiRef+ '/' +subRef+ '.png'
+					dir += 'golas/' +golaPaiRef+ '/' +golaRef+ '.png'
 					#console.log(dir)
 					$('#canvas .' + _tipo + ' img').attr('src', dir);
 				else if tipo is 'modeloPunhos'
