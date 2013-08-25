@@ -611,7 +611,75 @@
                 "nome": "Preto-009",
                 "tipo": "cor",
                 "ref": "39"
+            },
+
+            {
+                "nome": "Cinza Mescla-042",
+                "tipo": "cor",
+                "ref": "40"
+            },
+
+            {
+                "nome": "Stone Pink-363",
+                "tipo": "cor",
+                "ref": "41"
+            },
+            {
+                "nome": "Stone Vinho-324",
+                "tipo": "cor",
+                "ref": "42"
+            },
+            {
+                "nome": "Stone Violeta-396",
+                "tipo": "cor",
+                "ref": "43"
+            },
+            {
+                "nome": "Stone Índigo-345",
+                "tipo": "cor",
+                "ref": "44"
+            },
+            {
+                "nome": "Stone Veludo-306",
+                "tipo": "cor",
+                "ref": "45"
+            },
+            {
+                "nome": "Stone Vermelho-322",
+                "tipo": "cor",
+                "ref": "46"
+            },
+            {
+                "nome": "Stone Menta-326",
+                "tipo": "cor",
+                "ref": "47"
+            },
+            {
+                "nome": "Stone Floresta-340",
+                "tipo": "cor",
+                "ref": "48"
+            },
+            {
+                "nome": "Stone Jeans-356",
+                "tipo": "cor",
+                "ref": "49"
+            },
+            {
+                "nome": "Stone Preto Grafite-309",
+                "tipo": "cor",
+                "ref": "50"
+            },
+            {
+                "nome": "Stone Marinho-352",
+                "tipo": "cor",
+                "ref": "51"
+            },
+            {
+                "nome": "Stone Ametista-337",
+                "tipo": "cor",
+                "ref": "52"
             }
+
         ]
     },
     {
@@ -1727,12 +1795,12 @@
             {
                 "nome": "Listrado Tricolor Azul Claro/Azul Royal Claro/Azul Royal Bic-1422",
                 "tipo": "modeloPunhos",
-                "ref": "tricolor/03"
+                "ref": "tricolor/02"
             },
             {
                 "nome": "Listrado Tricolor Amarelo Girassol/Areia/Café-1420",
                 "tipo": "modeloPunhos",
-                "ref": "tricolor/02"
+                "ref": "tricolor/03"
             },
 
             {
